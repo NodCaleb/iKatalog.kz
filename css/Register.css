@@ -1,0 +1,59 @@
+﻿div.inputfield
+{
+    width:500px;
+    --float:left;
+    --margin:10px;
+    margin:1em;
+    text-align:right;
+}
+div.inputfield > p
+{
+    display:inline;
+    text-align:right;
+    font-weight:bold;
+    margin:0;
+    position:relative;
+    top:1px;
+}
+div.inputfield > input, div.inputfield > select
+{
+    width:230px;
+    display:inline;
+    margin:0;
+    margin-left:5px;
+    float:right;
+}
+div.innercontent > div > input[type="submit"]
+{
+    height:35px;
+    width:200px;
+    font-size:large;
+    margin:5px 5px 5px 175px;
+    color:#000080;
+}
+div.inputfield > input[value="Изменить пароль"], div.inputfield > input[value="Отмена"]
+{
+    width:150px;
+    height:30px;
+    font-weight:bold;
+    display:inline;
+    margin:0;
+    margin-left:5px;
+    float:right;
+    color:#008000;
+}
+div.inputfield > input[value="Отмена"]
+{
+    color:#800000;
+}
+div.agree > p, div.agree > textarea
+{
+	margin-left:50px;
+}
+div.agree > textarea
+{
+	width:500px;
+	height:150px;
+	overflow:auto;
+}
+	

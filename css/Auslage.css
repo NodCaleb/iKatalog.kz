@@ -1,0 +1,17 @@
+﻿div.product
+{
+    margin:5px 9px 5px 10px;
+    float:left;
+    padding:0;
+    width:170px;
+    height:160px;
+    display:inline;
+    text-align:left;
+}
+div.product > div
+{
+    margin:0;
+    width:inherit;
+    --text-align:left;
+    line-height:1.2em;
+}

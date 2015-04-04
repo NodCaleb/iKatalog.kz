@@ -1,0 +1,13 @@
+﻿div.offer + div.offer + div.offer + div.offer, div.offer + div.offer + div.offer + div.offer + div.offer + div.offer + div.offer
+{
+    margin-right: 12px;
+}
+div.offer + div.offer + div.offer, div.offer + div.offer + div.offer + div.offer + div.offer + div.offer, div.offer + div.offer + div.offer + div.offer + div.offer + div.offer + div.offer + div.offer + div.offer
+{
+    margin-right: 0px;
+}
+/* сам в шоке от написанного выше */
+h1
+{
+    margin-bottom: 0px;
+}

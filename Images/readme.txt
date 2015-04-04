@@ -1,0 +1,1 @@
+Max logo size = 150x100 px

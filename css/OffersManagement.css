@@ -1,0 +1,67 @@
+﻿div.content > div > div > table
+{
+    width:100%;
+}
+div.content > div > div > table > tbody > tr > td
+{
+    padding:5px;
+    border-bottom:1px solid #454545;
+    text-align:center;
+}
+div.content > div > div > table > tbody > tr > th
+{
+    margin:0;
+    padding:4px 4px 4px 4px;
+    color: #8e431a;
+    background-color:#eda57d;
+    background: -moz-linear-gradient(#fcece3, #eda57d);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fcece3), to(#eda57d));
+    font-weight:bold;
+    text-align:center;
+}
+div.inputfield
+{
+    width:430px;
+    float:left;
+    margin:0;
+    text-align:right;
+}
+div.inputfield > p
+{
+    display:inline;
+    text-align:right;
+    font-weight:bold;
+    margin:5px;
+    position:relative;
+    top:5px;
+}
+div.inputfield > input, div.inputfield > select
+{
+    width:200px;
+    display:inline;
+    margin:5px 0px 5px 0px;
+    float:right;
+}
+div.summary
+{
+    float:none;
+}
+div.content > input[type="submit"], div.content > div > input[type="submit"]
+{
+    height:40px;
+    width:200px;
+    font-size:large;
+    margin:5px 5px 5px 225px;
+}
+input[value="Добавить"]
+{
+    color:#000080;
+}
+input[value="Оформить заказ"]
+{
+    color:#008000;
+}
+td > input[type="text"]
+{
+    width:100%;
+}

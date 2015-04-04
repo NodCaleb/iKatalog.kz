@@ -1,0 +1,29 @@
+div.sidebar
+{
+	width: 231px;
+	float: right;
+	min-height: 260px;
+}
+div.sidemodule
+{
+	width: 207px;
+        padding: 12px;
+	margin-bottom: 12px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+}
+div.sidemodule > h3
+{
+    margin-top: 0px;
+    color: #801735;
+}
+div.innercontent
+{
+	width: 717px;
+	margin: 12px 12px 0px 0px;
+}
+div.sidebar > div.offer
+{
+    margin: 0px 0px 12px 0px;
+    float: none;
+}

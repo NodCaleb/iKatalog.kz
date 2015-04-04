@@ -1,0 +1,42 @@
+﻿div.testomonial
+{
+    width:100%;
+    --min-height:160px;    
+    --background-color:#fff8dc;
+    --border: 1px solid #deb887;
+    margin-bottom:10px;
+}
+div.testomonial > div
+{
+    background-color:#f8ffdc;
+    border: 1px solid #b8de87;
+    margin:0px;
+    padding:10px;
+}
+div.testomonial > div > img
+{
+    max-height:150px;
+    max-width:150px;
+    display:inline-block;
+    float:left;
+    margin: 0px 10px 10px 0px;
+}
+div.testomonial > div > h4
+{
+    color: #406040;
+    margin: 0;
+}
+input
+{
+    margin: 5px 5px 5px 0px;
+    width: 150px;
+}
+textarea
+{
+    width: 481px;
+    height: 60px;
+}
+input[value="Добавить отзыв"]
+{
+    margin-bottom: 12px;
+}

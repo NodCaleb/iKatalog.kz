@@ -1,0 +1,62 @@
+﻿div.content > div > div > table
+{
+    width:100%;
+    border-collapse: collapse;
+}
+div.content > div > div > table > tbody > tr > td
+{
+    padding:5px;
+    border-bottom:1px solid #454545;
+    text-align:Left;
+}
+div.content > div > div > table > tbody > tr > th
+{
+    margin:0;
+    padding:4px 4px 4px 4px;
+    color: #8e431a;
+    background-color:#eda57d;
+    background: -moz-linear-gradient(#fcece3, #eda57d);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fcece3), to(#eda57d));
+    font-weight:bold;
+}
+div.content > div > div > table > tbody > tr > th > a
+{
+    color:#000080;
+}
+div.content > div > div > table > tbody > tr > td:first-child
+{
+    width:180px;
+    vertical-align:top;
+    --font-weight:bold;
+}
+div.content > div > div > table > tbody > tr > td > input[type="Text"], textarea
+{
+    width:100%;
+    margin:-3px;
+}
+textarea
+{
+    height:200px;
+}
+div.dictionaryheader
+{
+    margin:0;
+    padding:4px 4px 4px 4px;
+    color: #8e431a;
+    background-color:#eda57d;
+    background: -moz-linear-gradient(#fcece3, #eda57d);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fcece3), to(#eda57d));
+    font-weight:bold;
+    border-bottom:1px solid #eda57d;
+}
+select
+{
+    min-width:200px;
+}
+div.content > div > div > table > tbody > tr > td > span > img:first-child, div.content > div > div > table > tbody > tr > td > span > p:first-child > img
+{
+	--float:left;
+	--max-width:250px;
+	--max-height:250px;
+	--margin:10px;
+}

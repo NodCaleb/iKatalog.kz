@@ -1,0 +1,78 @@
+div.categoryBlock, div.listBlock
+{
+    width:210px;
+    --height:335px;
+    margin: 0px 6px 12px 6px;	
+    --border:1px solid #90b7ca;
+    float:left;
+    overflow:hidden;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+    padding: 0px 6px 0px 6px;
+}
+div.categoryBlock > h3, div.listBlock > h3
+{
+	margin:0;
+	padding:4px 4px 4px 5px;
+	color: #84182f;
+}
+div.categoryBlock > a
+{
+    display: block;
+    font-size: 14px;
+    padding: 8px 8px 8px 8px;
+    border-top:1px solid #A47156;
+    color: #454545;
+    background:url('/images/ChevroneK.png') no-repeat;
+    background-position: 190px;
+    text-decoration: none;
+}
+div.categoryBlock > a:hover
+{
+    background-color: #EDB79A;
+}
+div.listBlock
+{
+    width: 686px;
+    padding: 0px 12px 12px 12px;
+}
+div.listBlock > p
+{
+    font-size: 0.8em;
+    margin-top: 0px;
+}
+div.listBlock > table
+{
+    width: 100%;
+}
+div.listBlock > table > tbody > tr
+{
+    height: 60px;
+    
+}
+div.listBlock > table > tbody > tr > td
+{
+    border-top:1px solid #A47156;
+    overflow:hidden;
+}
+div.listBlock > table > tbody > tr > td > a > img
+{
+    max-height: 60px;
+    max-width: 90px;
+    margin-left: 8px;
+}
+div.listBlock > table > tbody > tr > td > a
+{
+    color: #454545;
+    text-decoration: none;
+}
+div.leftbar
+{
+    width: 222px;
+    float: left;
+    margin-right: 12px;
+}
+div.categoryBlock > p
+{
+    padding-left: 6px;
+}

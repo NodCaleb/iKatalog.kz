@@ -1,0 +1,95 @@
+﻿div.content > p
+{
+    text-indent:2em;
+}
+div.stepodd, div.stepeven
+{
+    border-bottom:1px solid #646464;
+    min-height:300px;
+    margin-bottom:10px;
+}
+div.stepodd > div > div, div.stepeven > div > div
+{
+    display:inline;
+    position:relative;
+    bottom:10px;
+    font-weight:bold;
+    color:#16509d;
+    font-size:larger;
+}
+div.stepodd > div > div
+{
+    left:10px;
+}
+div.stepeven > div > div
+{
+    right:10px;
+}
+div.stepodd > div > img, div.stepeven > div > img
+{
+    width:28px;
+    height:45px;
+}
+div.stepeven > div   
+{
+    text-align:right;
+}
+div.stepeven > img, div.stepodd > img  
+{
+    width:350px;
+    position:relative;
+    top:45px;
+    margin:10px;
+}
+div.stepodd > img   
+{
+    float:right;
+}
+div.stepeven > img
+{
+    float:left;
+}
+div.stepodd > div > ul > li, div.stepeven > div > ul > li
+{
+    margin:10px 0px 0px 0px;
+}
+div.stepeven > div > ul
+{
+    text-align:left;
+    margin-left:350px;
+}
+div.stepodd > div > ul
+{
+    margin-right:350px;
+}
+div.catalogue
+{
+	width:703px;
+	height:65px;
+	padding:0;
+	margin:0;
+}
+div.catalogue > a > img
+{
+	margin:5px 15px 5px 15px;
+	max-height:55px;
+}
+div.register
+{
+	width:240px;
+	height:32px;
+	text-align:center;
+	padding-top:8px;
+	font-size:15pt;
+	background:#dc143c;
+	color:#ffffff;
+	border:1px solid #ff8c00;
+	--position:absolute;
+	--top:-65px;
+	--left:-710px;
+	border-radius:10px;
+	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Для Firefox */
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Для Safari и Chrome */
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Параметры тени */
+	font-weight:normal;
+}

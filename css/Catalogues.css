@@ -1,0 +1,38 @@
+﻿div.catalogue
+{
+    margin:5px 10px 5px 10px;
+    float:left;
+    padding:0;
+    width:150px;
+    height:130px;
+    display:inline;
+    text-align:center;
+}
+div.catalogue > img
+{
+    max-height:100px;
+    max-width:150px;
+    border:0;
+}
+div.catalogue > div
+{
+    padding:5px 5px 0px 5px;
+    width:150px;
+    height:17px;
+    text-align:right;
+}
+div.catalogue > div > div
+{
+    display:inline;
+    font-weight:bold;
+    font-size:15px;
+    position:relative;
+    top:-3px;
+    padding:0;
+    margin:0;
+}
+div.embedded
+{
+    margin:5px;
+    float:left;
+}

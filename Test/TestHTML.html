@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<head>
+	<title>В ГЊГ“Г”Г“ЛњГЌвЂЎ</title>
+	<link rel="Stylesheet" href="../css/Master.css" />
+	<style type="text/css">
+		div.register
+		{
+			width:240px;
+			height:32px;
+			text-allign:center;
+			padding-top:8px;
+			font-size:15pt;
+			background:#dc143c;
+			color:#ffffff;
+			border:1px solid #ff8c00;
+			position:absolute;
+			top:20px;
+			left:20px;
+			border-radius:10px;
+			-moz-box-shadow: 0 0 7px rgba(0,0,0,0.5); /* Ж’ГЋЛ‡ Firefox */
+   			-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Ж’ГЋЛ‡ Safari Г‹ Chrome */
+    		box-shadow: 5 5 7px rgba(0,0,0,0.5); /* Е“вЂЎпЈївЂЎГЏГ‚ГљпЈїЛљ ГљГ‚ГЊГ‹ */
+		}
+	</style>
+</head>
+<body>
+	<!-- a href="http://ktrade.kz/Customer/Register.aspx"><div class="register">вЂ“Г‚вЂћГ‹Г’ГљпЈїГ‹пЈїГ›Г€ГљГ‚Г’Вё >></div></a -->
+	 <h2>Оплата:</h2>
+    	<form id="pay_zpayment" name="pay_zpayment" method="post" action="https://z-payment.com/merchant.php">
+			<input type="hidden" name="LMI_PAYEE_PURSE" value="12142"/>
+			<input type="hidden" name="LMI_PAYMENT_NO" value="0293412348"/>
+			<input type="hidden" name="LMI_PAYMENT_AMOUNT" value="10"/>
+			<input type="hidden" name="LMI_PAYMENT_DESC" value="Пополнение баланма счета 000000"/>
+			<input name="CLIENT_MAIL" type="hidden" value="admin@ktrade.kz"/>
+			<input type="submit" value="Перейти к оплате"/>
+		</form>
+</body>

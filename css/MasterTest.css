@@ -1,0 +1,464 @@
+body
+{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 150%;
+	color: #454545;
+	text-align:center;
+	margin:0;
+	background:url('../images/Gradients.png') repeat-x;
+}
+img
+{
+	border:0;
+	margin:0;
+}
+div.sidemodule > p > img
+{
+    margin-left:5px;
+}
+div
+{
+	border:0;
+}
+h2
+{
+	color:#1D4D60;
+}
+h3, h3 > a
+{
+	color:#086080;
+}
+li
+{
+	--margin:10px 0px 0px 0px;
+}
+a:hover
+{
+	text-decoration:none;
+}
+div.layout
+{
+	margin:0 auto;
+	--max-width:1024px;
+	--min-width:780px;
+	width:996px;
+	min-height:1024px;
+	text-align:left;
+	padding:0;
+	position:relative;
+	--float:left;
+}
+div.banner
+{
+	position:absolute;
+	top:350px;
+	left:1024px;
+	height:600px;
+	width:160px;
+	--background: url('../images/Banners/banner_AM1_160x600_hw13.png');
+}
+div.cellar
+{
+	height:100px;
+	width:100%;
+	background: url('../images/Cellar.png') left bottom repeat-x;
+}
+div.leftshadow
+{
+	float:left;
+	width:18px;
+	height:240px;
+}
+div.rightshadow
+{
+	float:right;
+	width:18px;
+	height:240px;
+}
+div.innerlayout
+{
+	width:auto;
+	margin-left:18px;
+	margin-right:18px;
+}
+div.header
+{
+	width:auto;
+	background-image:url('../images/Eurasia.png');
+	background-position:right;
+	background-repeat:no-repeat;
+	height:114px;
+}
+div.menue
+{
+	width:auto;
+	background-color:#033D53;
+	background: -moz-linear-gradient(#085F80, #033D53);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#085F80), to(#033D53));
+	--background: url('../images/SparcleBackDark.png') left bottom repeat-x;
+	border:1px solid white;
+	height:28px;
+}
+div.contentlayout
+{
+	min-height:350px;
+	background:#ffffff;
+	position:relative;
+	padding-top:30px;
+}
+div.content
+{
+	margin-right:0px;
+	padding:5px 5px 5px 5px;
+	--padding:0;
+}
+div.innercontent
+{
+	margin-right:270px;
+	padding:5px 0px 5px 5px;
+	height:auto;
+	--overflow:hidden;
+}
+div.content > h2:first-child
+{
+	margin-top:5px;
+}
+div.sidebar
+{
+	float:right;
+	width:270px;
+	min-height:200px;
+}
+div.sidemodule
+{
+	margin:10px;	
+	border:1px solid #5DA4C0;
+}
+div.sidemodule > h3
+{
+	margin:0;
+	padding:4px 4px 4px 5px;
+	background-color:#8fbbcc;
+	background: -moz-linear-gradient(#ffffff, #8fbbcc);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#8fbbcc));
+    -background:url('../images/SparcleBack.png') repeat-x;
+	border-bottom:1px solid #90b7ca;
+}
+div.sidemodule > ul, div.block > ul
+{
+	padding:0px 10px 0px 25px;
+}
+div.sidemodule > ul > li
+{
+	margin:10px 0px 0px 0px;
+}
+div.sidemodule > ul > li > a
+{
+	color: #454545;
+	--font-size:14px;
+}
+div.sidemodule > p
+{
+	--font-size:x-large;
+	font-weight:bold;
+	text-align:center;
+	color: #434343;
+}
+div.sidemodule > p + p
+{
+	font-size:x-small;
+	--margin:-15px 0px 7px 0px;
+}
+div.sidemodule > p + p > a
+{
+	color: #454545;
+}
+div.sidemodule > div
+{
+	margin:10px;
+	display:inline-block
+}
+div.rss
+{
+    margin-bottom:10px;
+    text-align:center;
+}
+div.rss > a
+{
+	margin-bottom:10px;
+	font-size:large;
+	font-weight:bold;
+	text-align:center;
+	color: #434343;
+}
+div.rss > a > span
+{
+    position:relative;
+    top:-5px;
+}
+div#NOIE
+{
+    border:1px solid #ca90b7;
+}
+div#NOIE > h3
+{
+	margin:0;
+	padding:4px 4px 4px 5px;
+	background-color:#e8ccde;
+	border-bottom:1px solid #ca90b7;
+	color:#af2063;
+}
+div.contacts, div.login, div.award
+{
+    float:right;
+	margin-top:25px;
+	height:72px;
+}
+div.login
+{
+	--background:url('../images/LoginBack.png') no-repeat;
+	width:150px;
+	font-size: larger;
+	line-height: 1.5;
+}
+div.award
+{
+	background:url('../images/Award.png') no-repeat;
+	width:311px;
+	margin-right:20px;
+}
+div.award:hover
+{
+	--background:url('../images/Award2.png') no-repeat;
+	background-position: bottom;
+}
+div.award > a > img
+{
+	width:311px;
+	height:72px;
+}
+div.contacts
+{
+    border-right:1px solid #90b7ca;
+    margin-right:10px;
+    color:#1D4D60;
+    text-align:right;
+}
+div.contacts > p
+{
+    margin:0px 6px 0px 5px;
+}
+div.login > input
+{
+	--max-width:150px;
+	float:left;
+	margin:10px 0px 0px 10px;
+}
+div.login > div
+{
+	float:left;
+	margin:9px 0px 0px 10px;
+	width:70px;
+	height:22px;
+	overflow:hidden;
+}
+div.login > div > input, div.login > div > a > img, div.login > div > img
+{
+	position:relative;
+}
+div.login > div > input:hover, div.login > div > a > img:hover, div.login > div > img:hover
+{
+	top:-22px;
+}
+div.login > div > input[type="checkbox"]:hover, div.login > div > input[type="checkbox"]
+{
+	--position:absolute;
+	top:-43px;
+	left:1px;
+}
+div.login > div.greetings
+{
+	width:244px;
+}
+div.login > input[type="text"], div.login > input[type="password"]
+{
+	width:109px;
+	background:#fff;
+	border:1px solid #b0b0b0;
+}
+div.login > input[type="submit"]
+{
+	width:111px;
+	color:#646464;
+}
+div.Overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:block;
+    text-align: center;
+    vertical-align:middle;
+    overflow: auto;
+    opacity: 0.75;
+}
+div.LoginForm
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-210px;
+	margin-top:-100px;
+	background-color: #FFFFFF;
+	padding: 20px;
+}
+div.FastOrderForm
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-210px;
+	margin-top:-200px;
+	background-color: #FFFFFF;
+	padding: 20px;
+	width: 380px;
+}
+div.LoginForm > input
+{
+	margin-right: 10px;
+	border-color: #333333;
+	font-size: larger;
+}
+div.FastOrderForm > input
+{	
+	border-color: #333333;
+	font-size: larger;
+	margin-bottom: 5px;
+	width: 362px;
+}
+div.FastOrderForm > p
+{
+	text-align: left;
+	color: black;
+}
+div.LoginForm > input[type="submit"], div.FastOrderForm > input[type="submit"]
+{
+	width: 177px;
+	margin-top: 10px;
+}
+div.LoginForm > input[value="Вход"], div.FastOrderForm > input[value="Заказать"]
+{
+	background-color: #69FB89;
+	margin-right: 10px;
+}
+div.LoginForm > input[value="Отмена"], div.FastOrderForm > input[value="Отмена"]
+{
+	background-color: #FB6969;
+}
+div.Warning > img
+{
+    width: 128;
+    height: 128;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-top:-64px;
+    margin-left:-64px;
+    vertical-align:middle;
+}
+img[src="Images/Lock_64.png"]
+{
+    float:left;
+}
+div#xratetable
+{
+    display:none;
+}
+div#xratetable > table
+{
+    font-size: 10px;
+    text-align:left;
+    border-collapse:collapse;
+    margin:0px 0px 24px 27px;
+}
+div#xratetable > table > tbody > tr
+{
+    border-top:1px solid #868686;
+    border-bottom:1px solid #868686;
+}
+div#xratetable > table > tbody > tr > td
+{
+    padding:0px 5px 0px 5px;
+}
+div#xratetable > table > tbody > tr > td > img
+{
+    margin:0px 0px 0px 5px;
+}
+a#showxratestable
+{
+    --width:198px;
+}
+div.bottomblock
+{
+	position: absolute;
+	bottom: 10px;
+	right: -110px;
+	width:110px;
+	height:168px;
+}
+div.menue
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    --z-index:100;
+    width:100%;
+    max-width:958px;
+}
+div#counters > div
+{
+	margin: 10px;
+}
+div.fb-like-box.fb_iframe_widget
+{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+a.CTA
+{
+	font-size:larger;
+	font-weight:bold;
+	position:relative;
+	--left:20px;
+	top:20px;
+	color:#ff0000;
+}
+div.register, div.makeorder
+{
+	width:240px;
+	height:32px;
+	text-align:center;
+	padding-top:8px;
+	font-size:15pt;
+	background:#dc143c;
+	color:#ffffff;
+	border:1px solid #ff8c00;
+	position:absolute;
+	top:-78px;
+	left:-0px;
+	border-radius:10px;
+	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Для Firefox */
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Для Safari и Chrome */
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* Параметры тени */
+	font-weight:normal;
+}
+div.makeorder
+{
+	background:#006400;
+	border:1px solid #808000;
+}

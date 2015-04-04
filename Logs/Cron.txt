@@ -1,0 +1,24 @@
+26.03.2015 1:01:01 ==> Cron started
+26.03.2015 1:01:03 ==> Coupon warnings sent: 2
+26.03.2015 1:01:03 ==> Exchange rate set to: 201,10
+26.03.2015 1:01:03 ==> Cron finished
+27.03.2015 1:01:01 ==> Cron started
+27.03.2015 1:01:03 ==> Coupon warnings sent: 1
+27.03.2015 1:01:03 ==> Exchange rate set to: 207,84
+27.03.2015 1:01:03 ==> Cron finished
+28.03.2015 1:01:01 ==> Cron started
+28.03.2015 1:01:01 ==> Coupon warnings sent: 0
+28.03.2015 1:01:01 ==> Exchange rate set to: 203,65
+28.03.2015 1:01:01 ==> Cron finished
+29.03.2015 1:01:02 ==> Cron started
+29.03.2015 1:01:05 ==> Coupon warnings sent: 2
+29.03.2015 1:01:05 ==> Exchange rate set to: 203,65
+29.03.2015 1:01:05 ==> Cron finished
+30.03.2015 1:01:01 ==> Cron started
+30.03.2015 1:01:05 ==> Coupon warnings sent: 3
+30.03.2015 1:01:05 ==> Exchange rate set to: 203,65
+30.03.2015 1:01:05 ==> Cron finished
+31.03.2015 1:01:01 ==> Cron started
+31.03.2015 1:01:07 ==> Coupon warnings sent: 5
+31.03.2015 1:01:07 ==> Exchange rate set to: 204,65
+31.03.2015 1:01:07 ==> Cron finished

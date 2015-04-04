@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/iKMasterPage.master" AutoEventWireup="true" CodeFile="SideModulesOffers.master.cs" Inherits="SideModulesDefault" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link rel="Stylesheet" href="css/SideBar.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:SqlDataSource ID="UpsellOffersSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>"
+	SelectCommand="
+	    select top 1
+		    UO.id,
+		    UO.Catalogue_id,
+		    C.CatalogueName,
+		    UO.Article_id,
+		    UO.ArticleNameDe,
+		    UO.ArticleNameRu,
+		    case UO.PriceOld when 0 then null else UO.PriceOld end as PriceOld,
+		    UO.PriceNew as PriceNew,
+		    UO.CatalogueURL as CatalogueURL,
+		    UO.ImageURL as ImageURL,
+		    UO.RecordDate as RecordDate,
+		    '~/Images/Logos/' + C.ImageLink as LogoURL,
+		    C.CatalogueName,
+		    case isnull(C.NoFrame, 0)
+		    when 0 then 'http://ikatalog.kz/CatalogueView.aspx?catalogue=' + convert (nvarchar(25), UO.Catalogue_id) + '&article=' + convert(nvarchar(25), Article_id) + '&name=' + convert(nvarchar(25), ArticleNameDe) + '&price=' + replace(convert(nvarchar(25), PriceNew), '.', ',') + '&URL=' + CatalogueURL
+		    else UO.CatalogueURL
+		    end as OrderURL
+	    from
+		    UpsellOffers as UO with (nolock)
+		    join Catalogues as C with (nolock) on C.Catalogue_id = UO.Catalogue_id
+	    order by
+		    NEWID()">
+    </asp:SqlDataSource>
+    <div class="sidebar">
+	<asp:Repeater ID="OffersRepeater1" runat="server" DataSourceID="UpsellOffersSource">
+	    <ItemTemplate>
+		<div class="offer">
+		<div>
+		    <h3><%# Eval("ArticleNameRu")%></h3>
+		    <asp:Image ID="ArticleImage" runat="server" ImageUrl='<%# Eval("ImageURL") %>' AlternateText="Photo" Title='<%# Eval("ArticleNameRu") %>' />
+		    <div>
+			<asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("LogoURL") %>' AlternateText="Logo" Title='<%# Eval("CatalogueName") %>' />
+			<p><strike><%# Eval("PriceOld", "{0:#,#.00 € <br/>}") %></strike><br/><strong><%# Eval("PriceNew", "{0:#,#.00 €}") %></strong></p>
+		    </div>
+		</div>
+		    <p><asp:HyperLink ID="OrderLink" runat="server" target="_blank" NavigateUrl='<%# Eval("OrderURL") %>'>Открыть >>></asp:HyperLink></p>      
+		</div>
+	    </ItemTemplate>
+	</asp:Repeater>
+	<div class="sidemodule">
+	    <asp:SqlDataSource ID="NewsModuleSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>" SelectCommand="SELECT top 7 [Header], '~/News.aspx?Article='+convert(nvarchar(5), [id]) as [URL], [Teaser] FROM [News] where Published = 1 ORDER BY [CreationDate] DESC"></asp:SqlDataSource>
+	    <h3>Свежие новости</h3>
+	    <asp:Repeater ID="NewsModuelRepeater" runat="server" DataSourceID="NewsModuleSource">
+                <HeaderTemplate>
+                    <ul>
+                </HeaderTemplate>
+                <ItemTemplate>
+                    <li>
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl='<%# Eval("URL") %>' Target="_blank" runat="server"><%# Eval("Header") %></asp:HyperLink>
+                    </li>
+                </ItemTemplate>
+                <FooterTemplate>
+                    </ul>
+                </FooterTemplate>
+            </asp:Repeater>
+	</div>
+	<div class="sidemodule">
+            <asp:SqlDataSource ID="DiscountsModuleSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>"
+                SelectCommand="select top 5 Comment, URL from Discounts order by CreationDate desc">
+            </asp:SqlDataSource>
+	    <h3>Скидки и акции</h3>
+            <asp:Repeater ID="DiscountsModuelRepeater" runat="server" DataSourceID="DiscountsModuleSource">
+                <HeaderTemplate>
+                    <ul>
+                </HeaderTemplate>
+                <ItemTemplate>
+                    <li>
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl='<%# Eval("URL") %>' Target="_blank" runat="server"><%# Eval("Comment") %></asp:HyperLink>
+                    </li>
+                </ItemTemplate>
+                <FooterTemplate>
+                    </ul>
+                </FooterTemplate>
+            </asp:Repeater>
+	</div>
+    </div>    
+    <div class="innercontent">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+        <div style="clear:both;"></div>
+    </div>	
+</asp:Content>
+

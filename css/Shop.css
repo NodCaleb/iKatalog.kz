@@ -1,0 +1,47 @@
+﻿body
+{
+    margin:0;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 150%;
+	color: #454545;
+	--text-align:center;
+}
+div.shopheader
+{
+    width:100%;
+    height:5%;
+    position:fixed;
+    background: #125687;
+}
+div.shopheader
+{
+    width:100%;
+    height:5%;
+    position:fixed;
+    background: #125687;
+    top:1%;
+}
+div.shopheadermargin
+{
+    width:100%;
+    height:1%;
+    position:fixed;
+    background: #125687;
+}
+iframe
+{
+    width:100%;
+    height:95%;
+    position:fixed;
+    bottom:0px;
+}
+div.shopheader > a
+{
+    color:#dddddd;
+    margin:15px 15px 15px 15px;
+}
+a:hover
+{
+	text-decoration:none;
+}

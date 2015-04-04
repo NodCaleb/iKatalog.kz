@@ -1,0 +1,39 @@
+﻿div.discount_item
+{
+    float:left;
+    width:45%;
+    padding:5px;
+    border:1px dotted #646464;
+    margin:10px;
+    min-height:90px;
+}
+div.discount_item:hover
+{
+    border:1px solid #2063af;
+}
+div.discount_item > p
+{
+    display:inline;
+    margin-left:5px;
+}
+div.discount_logo
+{
+    padding:0;
+    --margin:0;
+    margin:0px 5px 0px 0px;
+    width:120px;
+    min-height:80px;
+    float:left;
+}
+div.discount_logo > h5
+{
+    margin:0px 5px 5px 0px;
+}
+div.discount_logo > a > img
+{
+    margin:0;
+    max-width:120px;
+    max-height:80px;
+    --float:left;
+    --margin:5px 5px 5px 5px;
+}

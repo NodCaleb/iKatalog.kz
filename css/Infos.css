@@ -1,0 +1,138 @@
+﻿div.tableholder
+{
+    margin:5px;
+    --float:left;
+}
+div.tableholder > table, table.CareIconsTable
+{
+    min-width:330px;
+    border-collapse: collapse;
+}
+div.tableholder > table > tbody > tr > td, div.tableholder > table > tbody > tr > th, table.CareIconsTable > tbody > tr > td
+{
+    padding:5px;
+    border-bottom:1px solid #454545;
+}
+table.centered > tbody > tr > td, table.centered > tbody > tr > th
+{
+    text-align:center;
+    vertical-align:middle;
+    text-indent: 0;
+}
+table.widened > tbody > tr > td, table.widened > tbody > tr > th
+{
+    min-width:140px;
+}
+table.CareIconsTable
+{
+    width:500px;
+    margin:5px;
+}
+div.tableholder > table > caption, table.CareIconsTable > caption
+{
+    margin:0;
+    padding:4px 4px 4px 4px;
+    color: #8e431a;
+    background-color:#eda57d;
+    background: -moz-linear-gradient(#fcece3, #eda57d);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fcece3), to(#eda57d));
+    font-weight:bold;
+}
+div.tableholder > table > tbody > tr > td, div.tableholder > table > thead > tr > td
+{
+    text-indent: 0px;
+}
+div.tableholder > div
+{
+    margin-left:190px;
+}
+div.tableholder > div > ol > p
+{
+    margin-top:0;
+}
+div.tableholder > div > ol > li
+{
+    font-weight:bold;
+}
+div.content > p
+{
+    text-indent:2em;
+}
+p > a > img
+{
+    position:relative;
+    top:7px;
+}
+img[src="../Images/GirlMeasure.png"]
+{
+    float:left;
+    width:187px;
+    height:242px;
+}
+img[src="../Images/gloves-measurement.jpg"]
+{
+    float:left;
+    width:117px;
+    height:160px;
+    margin-right:5px;
+}
+ol.faq > li
+{
+    font-weight:bold;
+    margin:5px 0px 5px 0px;
+}
+ul > img
+{
+    margin:5px;
+}
+h3 + img
+{
+    --float:left;
+    --margin:10px;
+}
+ul.figuri > li
+{
+    margin-left:126px;
+}
+img.right
+{
+    float:right;
+    margin:5px;
+}
+img.left
+{
+    float:left;
+    margin:5px;
+}
+img.inline
+{
+    position:relative;
+    top:5px;
+}
+table.rulestable
+{
+    width: 100%;
+}
+table.rulestable > tbody > tr
+{
+    height: 60px;
+    
+}
+table.rulestable > tbody > tr > td
+{
+    border-top:1px solid #90b7ca;
+    overflow:hidden;
+}
+table.rulestable > tbody > tr > td > a > img
+{
+    max-height: 60px;
+    max-width: 90px;
+    margin-left: 8px;
+}
+table.rulestable > tbody > tr > td > a
+{
+    color: #454545;
+    --background:url('/images/OpenURL.png') no-repeat;
+    --background-position: 100px;
+    text-decoration: none;
+}

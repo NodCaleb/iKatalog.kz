@@ -1,0 +1,223 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CheckoutMasterPage.master.cs" Inherits="iKMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>iKatalog - оформление заказа</title>
+    <link rel="Stylesheet" href="css/Master.css" />
+    <link rel="shortcut icon" href="images/favicon2.png" />
+    <link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen"/>
+    <!--Это скрипты для superfish меню-->
+    <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="js/hoverIntent.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.7.js"></script>
+    <script type="text/javascript" src="../js/hoverIntent.js"></script>
+    <script type="text/javascript" src="../js/superfish.js"></script>
+    <script type="text/javascript">
+        // initialise plugins
+        jQuery(function () {
+	        jQuery('ul.sf-menu').superfish();
+        });
+    </script>
+    <!--Это скрипт кнопки наверх-->
+    <script type="text/javascript">
+	$(function() {
+	$(window).scroll(function() {
+	if($(this).scrollTop() != 0) {
+	$('#toTop').fadeIn();
+	} else {
+	$('#toTop').fadeOut();
+	}
+	});
+	$('#toTop').click(function() {
+	$('body,html').animate({scrollTop:0},800);
+	});
+	});
+    </script>
+   
+    <meta name="description" content="Мы предоставляем услуги доставки товаров по каталогам - OTTO, H&M, Lacoste, ZARA, MEXX, Amazon и других - из Германии. Вашему вниманию предлагаются более 130 европейских каталогов одежды онлайн с огромным ассортиментом товаров на любой вкус для людей разного возраста." />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&appId=773727962698553&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <form id="MasterForm" runat="server">
+    <asp:ScriptManager ID="NewOrderScriptManager" runat="server">
+    </asp:ScriptManager>
+    <div class="header">
+	<table border="0" cellpadding="0" cellspacing="0">
+	    <tbody>
+		<tr>
+		    <td class="logo"><asp:Image ID="LogoImage" runat="server" ImageUrl="~/images/iK_Logo.png" AlternateText="Logo" /></td>
+		    <td class="contact">+7 701 543 62 59<br/><asp:Image ID="MailImage" runat="server" ImageUrl="~/images/contacts-mail.png" AlternateText="Mail" /><a href="mailto:eg@ikatalog.kz">eg@ikatalog.kz</a></td>
+		    <td class="contact">(8 727) 373 50 70<br/><asp:Image ID="SkypeImage" runat="server" ImageUrl="~/images/contacts-skype.png" AlternateText="Skype" />iKatalog</td>
+		    <td class="login">
+			<asp:MultiView ID="LoginMultiView" ActiveViewIndex="0" runat="server">
+			    <asp:View ID="StartView" runat="server">
+				<asp:LinkButton id="LoginLinkButton" Text="Вход" OnClick="LoginLinkButton_Click" runat="server"/><br/>
+				<asp:LinkButton id="RegisterLinkButton" Text="Регистрация" OnClick="RegisterLinkButton_Click" runat="server"/>
+			    </asp:View>
+			    <asp:View ID="Authorised" runat="server">
+				<asp:Label ID="UserNameLabel" runat="server" Text=""></asp:Label> (<asp:LinkButton id="LogoutLinkButton" Text="выход" OnClick="LogoutButton_Click" runat="server"/>)<br/>
+				<asp:HyperLink ID="AccountHyperLink" runat="server" NavigateUrl="~/Customer/Account.aspx">Личный кабинет</asp:HyperLink>&nbsp;<asp:HyperLink ID="AdminHyperLink" runat="server" Target="_blank" NavigateUrl="~/Admin/NewsManagement.aspx" visible="false">Admin</asp:HyperLink>
+			    </asp:View>
+			</asp:MultiView>
+		    </td>
+		    <td class="cart"><asp:HyperLink ID="CartLink" runat="server" NavigateUrl="~/Checkout.aspx"><div class="header-cart">Корзина<br><asp:Label ID="CartLabel" runat="server" Text=""></asp:Label></div></asp:HyperLink></td>
+		</tr>
+	    </tbody>
+	</table>
+	<!-- table border="0" cellpadding="0" cellspacing="0">
+	    <tbody>
+		<tr>
+		    <td class="tab"><asp:Image ID="HelpImage" runat="server" ImageUrl="~/images/tab-help.png" AlternateText="Help" /><asp:HyperLink ID="OrderMakingLink" runat="server" NavigateUrl="~/Infos/OrderingRules.aspx">Как заказать?</asp:HyperLink></td>
+		    <td class="tab"><asp:Image ID="CalcImage" runat="server" ImageUrl="~/images/tab-calc.png" AlternateText="Calc" /><asp:LinkButton id="CalculatorLinkButton" Text="Калькулятор заказа" OnClick="ShowCalculator" runat="server"/></td>
+		    <td class="tab"><asp:Image ID="EuroImage" runat="server" ImageUrl="~/images/tab-euro.png" AlternateText="Euro" />Рабочий курс: <asp:Label ID="XrateLabel" runat="server" Text=""></asp:Label>&#8376;</td>
+		</tr>
+	    </tbody>
+	</table -->
+    </div>
+    <div class="menu">
+	
+    </div>
+    <div class="content">
+	<div class ="widebackground">
+	    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+	    </asp:ContentPlaceHolder>
+	</div>
+	<div style="clear:both;"></div>
+    </div>
+    <div class="cellar">
+	<div class="innercellar">
+	    <img src="http://ikatalog.kz/images/cardlogo.png" alt="" />
+	    <!-- Yandex.Metrika informer -->
+	    <a href="https://metrika.yandex.ru/stat/?id=26407257&amp;from=informer"
+	    target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/26407257/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+	    style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:26407257,lang:'ru'});return false}catch(e){}"/></a>
+	    <!-- /Yandex.Metrika informer -->
+	</div>
+    </div>
+    <!-- Ниже — Google Analytics -->
+    <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+	ga('create', 'UA-27249274-2', 'auto');
+	ga('send', 'pageview');
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+    (function (d, w, c) {
+	(w[c] = w[c] || []).push(function() {
+	    try {
+		w.yaCounter26407257 = new Ya.Metrika({id:26407257,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true});
+	    } catch(e) { }
+	});
+    
+	var n = d.getElementsByTagName("script")[0],
+	    s = d.createElement("script"),
+	    f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript";
+	s.async = true;
+	s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+    
+	if (w.opera == "[object Opera]") {
+	    d.addEventListener("DOMContentLoaded", f, false);
+	} else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="//mc.yandex.ru/watch/26407257" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <asp:Panel id="LoginFormPanel" visible="false" runat="server">
+	<div class="Overlay">
+	    <div class="LoginForm">
+		<asp:TextBox ID="UserNameTextBox" runat="server" placeholder="логин или email"></asp:TextBox>
+		<asp:TextBox ID="PasswordTextBox" runat="server" TextMode="Password" placeholder="пароль"></asp:TextBox><br/>
+		<asp:Button id="LoginButton" Text="Вход" OnClick="LoginButton_Click" runat="server"/>
+		<asp:Button id="CancelButton" Text="Отмена" OnClick="CancelButton_Click" runat="server"/>
+	    </div>
+	</div>
+    </asp:Panel>
+    <asp:Panel id="RegisterFormPanel" visible="false" runat="server">
+	<div class="Overlay">
+	    <div class="validationsummary">
+		<asp:ValidationSummary ID="OrderPositionValidationSummary" runat="server" ValidationGroup="RegisterValidationGroup" />
+	    </div>
+	    <div class="RegisterForm">
+		<h2>Регистрация на сайте</h2>
+		<p>Зарегистрироваться на сайте очень просто — укажите ваши имя и фамилию, email и телефон и нажмите кнопку Зарегистрироваться.</p>
+		<asp:TextBox ID="UserFullNameTextBox" runat="server" placeholder="имя фамилия"></asp:TextBox><br/>
+		<asp:TextBox ID="EmailTextBox" runat="server" placeholder="email"></asp:TextBox><br/>
+		<asp:TextBox ID="PhoneTextBox" runat="server" placeholder="телефон"></asp:TextBox><br/>
+		<asp:Button id="RegisterButton" Text="Зарегистрироваться" OnClick="RegisterCustomer" runat="server" ValidationGroup="RegisterValidationGroup"/>
+		
+		<asp:RequiredFieldValidator ID="UserFullNameRequiredValidator" runat="server" ErrorMessage="Не заполнено имя" Display="None" ValidationGroup="RegisterValidationGroup" ControlToValidate="UserFullNameTextBox"></asp:RequiredFieldValidator>
+		<asp:RequiredFieldValidator ID="EmailRequiredValidator" runat="server" ErrorMessage="Не заполнен email" Display="None" ValidationGroup="RegisterValidationGroup" ControlToValidate="EmailTextBox"></asp:RequiredFieldValidator>
+		<asp:RequiredFieldValidator ID="PhoneRequiredValidator" runat="server" ErrorMessage="Не заполнен телефон" Display="None" ValidationGroup="RegisterValidationGroup" ControlToValidate="PhoneTextBox"></asp:RequiredFieldValidator>
+		<asp:RegularExpressionValidator ID="EmailRegularExpressionValidator" runat="server" ErrorMessage="Введите корректный адрес электронной почты строчными буквами (маленькими)" ControlToValidate="EmailTextBox" ValidationExpression="^[0-9a-z]+[-\._0-9a-z]*@[0-9a-z]+[-\._^0-9a-z]*[0-9a-z]+[\.]{1}[a-z]{2,6}$" Display="None" ValidationGroup="RegisterValidationGroup"></asp:RegularExpressionValidator>
+		<asp:CustomValidator ID="EmailUniquenessValidator" runat="server" ErrorMessage="Пользователь с таким адресом электронной почты уже существует" ControlToValidate="EmailTextBox" Display="None" ValidationGroup="RegisterValidationGroup"></asp:CustomValidator>
+	    </div>
+	</div>
+    </asp:Panel>
+    <asp:UpdatePanel ID="CalculationUpdatePanel" runat="server" UpdateMode="Conditional">
+	<ContentTemplate>
+	    <asp:Panel id="CalculatorPanel" visible="false" runat="server">
+		<div class="Overlay">
+		    <div class="Calculator">
+			<asp:SqlDataSource ID="CatalogueListSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>"
+			    SelectCommand="
+				select
+					-1 as Catalogue_id,
+					'Каталог' as CatalogueName,
+					'' as SortName
+				union
+				select
+					Catalogue_id,
+					CatalogueName,
+					CatalogueName as SortName
+				from
+					Catalogues
+				where
+					Active = 1
+				order by
+					SortName">
+			</asp:SqlDataSource>
+			<h2>Калькулятор стоимости заказа</h2>
+			<p>Чтобы оценить предварительную стоимость заказа с доставкой, заполните, пожлауйста форму ниже.</p>
+			<p>Вам в помощь мы составили справочник <a href="http://dev.ikatalog.kz/StaticPages.aspx?Page=7" target="_blank">Примерных весов товаров</a>.</p>
+			<asp:DropDownList ID="CatalogueList" runat="server" DataSourceID="CatalogueListSource" DataTextField="CatalogueName" DataValueField="Catalogue_id"></asp:DropDownList><br/>
+			<asp:TextBox ID="PriceInput" runat="server" placeholder="цена товара"></asp:TextBox><br/>
+			<asp:TextBox ID="WeightInput" runat="server" placeholder="вес товара в кг."></asp:TextBox><br/>
+			<asp:Label ID="DeliveryLabel" runat="server" Text=''></asp:Label><br/>
+			<asp:Button id="CalculateButton" Text="Посчитать" OnClick="CalculateButton_Click" runat="server"/>
+			<asp:Button id="CloseCalculatorButton" Text="Закрыть" OnClick="CancelButton_Click" runat="server"/>
+		    </div>
+		</div>
+	    </asp:Panel>
+	</ContentTemplate>
+    </asp:UpdatePanel>
+    </form>
+    <div ID="toTop"> ^ Наверх </div>
+</body>
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'wAsAm0qUwB';
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+</html>

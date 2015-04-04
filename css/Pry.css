@@ -1,0 +1,12 @@
+a.CTA
+{
+	font-weight:bold;
+	position:relative;
+	font-size: 17px;
+	top:0px;
+	color:#ff0000;
+}
+div.content > div > div > table > tbody > tr > td, div.innercontent > div > div > table > tbody > tr > td
+{
+	font-size: 14px;
+}

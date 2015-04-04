@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Randomly Displayed Content Using CSS and JavaScript</title>
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript">
+
+this.randomtip = function(){
+	var length = $("#tips li").length; // this is where we put the id of the list
+	var ran = Math.floor(Math.random()*length) + 1;
+	$("#tips li:nth-child(" + ran + ")").show();
+};
+
+$(document).ready(function(){	
+	randomtip();
+});
+
+</script>
+
+<meta name="description" content="Randomly Displayed Content Using CSS and JavaScript"></meta>
+
+<style>
+body {
+	margin:0;
+	}
+#tips, #tips li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#tips li{
+	padding:0;
+	background:none;
+	display:none; /* hide the items at first only to display one with javascript */
+	width:160px;
+	height:600px;
+	}
+					
+
+/* // tips */
+
+</style>
+</head>
+<body>	
+	<ul id="tips">
+		<li><a href="http://goo.gl/cqLckj" target="_blanc"><img src="../images/Banners/banner_AM1_160x600_hw13.png" alt="" /></a></li>
+		<li><a href="http://goo.gl/cqLckj" target="_blanc"><img src="../images/Banners/banner_AM2_160x600_hw13.png" alt="" /></a></li>
+		<li><a href="http://goo.gl/qBpw26" target="_blanc"><img src="../images/Banners/banner_HH1_160x600_hw13.png" alt="" /></a></li>
+		<li><a href="http://goo.gl/qBpw26" target="_blanc"><img src="../images/Banners/banner_HH2_160x600_hw13.png" alt="" /></a></li>
+		<li><a href="http://goo.gl/qBpw26" target="_blanc"><img src="../images/Banners/banner_HH3_160x600_hw13.png" alt="" /></a></li>
+		<li><a href="http://goo.gl/TXmcsl" target="_blanc"><img src="../images/Banners/banner_OV1_160x600_hw13.png" alt="" /></a></li>
+		<li><a href="http://goo.gl/TXmcsl" target="_blanc"><img src="../images/Banners/banner_OV2_160x600_hw13.png" alt="" /></a></li>
+		<li><a href="http://goo.gl/TXmcsl" target="_blanc"><img src="../images/Banners/banner_OV3_160x600_hw13.png" alt="" /></a></li>
+	</ul>
+</body>
+</html>

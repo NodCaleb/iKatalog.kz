@@ -1,0 +1,101 @@
+﻿div.background > div > div > table, div.innercontent > div > div > table
+{
+    width:100%;
+}
+div.background > div > div > table > tbody > tr > td, div.innercontent > div > div > table > tbody > tr > td, div.content > div > table > tbody > tr > td
+{
+    padding:5px;
+    border-bottom:1px solid #454545;
+    text-align:center;
+}
+div.background > div > div > table > tbody > tr > th, div.innercontent > div > div > table > tbody > tr > th, div.content > div > table > tbody > tr > th
+{
+    margin:0;
+	padding:5px;
+	color: #8e431a;
+	background-color:#eda57d;
+	background: -moz-linear-gradient(#fcece3, #eda57d);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fcece3), to(#eda57d));
+	font-weight:bold;
+	text-align:center;
+}
+div.background > div > div > table > tbody > tr > th > a, div.background > div > div > table > tbody > tr > th > a, div.background > div > table > tbody > tr > th > a
+{
+    color:#8e431a;
+}
+div.background > div > div > table > tbody > tr > td > input[type="Text"], textarea, div.background > div > div > table > tbody > tr > td > input[type="Text"], textarea, div.background > div > table > tbody > tr > td > input[type="Text"]
+{
+    width:100%;
+    margin:-3px;
+}
+select
+{
+    margin:-1px;
+}
+div.download
+{
+    width:140px;
+    text-align:center;
+    float:right;
+    margin-top:5px;
+}
+div.download > p
+{
+    margin:0;
+    color:#2063AF;
+    font-weight:bold;
+}
+div.download > input
+{
+    margin:5px;
+}
+input[type="file"]
+{
+    margin:10px;
+}
+input[value="Подтвердить"],input[value="Отменить"]
+{
+    height:30px;
+    width:150px;
+    font-size:large;
+    margin:5px 5px 5px 5px;
+    color:#808080;
+}
+div.inputfield
+{
+    width:450px;
+    float:left;
+    margin:0;
+    text-align:right;
+}
+div.inputfield > p
+{
+    display:inline;
+    text-align:right;
+    font-weight:bold;
+    margin:5px;
+    position:relative;
+    top:5px;
+}
+div.inputfield > input, div.inputfield > select
+{
+    width:300px;
+    display:inline;
+    margin:5px 0px 5px 0px;
+    float:right;
+}
+div.content > div > input[value="Добавить"], div.innercontent > div > input[value="Добавить"]
+{
+    height:30px;
+    width:200px;
+    font-size:large;
+    margin:5px 0px 5px 5px;
+    color:#000080;
+}
+input.suchen
+{
+	width:100px;
+	--margin-bottom:10px;
+	position:relative;
+	--top:-1px;
+}

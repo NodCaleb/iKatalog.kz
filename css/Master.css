@@ -1,0 +1,432 @@
+body
+{
+	font-family: Roboto, Verdana, Helvetica, Arial, sans-serif;
+	color: #454545;
+	--text-align:center;
+	margin:0;
+	background-color: #EEEEEE;
+}
+img
+{
+	border:0;
+	margin:0;
+}
+a
+{
+	color: #454545;
+}
+a:hover
+{
+	text-decoration: none;
+}
+a.CTA
+{
+	font-size:larger;
+	font-weight:bold;
+	position:relative;
+	--left:20px;
+	top:20px;
+	color:#ff0000;
+}
+h1
+{
+	margin-top: 0px;
+	color: #5F115B;
+}
+h2
+{
+	color: #83182F;
+	margin-top: 0px;
+}
+div.header
+{
+	margin: auto;
+	width: 960px;
+	--height: 120px;
+}
+div.menu
+{
+	width: 100%;
+	height: 30px;
+	background-color: #84182f;
+	--font-weight: bold;
+	font-size: 1.125em;
+	color: #FFFFFF;
+}
+div.content
+{
+	margin: auto;
+	width: 960px;
+	min-height: 960px;
+}
+div.cellar
+{
+	width: 100%;
+	height: 100px;
+	background-color: #98505f;
+	margin-top: 12px;
+}
+div.innermenu, div.innercellar
+{
+	margin: auto;
+	width: 960px;
+}
+div.innercellar
+{
+	padding: 12px;
+	text-align: center;
+}
+div.innermenu
+{
+	height: 30px;
+}
+div.logo
+{
+	background-image: url(../images/iK_Logo.png);
+	float: left;
+	margin: 12px 40px 0px 0px;
+	width: 263px;
+	height: 71px;
+}
+div.header-contact
+{
+	margin: 30px 0px 0px 0px;
+	float: left;
+	min-width: 175px;
+	font-size: 1.125em;
+}
+div.header-login
+{
+	margin: 30px 0px 0px 0px;
+	min-width: 200px;
+	float: left;
+}
+div.header > table
+{
+	width: 100%;
+}
+td.logo
+{
+	padding-top: 12px;
+}
+td.contact, td.login, td.cart
+{
+	padding-top: 25px;
+	vertical-align: top;
+}
+td.contact
+{
+	font-size: 1.125em;
+}
+td.tab
+{
+	width: 33%;
+	text-align: center;
+}
+td.contact > img, td.tab > img
+{
+	margin-right: 3px;
+	top: 3px;
+	position: relative;
+}
+div.header-cart
+{
+	padding-left: 35px;
+	height: 41px;
+	float: left;
+	background-image: url(../images/shopping-bag.png);
+	background-repeat: no-repeat;
+}
+div.banner
+{
+	margin: 12px 12px 0px 0px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+	float: left;
+}
+div.banner
+{
+	width: 636px;
+	height: 320px;
+}
+div.banner > iframe
+{
+	border: 0;
+	width: 636px;
+	height: 321px;
+}
+div.category-holder
+{
+	width: 312px;
+	height: 320px;
+	margin: 12px 0px 0px 0px;
+	float: left;
+}
+div.title-holder
+{
+	width: 100%;
+	height: 28px;
+	padding-top: 5px;
+}
+div.title-holder > h2
+{
+	color: #84182f;
+	text-align: center;
+	margin: 0px;
+}
+div.category, div.category-2
+{
+	width: 150px;
+	height: 60px;
+	margin: 12px 12px 0px 0px;
+	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+	font-size: 1.125em;
+	font-weight: bold;
+	float: left;
+	color: #8e431a;
+	background-color:#eda57d;
+	background: -moz-linear-gradient(#fcece3, #eda57d);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fcece3), to(#eda57d));
+}
+div.category > div, div.category-2 > div
+{
+	width: 150px;
+	height: 60px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+div.category-2
+{
+	margin: 12px 0px 0px 0px;
+}
+div.offer
+{
+	width: 219px;
+	height: 248px;
+	margin: 12px 12px 0px 0px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+	padding: 6px;
+	float: left;
+}
+div.offer > div
+{
+	height: 210px;
+}
+div.offer > div > h3
+{
+	font-size: 1.125em;
+	color: #8e431a;
+	margin: 5px 0px 5px 0px;
+	text-align: center;
+}
+div.offer > div > img
+{
+	max-width: 135px;
+	max-height: 150px;
+	float: left;
+}
+div.offer > div > div
+{
+	width: 75px;
+	margin-left: 140px;
+	text-align: center;
+	height: 150px; 
+}
+div.offer > div > div > img
+{
+	max-width: 75px;
+}
+div.offer > p
+{
+	text-align: center;
+	font-weight: bold;
+	margin: 0px;
+}
+div.offer > p > a
+{
+	color: red;
+}
+div.offer + div.offer + div.offer + div.offer
+{
+	margin-right: 0px;
+}
+div.populars
+{
+	width: 960px;
+	height: 100px;
+	margin: 12px 0px 0px 0px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+}
+div.populars > table
+{
+	width: 100%;
+	height: 100px;
+}
+div.populars > table > tbody > tr > td
+{
+	text-align: center;
+	vertical-align: middle;
+}
+div.populars > table > tbody > tr > td > a > img
+{
+	max-height: 80px;
+	--margin: 0px 3px 0px 3px;
+}
+div.text-holder
+{
+	width: 936px;
+	margin: 12px 0px 0px 0px;
+	padding: 1px 12px 1px 12px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+}
+div.likebox
+{
+	margin: 12px 12px 0px 0px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+	width: 474px;
+	height: 271px;
+	float: left;
+}
+div.likebox + div.likebox
+{
+	margin-right: 0px;
+}
+/* стили для форм в оверлее */
+div.Overlay
+{
+    width: 100%;
+    height: 100%;
+    background:url('../images/OverlayBack.png') repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:block;
+    text-align: center;
+    vertical-align:middle;
+    overflow: auto;
+}
+div.LoginForm, div.Calculator, div.RegisterForm
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-210px;
+	margin-top:-100px;
+	background-color: #EEEEEE;
+	padding: 20px;
+}
+div.Calculator
+{
+	width: 400px;
+	margin-left:-200px;
+	margin-top: -220px;
+}
+div.RegisterForm
+{
+	width: 400px;
+	margin-top:-175px;
+}
+div.LoginForm > input, div.Calculator > input, div.Calculator > select, div.RegisterForm > input
+{
+	margin-right: 10px;
+	font-size: 1em;
+	font-family: Roboto;
+	border-width: 1px;
+	width: 177px;
+}
+div.Calculator > input, div.Calculator > select
+{
+	margin-bottom: 10px;
+}
+div.Calculator > h2, div.RegisterForm > h2
+{
+	margin-top: 0px;
+}
+div.LoginForm > input[type="submit"], div.RegisterForm > input
+{
+	margin-top: 10px;
+}
+div.LoginForm > input[value="Вход"], div.Calculator > input[value="Посчитать"], div.RegisterForm > input[value="Зарегистрироваться"]
+{
+	background-color: #69FB89;
+	margin-right: 10px;
+}
+div.LoginForm > input[value="Отмена"], div.Calculator > input[value="Закрыть"]
+{
+	background-color: #FB6969;
+}
+div.Calculator > input[type="submit"]
+{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+div.validationsummary
+{
+	position: fixed;
+	color: #FF0000;
+	top: 10px;
+	left: 10px;
+	text-align: left;
+	background-color: white;
+	padding-right: 15px;
+}
+div.Warning
+{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:block;
+    text-align: center;
+    vertical-align:middle;
+    overflow: auto;
+    opacity: 0.5;
+}
+div.Warning > img
+{
+    width: 128;
+    height: 128;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-top:-64px;
+    margin-left:-64px;
+    vertical-align:middle;
+}
+div.background
+{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+    padding: 12px;
+}
+div.widebackground
+{
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+	padding: 12px;
+	width: 960px;
+	margin-top: 12px;
+}
+#toTop
+{
+	width:75px;
+	--border:1px solid #ccc;
+	background:#ED9E7C;
+	text-align:center;
+	padding:5px;
+	position:fixed;
+	bottom:10px; /* отступ кнопки от нижнего края страницы*/
+	left:10px;
+	cursor:pointer;
+	display:none;
+	color:#8E3D1A;
+	font-family:Roboto;
+	font-size:0.7em;
+}

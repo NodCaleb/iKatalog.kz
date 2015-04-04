@@ -1,0 +1,255 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="iKMasterPageTest.master.cs" Inherits="iKMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>iKatalog - заказ товаров по каталогам</title>
+    <link rel="Stylesheet" href="css/MasterTest.css" />
+    <link rel="Stylesheet" href="css/Slideout.css" />
+    <link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen"/>
+    <!--Это скрипты для superfish меню-->
+    <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="js/hoverIntent.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <%--<script type="text/javascript" src="../js/jquery-1.2.6.min.js"></script>--%>
+    <script type="text/javascript" src="../js/jquery-1.7.js"></script>
+    <script type="text/javascript" src="../js/hoverIntent.js"></script>
+    <script type="text/javascript" src="../js/superfish.js"></script>
+    <script type="text/javascript">
+        // initialise plugins
+        jQuery(function () {
+	        jQuery('ul.sf-menu').superfish();
+        });
+    </script>
+   
+    <meta name="description" content="Мы предоставляем услуги доставки товаров по каталогам - OTTO, H&M, Lacoste, ZARA, MEXX, Amazon и других - из Германии. Вашему вниманию предлагаются более 130 европейских каталогов одежды онлайн с огромным ассортиментом товаров на любой вкус для людей разного возраста." />
+
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>   
+    <form id="MasterForm" runat="server">
+    <asp:ScriptManager ID="NewOrderScriptManager" runat="server">
+    </asp:ScriptManager>
+    <div class="layout">
+        <div class="leftshadow">
+            <asp:Image ID="LeftShadowImage" alt="LeftShadow" ImageUrl="~/images/LeftShadowTransparent.png" runat="server" />
+		</div>
+		<div class="rightshadow">
+            <asp:Image ID="RightShadowImage" alt="RightShadow" ImageUrl="~/images/RightShadowTransparent.png" runat="server" />
+		</div>
+        <div class="innerlayout">
+            <div class="header">
+                <asp:HyperLink ID="HomeLink" NavigateUrl="~" runat="server"><asp:Image ID="iKLogo" ImageUrl="~/images/iKatalog-logo2.png" runat="server" alt="Logo" /></asp:HyperLink>                
+                <div class="login">
+                    <asp:MultiView ID="LoginMultiView" ActiveViewIndex="0" runat="server">
+			<asp:View ID="StartView" runat="server">
+			    <asp:LinkButton id="LoginLinkButton" Text="Вход" OnClick="LoginLinkButton_Click" runat="server"/><br/>
+			    <asp:LinkButton id="RegisterLinkButton" Text="Регистрация" OnClick="RegisterLinkButton_Click" runat="server"/><br/>
+			    <asp:LinkButton id="FastOrderLinkButton" Text="Быстрый заказ" OnClick="FastOrderLinkButton_Click" runat="server"/>
+			</asp:View>    
+                        <asp:View ID="Authorised" runat="server">
+                            <asp:LinkButton id="LogoutLinkButton" Text="Выход" OnClick="LogoutButton_Click" runat="server"/>&nbsp;<asp:HyperLink ID="AdminHyperLink" runat="server" Target="_blank" NavigateUrl="~/Admin/NewsManagement.aspx" visible="false">Admin</asp:HyperLink><br/>
+			    <asp:LinkButton id="AccountLinkButton" Text="Личный кабинет" OnClick="AccountLinkButton_Click" runat="server"/><br/>
+			    <asp:LinkButton id="FastOrderLinkButton2" Text="Быстрый заказ" OnClick="FastOrderLinkButton_Click" runat="server"/>
+                        </asp:View>
+                    </asp:MultiView>
+                </div>
+                <div class="contacts">
+                    <p>+7 701 543 62 59</p>
+		    <p>(8 727) 373 50 70</p>
+                    <p><asp:HyperLink ID="MailLink" runat="server" NavigateUrl="mailto:eg@ikatalog.kz">eg@ikatalog.kz</asp:HyperLink></p>
+                    <p>Skype: ikatalog</p>
+                </div>
+	    </div>
+            <div class="contentlayout">
+                <div class="menue">
+		    <ul class="sf-menu">
+			<li><a>О нас</a>
+			    <ul>
+				<li><asp:HyperLink ID="AboutLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=0">О компании</asp:HyperLink></li>
+				<li><asp:HyperLink ID="VertragLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=2">Публичная оферта</asp:HyperLink></li>
+				<li><asp:HyperLink ID="CrewLink" runat="server" NavigateUrl="~/Crew.aspx">Наша команда</asp:HyperLink></li>
+				<li><asp:HyperLink ID="ContactsLink" runat="server" NavigateUrl="~/Contacts.aspx">Контактная информация</asp:HyperLink></li>
+				<li><asp:HyperLink ID="AffilateLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=17">Партнерская программа</asp:HyperLink></li>
+			    </ul>
+			</li>
+			<li><asp:HyperLink ID="NewsLink" runat="server" NavigateUrl="~/News.aspx">Новости</asp:HyperLink></li>
+			<li><asp:HyperLink ID="TestimonialsLink" runat="server" NavigateUrl="~/Testimonials.aspx">Отзывы</asp:HyperLink></li>
+			<li><a>Каталоги</a>
+			    <ul>
+				<li><asp:HyperLink ID="WebCataloguesAllesLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=active">Все сразу</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesMenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=men">Мужская одежда</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesWomenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=frau">Женская одежда</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesChildrenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=children">Детская одежда</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesShoesLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=shoes">Обувь</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesChubbyLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=chubby">Одежда для полных дам</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesToysLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=toys">Все для детей</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesSportLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=sport">Все для спорта</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesHomeLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=home">Все для дома и уюта</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesLederLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=leather">Кожаные изделия</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesMakeupLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=makeup">Косметика</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesBedLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=bed">Постельное белье</asp:HyperLink></li>
+				<li><asp:HyperLink ID="WebCataloguesSchmuckLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=jems">Ювелирные украшения</asp:HyperLink></li>
+			    </ul>
+			</li>
+			<li><a>Информация</a>
+			    <ul>
+				
+				<!-- li><asp:HyperLink ID="VisaLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=3">Оплата банковской картой</asp:HyperLink></li -->
+				<!-- li><asp:HyperLink ID="QiwiPaymentLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=4">Оплата через терминалы Qiwi</asp:HyperLink></li -->
+				<li><asp:HyperLink ID="WoerteBuchLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=9">Словарик немецкого</asp:HyperLink></li>
+				<li><asp:HyperLink ID="GroessenLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=10">Размеры одежды</asp:HyperLink></li>
+				<li><asp:HyperLink ID="KleidungPfledgeSymboleLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=5">Символы ухода за одеждой</asp:HyperLink></li>
+				<li><asp:HyperLink ID="FigureTypesLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=6">Подбор одежды по типу фигуры</asp:HyperLink></li>
+				<li><asp:HyperLink ID="GoodsWeightLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=7">Примерный вес товаров</asp:HyperLink></li>
+                                
+                                
+                                
+				
+			    </ul>
+			</li>
+			<li><a style="color:#FFFF66;">Заказ online</a>
+			    <ul>
+				<li><u><asp:HyperLink ID="NewOrderLink" runat="server" NavigateUrl="~/Customer/NewOrder.aspx">Оформить новый заказ</asp:HyperLink></u></li>
+				<li><u><asp:HyperLink ID="PaymentLink" runat="server" NavigateUrl="~/Customer/PaymentOnline.aspx">Оплатить</asp:HyperLink></u></li>
+				<li><asp:HyperLink ID="OrdersPryLink" runat="server" NavigateUrl="~/Customer/OrdersPry.aspx">Посмотреть, что заказывают другие!</asp:HyperLink></li>
+				<li><asp:HyperLink ID="DiscountsLink" runat="server" NavigateUrl="~/Discount.aspx">Скидки и акции</asp:HyperLink></li>
+				<li><asp:HyperLink ID="OrdersInfoLink" runat="server" NavigateUrl="~/Customer/OrdersInfo.aspx">Заказы в работе</asp:HyperLink></li>
+				<li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Customer/OrdersHistory.aspx">История заказов</asp:HyperLink></li>
+				<li><asp:HyperLink ID="PaymentHistoryLink" runat="server" NavigateUrl="~/Customer/AllPaymentsHistory.aspx">История платежей</asp:HyperLink></li>
+			    </ul>
+			</li>
+			<li><asp:HyperLink ID="OrderMakingLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=1">Как заказать</asp:HyperLink></li>
+			<li><asp:HyperLink ID="PaymentHelpLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=14">Оплата</asp:HyperLink></li>
+			<li><asp:HyperLink ID="DeliveryLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=15">Доставка</asp:HyperLink></li>
+			<li><asp:HyperLink ID="ReturnLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=16">Возврат</asp:HyperLink></li>
+			
+			<!-- li><asp:HyperLink ID="ForumLink" runat="server" NavigateUrl="~/Forum.aspx">Форум</asp:HyperLink></li -->
+		    </ul>
+		</div>
+                <div class="content">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+                    </asp:ContentPlaceHolder>
+                    <div style="clear:both;"></div>
+                </div>				
+            </div>			
+        </div>
+		<%--<div class="bottomblock">
+			<asp:Image ID="BottomBlockImage" ImageUrl="~/images/Elka.png" runat="server" />
+		</div>--%>
+    </div>	
+    <div class="cellar">
+	<img src="http://ikatalog.kz/images/cardlogo.png" alt="" />
+	<!-- Yandex.Metrika informer -->
+	<a href="https://metrika.yandex.ru/stat/?id=26407257&amp;from=informer"
+	target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/26407257/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+	style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:26407257,lang:'ru'});return false}catch(e){}"/></a>
+	<!-- /Yandex.Metrika informer -->
+    </div>
+	<!-- Ниже — Google Analytics -->
+	<script>
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  
+	    ga('create', 'UA-27249274-2', 'auto');
+	    ga('send', 'pageview');
+	</script>	
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	(function (d, w, c) {
+	    (w[c] = w[c] || []).push(function() {
+		try {
+		    w.yaCounter26407257 = new Ya.Metrika({id:26407257,
+			    clickmap:true,
+			    trackLinks:true,
+			    accurateTrackBounce:true});
+		} catch(e) { }
+	    });
+	
+	    var n = d.getElementsByTagName("script")[0],
+		s = d.createElement("script"),
+		f = function () { n.parentNode.insertBefore(s, n); };
+	    s.type = "text/javascript";
+	    s.async = true;
+	    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+	
+	    if (w.opera == "[object Opera]") {
+		d.addEventListener("DOMContentLoaded", f, false);
+	    } else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="//mc.yandex.ru/watch/26407257" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+	<!-- div id="slideout">
+	<asp:UpdatePanel ID="AskMeUpdatePanel" runat="server" UpdateMode="Conditional">
+	    <ContentTemplate>
+		<asp:MultiView ID="AskMultiView" ActiveViewIndex="0" runat="server">
+                    <asp:View ID="Ask" runat="server">
+			<asp:Image ID="AskImage" alt="Задать вопрос" ImageUrl="~/images/AskMe.png" runat="server" />
+			<div id="slideout_inner">
+			    <p>
+				Ваше имя:<asp:RequiredFieldValidator ID="NameInputRrequiredValidator" runat="server" ControlToValidate="NameInput" ErrorMessage="Не указано имя." ValidationGroup="AskMeValidationGroup" Display="None">*</asp:RequiredFieldValidator>
+				<asp:TextBox ID="NameInput" runat="server"></asp:TextBox>
+				Email:<asp:RequiredFieldValidator ID="EmailInputRrequiredValidator" runat="server" ControlToValidate="EmailInput" ErrorMessage="Не указан Email." ValidationGroup="AskMeValidationGroup" Display="None">*</asp:RequiredFieldValidator>
+				<asp:TextBox ID="EmailInput" runat="server"></asp:TextBox>
+				Телефон:<asp:RequiredFieldValidator ID="PhoneInputRrequiredValidator" runat="server" ControlToValidate="PhoneInput" ErrorMessage="Не указан телефон." ValidationGroup="AskMeValidationGroup" Display="None">*</asp:RequiredFieldValidator>
+				<asp:TextBox ID="PhoneInput" runat="server"></asp:TextBox>
+				Что вы ищете:<asp:RequiredFieldValidator ID="SearchInputRrequiredValidator" runat="server" ControlToValidate="SearchInput" ErrorMessage="Не указан запрос." ValidationGroup="AskMeValidationGroup" Display="None">*</asp:RequiredFieldValidator>
+				<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Не более 500 символов, пожалуйста." Display="None" ValidationExpression=".{0,500}" ValidationGroup="OrderPositionValidationGroup" ControlToValidate="SearchInput">*</asp:RegularExpressionValidator>
+				<asp:TextBox ID="SearchInput" runat="server" TextMode="multiline"></asp:TextBox>
+				<asp:Button ID="AskMeButton" runat="server" Text="Отправить запрос" OnClick="AskMeButton_Click" ValidationGroup="AskMeValidationGroup" />
+				<asp:ValidationSummary ID="AskMeValidationSummary" runat="server" ValidationGroup="AskMeValidationGroup" />
+			    </p>
+			</div>
+		    </asp:View>
+		    <asp:View ID="Answer" runat="server">
+			<asp:Image ID="AskImage2" alt="Задать вопрос" ImageUrl="~/images/AskMe.png" runat="server" />
+			<div id="slideout_inner">
+			    <p>Благодарим, ваш запрос принят.</p>
+			    <p>Наш менеджер свяжется с вами в ближайшее время.</p>
+			</div>
+		    </asp:View>
+                </asp:MultiView>
+	    </ContentTemplate>
+	</asp:UpdatePanel>
+    </div -->
+    <asp:Panel id="LoginFormPanel" visible="false" runat="server">
+	<div class="Overlay">
+	    <div class="LoginForm">
+		<asp:TextBox ID="UserNameTextBox" runat="server" placeholder="имя"></asp:TextBox>
+		<asp:TextBox ID="PasswordTextBox" runat="server" TextMode="Password" placeholder="пароль"></asp:TextBox><br/>
+		<asp:Button id="LoginButton" Text="Вход" OnClick="LoginButton_Click" runat="server"/>
+		<asp:Button id="CancelButton" Text="Отмена" OnClick="CancelButton_Click" runat="server"/>
+	    </div>
+	</div>
+    </asp:Panel>
+    <asp:Panel id="FastOrderPanel" visible="false" runat="server">
+	<div class="Overlay">
+	    <div class="FastOrderForm">
+		<h2>Быстрый заказ</h2>
+		<p>Пожалуйста укажите в форме ниже ваше имя, контактные данные и ссылку на интересующий вас товар.</p>
+		<p>C вами свяжется наш консультант для уточнения деталей заказа. Заполнение данной формы еще ни к чему вас не обязывает.</p>
+		<asp:TextBox ID="NameTextBox" runat="server" placeholder="имя"></asp:TextBox><br/>
+		<asp:TextBox ID="PhoneTextBox" runat="server" placeholder="телефон"></asp:TextBox><br/>
+		<asp:TextBox ID="EmailTextBox" runat="server" placeholder="email"></asp:TextBox><br/>
+		<asp:TextBox ID="URLTextBox" runat="server" placeholder="ссылка на товар"></asp:TextBox><br/>
+		<asp:Button id="ConfirmOrderButton" Text="Заказать" OnClick="FastOrderButton_Click" runat="server"/>
+		<asp:Button id="CancelOrderButton" Text="Отмена" OnClick="CancelButton_Click" runat="server"/>
+	    </div>
+	</div>
+    </asp:Panel>
+    </form>
+</body>
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'wAsAm0qUwB';
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+</html>

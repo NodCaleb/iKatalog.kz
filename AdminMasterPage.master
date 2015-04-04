@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="iKAdminPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <%--<title>iKatalog</title>--%>
+    <link rel="Stylesheet" href="css/MasterAdmin.css" />
+    <link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen"/>
+    <!--Это скрипты для superfish меню-->
+    <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="js/hoverIntent.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <%--<script type="text/javascript" src="../js/jquery-1.2.6.min.js"></script>--%>
+    <script type="text/javascript" src="../js/jquery-1.7.js"></script>
+    <script type="text/javascript" src="../js/hoverIntent.js"></script>
+    <script type="text/javascript" src="../js/superfish.js"></script>
+    <script type="text/javascript">
+        // initialise plugins
+        jQuery(function () {
+	        jQuery('ul.sf-menu').superfish();
+        });
+    </script>
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="MasterForm" runat="server">
+    <div class="layout" style="background: none;">
+        <div class="innerlayout">
+            <div class="contentlayout">
+                <div class="menue">
+				    <ul class="sf-menu">
+                        <li>
+						    <asp:HyperLink ID="DummyLink01" runat="server" NavigateUrl="#">Контент</asp:HyperLink>
+						    <ul>
+                                <li>
+							        <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/Admin/NewsManagement.aspx">Новости</asp:HyperLink>
+						        </li>
+                                <li>
+							        <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/Admin/DiscountManagement.aspx">Скидки</asp:HyperLink>
+						        </li>
+                                <li>
+							        <asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/Admin/UpsellManagement.aspx">Горячие предложения</asp:HyperLink>
+						        </li>
+				<li>
+							        <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/Admin/TestimonialManagement.aspx">Отзывы</asp:HyperLink>
+						        </li>
+				<li><asp:HyperLink ID="PagesManagementLink" runat="server" NavigateUrl="~/Admin/StaticPagesManagement.aspx">Страницы</asp:HyperLink></li>
+				<li><asp:HyperLink ID="BannerManagementLink" runat="server" NavigateUrl="~/Admin/BannerManagement.aspx">Баннер на главной</asp:HyperLink></li>
+				<li><asp:HyperLink ID="MailManagementLink" runat="server" NavigateUrl="~/Admin/StandartMailManagement.aspx">Стандартные письма</asp:HyperLink></li>
+				<li><asp:HyperLink ID="CorsoStockManagementLink" runat="server" NavigateUrl="~/Admin/CorsoStock.aspx">Остатки Corso</asp:HyperLink></li>
+                            </ul>
+                        </li>
+                        <li>
+						    <asp:HyperLink ID="DummyLink02" runat="server" NavigateUrl="#">Каталоги</asp:HyperLink>
+						    <ul>
+                                <li>
+							        <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Admin/CatalogueDictionary.aspx">Электронные</asp:HyperLink>
+						        </li>
+                                <li>
+							        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Admin/EmbeddedDictionary.aspx">Вклееные</asp:HyperLink>
+						        </li>
+                            </ul>
+                        </li>
+                        <li>
+						    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="#">Коммерция</asp:HyperLink>
+						    <ul>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin/OrderManagement.aspx">Заказы</asp:HyperLink>
+				</li>
+			
+				<li>
+					<asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Admin/CustomerManagement.aspx">Покупатели</asp:HyperLink>
+				</li>
+				<li>
+					<asp:HyperLink ID="HyperLinkCoupons" runat="server" NavigateUrl="~/Admin/DiscountCoupons.aspx">Скидочные купоны</asp:HyperLink>
+				</li>
+                                <li>
+				      <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Admin/ImportData.aspx">Импорт данных</asp:HyperLink>
+				</li>
+				<li>
+					<asp:HyperLink ID="QiwiLink" runat="server" NavigateUrl="~/Admin/QiwiPayments.aspx">Платежи Qiwi</asp:HyperLink>
+				</li>
+				<li>
+					<asp:HyperLink ID="ZLogLink" runat="server" NavigateUrl="~/Admin/ZPaymentsLog.aspx">Платежи Z-Payments</asp:HyperLink>
+				</li>
+				<li>
+					<asp:HyperLink ID="WLogLink" runat="server" NavigateUrl="~/Admin/WooppayPaymentsLog.aspx">Платежи Wooppay</asp:HyperLink>
+				</li>
+				<li>
+					<asp:HyperLink ID="ELogLink" runat="server" NavigateUrl="~/Admin/EcomPaymentsLog.aspx">Платежи EcomCharge</asp:HyperLink>
+				</li>
+                            </ul>
+			</li>
+			<li>
+			    <asp:HyperLink ID="VideoManualsLink" runat="server" NavigateUrl="~/Admin/VideoManuals.aspx">Видео-инструкции</asp:HyperLink>
+			</li>
+		    </ul>
+		</div>
+                <div class="content">
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+                    </asp:ContentPlaceHolder>
+                    <div style="clear:both;"></div>
+                </div>				
+            </div>			
+        </div>
+    </div>	
+    </form>
+</body>
+</html>

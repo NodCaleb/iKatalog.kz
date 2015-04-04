@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel</title>
+    <link rel="Stylesheet" href="css/Carousel.css" />
+	<script src="js/jquery-1.7.js"></script>
+	<script src="js/jquery.carousel.min.js"></script>
+    <script>
+		 $(document).ready(function(){
+			$("a#aaa").click(function(event){
+			 event.preventDefault();
+			 $("img#im01").show("slow");
+		   });
+		 });
+    </script>
+	<script type="text/javascript">
+		$(function(){
+			$("div.foo").carousel({nextBtn:false, prevBtn:false, autoSlide: true, autoSlideInterval: 5000, animSpeed: "slow", effect:"scroll"});
+		});
+	</script>
+  </head>
+  <body>
+	<!--
+    <a href="http://jquery.com/">jQuery</a>
+	<a href="http://jquery.com/" id="aaa">jQuery_with_id</a>
+	<img src="images/binom.png" alt="" id="im01" class="sh" />
+	<img src="images/binom.png" alt="" id="im02" />
+    -->
+	<div class="foo">
+	  <div>
+	    <div>
+	      <a href="https://www.otto.de/damenmode/kategorien/schmuck/">
+		<img src="http://i1321.photobucket.com/albums/u551/Eugene_Rozhkov/valentineschmuck_zpsftgjrhfb.png" />
+	      </a>
+	    </div>
+	    <div>
+	      <a href="http://www.schwab.de/">
+		<img src="http://i1321.photobucket.com/albums/u551/Eugene_Rozhkov/schwab75_zpsteoyvtuw.png" />
+	      </a>
+	    </div>
+	    <div>
+	      <a href="http://www.albamoda.de/sale/damenmode-reduziert/sh8376077.html?lmPromo=la,2,hk,HP-06-live-15,fl,sh8376077">
+		<img src="http://i1321.photobucket.com/albums/u551/Eugene_Rozhkov/alba30_zps9mguvuke.png" />
+	      </a>
+	    </div>
+	    <div>
+	      <a href="http://www.peterhahn.de/reduzierte-damen-jacken-maentel">
+		<img src="http://i1321.photobucket.com/albums/u551/Eugene_Rozhkov/peterhann60_zpso6tqberb.png" />
+	      </a>
+	    </div>
+	    <div>
+	      <a href="http://www.kik.de/wasche-bademode/neuheiten/damen.html?et_cid=30&et_lid=56&et_sub=3_4_KW05_Damenw%C3%A4scheLP">
+		<img src="http://i1321.photobucket.com/albums/u551/Eugene_Rozhkov/kik_panties_zpspr0mqmzr.png" />
+	      </a>
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>

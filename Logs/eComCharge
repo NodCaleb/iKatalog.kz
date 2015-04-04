@@ -1,0 +1,103 @@
+15.12.2014 20:02:28 ==> Payment validated: 262977-73dd795788
+15.12.2014 20:02:28 ==> Payment committed: 262977-73dd795788
+15.12.2014 20:02:31 ==> Notification sent: 262977-73dd795788
+22.12.2014 12:16:47 ==> Payment validated: 267061-177578dcae
+22.12.2014 12:16:47 ==> Payment committed: 267061-177578dcae
+22.12.2014 12:16:50 ==> Notification sent: 267061-177578dcae
+23.12.2014 12:18:54 ==> Payment validated: 267685-b35aae0e84
+23.12.2014 12:18:54 ==> Payment committed: 267685-b35aae0e84
+23.12.2014 12:18:56 ==> Notification sent: 267685-b35aae0e84
+25.12.2014 8:45:48 ==> Payment validated: 268837-e2bfa5c875
+25.12.2014 8:45:48 ==> Payment committed: 268837-e2bfa5c875
+25.12.2014 8:45:48 ==> Payment validated: 268837-e2bfa5c875
+25.12.2014 8:45:48 ==> Payment committed: 268837-e2bfa5c875
+25.12.2014 8:45:51 ==> Notification sent: 268837-e2bfa5c875
+27.12.2014 7:34:43 ==> Payment validated: 269824-d6383dc6c2
+27.12.2014 7:34:43 ==> Payment committed: 269824-d6383dc6c2
+27.12.2014 7:34:46 ==> Notification sent: 269824-d6383dc6c2
+27.12.2014 8:22:16 ==> Notification sent: 269824-d6383dc6c2
+27.12.2014 9:53:45 ==> Notification sent: 269824-d6383dc6c2
+31.12.2014 12:46:32 ==> Payment validated: 272308-5bd7ce831c
+31.12.2014 12:46:32 ==> Payment committed: 272308-5bd7ce831c
+31.12.2014 12:46:35 ==> Notification sent: 272308-5bd7ce831c
+03.01.2015 14:57:25 ==> Payment validated: 274017-0dcc37acc8
+03.01.2015 14:57:25 ==> Payment committed: 274017-0dcc37acc8
+03.01.2015 14:57:30 ==> Notification sent: 274017-0dcc37acc8
+03.01.2015 15:01:40 ==> Notification sent: 274017-0dcc37acc8
+03.01.2015 15:01:50 ==> Notification sent: 274017-0dcc37acc8
+03.01.2015 15:22:34 ==> Notification sent: 274017-0dcc37acc8
+03.01.2015 15:24:43 ==> Notification needed: False
+03.01.2015 15:24:43 ==> Notification sent: 274017-0dcc37acc8
+03.01.2015 15:27:00 ==> Notification already sent: False for 274017-0dcc37acc8
+03.01.2015 15:27:00 ==> Notification sent: 274017-0dcc37acc8
+03.01.2015 15:48:35 ==> Notification sent for: 274017-0dcc37acc8
+03.01.2015 15:48:41 ==> Notification sent for: 274017-0dcc37acc8
+03.01.2015 15:49:24 ==> Notification sent for: 274017-0dcc37acc8
+03.01.2015 15:51:15 ==> Notification sent for: 274017-0dcc37acc8
+03.01.2015 15:51:17 ==> Notification has been already sent for: 274017-0dcc37acc8
+03.01.2015 15:55:32 ==> Payment validated: 274035-3edd08e6a6
+03.01.2015 15:55:32 ==> Payment committed: 274035-3edd08e6a6
+03.01.2015 15:55:35 ==> Notification sent for: 274035-3edd08e6a6
+03.01.2015 15:55:40 ==> Notification has been already sent for: 274035-3edd08e6a6
+03.01.2015 16:38:04 ==> Payment validated: 274001-6a87bcd7d2
+03.01.2015 16:38:04 ==> Payment committed: 274001-6a87bcd7d2
+03.01.2015 16:38:10 ==> Notification sent for: 274001-6a87bcd7d2
+05.01.2015 6:58:56 ==> Payment validated: 274917-fe9726648a
+05.01.2015 6:58:56 ==> Payment committed: 274917-fe9726648a
+05.01.2015 6:58:59 ==> Notification sent for: 274917-fe9726648a
+05.01.2015 6:59:06 ==> Notification has been already sent for: 274917-fe9726648a
+06.01.2015 13:43:54 ==> Payment validated: 275773-874a3bfbfd
+06.01.2015 13:43:54 ==> Payment committed: 275773-874a3bfbfd
+06.01.2015 13:43:56 ==> Notification sent for: 275773-874a3bfbfd
+15.02.2015 9:36:11 ==> Payment validated: 302000-d28daad7e6
+15.02.2015 9:36:11 ==> Payment committed: 302000-d28daad7e6
+15.02.2015 9:36:14 ==> Notification sent for: 302000-d28daad7e6
+16.02.2015 12:43:28 ==> Payment validated: 302720-af87e7790c
+16.02.2015 12:43:28 ==> Payment committed: 302720-af87e7790c
+16.02.2015 12:43:34 ==> Notification sent for: 302720-af87e7790c
+17.02.2015 9:58:31 ==> Payment validated: 303345-5fa1dde34f
+17.02.2015 9:58:31 ==> Payment committed: 303345-5fa1dde34f
+17.02.2015 9:58:34 ==> Notification sent for: 303345-5fa1dde34f
+04.03.2015 19:03:03 ==> Payment validated: 313988-4879350fd9
+04.03.2015 19:03:03 ==> Payment committed: 313988-4879350fd9
+04.03.2015 19:03:15 ==> Notification sent for: 313988-4879350fd9
+06.03.2015 10:36:48 ==> Payment validated: 315155-63804252a2
+06.03.2015 10:36:48 ==> Payment committed: 315155-63804252a2
+06.03.2015 10:36:51 ==> Notification sent for: 315155-63804252a2
+07.03.2015 10:10:46 ==> Payment validated: 315893-a3d386d62c
+07.03.2015 10:10:46 ==> Payment committed: 315893-a3d386d62c
+07.03.2015 10:10:49 ==> Notification sent for: 315893-a3d386d62c
+08.03.2015 12:20:03 ==> Payment validated: 316559-6b2385643c
+08.03.2015 12:20:03 ==> Payment committed: 316559-6b2385643c
+08.03.2015 12:20:06 ==> Notification sent for: 316559-6b2385643c
+08.03.2015 12:20:06 ==> Payment validated: 316559-6b2385643c
+08.03.2015 12:20:06 ==> Payment committed: 316559-6b2385643c
+08.03.2015 12:20:06 ==> Notification has been already sent for: 316559-6b2385643c
+09.03.2015 9:34:59 ==> Payment validated: 317066-2f290625f0
+09.03.2015 9:34:59 ==> Payment committed: 317066-2f290625f0
+09.03.2015 9:35:02 ==> Notification sent for: 317066-2f290625f0
+10.03.2015 11:02:24 ==> Payment validated: 317740-049040fb6f
+10.03.2015 11:02:24 ==> Payment committed: 317740-049040fb6f
+10.03.2015 11:02:27 ==> Notification sent for: 317740-049040fb6f
+13.03.2015 5:13:39 ==> Payment validated: 319645-3f84a1b943
+13.03.2015 5:13:40 ==> Payment committed: 319645-3f84a1b943
+13.03.2015 5:13:42 ==> Notification sent for: 319645-3f84a1b943
+17.03.2015 8:17:10 ==> Payment validated: 322368-1bf4bbdff9
+17.03.2015 8:17:10 ==> Payment committed: 322368-1bf4bbdff9
+17.03.2015 8:17:13 ==> Notification sent for: 322368-1bf4bbdff9
+17.03.2015 8:17:16 ==> Notification has been already sent for: 322368-1bf4bbdff9
+17.03.2015 12:10:55 ==> Payment validated: 322592-d400a01202
+17.03.2015 12:10:55 ==> Payment committed: 322592-d400a01202
+17.03.2015 12:10:58 ==> Notification sent for: 322592-d400a01202
+20.03.2015 15:26:10 ==> Payment validated: 324798-421a278157
+20.03.2015 15:26:10 ==> Payment committed: 324798-421a278157
+20.03.2015 15:26:14 ==> Notification sent for: 324798-421a278157
+27.03.2015 11:17:17 ==> Payment validated: 329384-ef5ab52370
+27.03.2015 11:17:17 ==> Payment committed: 329384-ef5ab52370
+27.03.2015 11:17:20 ==> Notification sent for: 329384-ef5ab52370
+27.03.2015 18:45:05 ==> Payment validated: 329603-7099262d6b
+27.03.2015 18:45:05 ==> Payment committed: 329603-7099262d6b
+27.03.2015 18:45:08 ==> Notification sent for: 329603-7099262d6b
+31.03.2015 11:47:54 ==> Payment validated: 332901-d73f26f702
+31.03.2015 11:47:54 ==> Payment committed: 332901-d73f26f702
+31.03.2015 11:47:57 ==> Notification sent for: 332901-d73f26f702
