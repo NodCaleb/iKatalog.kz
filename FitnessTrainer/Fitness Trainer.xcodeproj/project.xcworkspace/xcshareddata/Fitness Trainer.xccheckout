@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6064F390-8E56-4EF1-AB26-CE3F45EFB418</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fitness Trainer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6FCA12E3EAFB7928594B75B377093448D21B6BD</key>
+		<string>https://github.com/NodCaleb/Fitness-Trainer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fitness Trainer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6FCA12E3EAFB7928594B75B377093448D21B6BD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/NodCaleb/Fitness-Trainer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6FCA12E3EAFB7928594B75B377093448D21B6BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6FCA12E3EAFB7928594B75B377093448D21B6BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fitness%20Trainer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

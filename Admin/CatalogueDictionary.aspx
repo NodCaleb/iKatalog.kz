@@ -8,9 +8,9 @@
     <asp:SqlDataSource ID="CataloguesListSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>" SelectCommand="select Catalogue_id, CatalogueName from Catalogues order by CatalogueName"></asp:SqlDataSource>
     <asp:SqlDataSource ID="CatalogueDetailsSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>"
         DeleteCommand="DELETE FROM [Catalogues] WHERE [Catalogue_id] = @Catalogue_id"
-        InsertCommand="INSERT INTO [Catalogues] ([CatalogueName], [Link], [CatalogueDescription], [ImageLink], [Active], [SortOrder], [Men], [Women], [Chilrden], [Shoes], [Chubby], [Toys], [Sport], [Home], [Leather], [Makeup], [Bed], [Jems], [PriceIndex], [NoReturn], [MinPrice], [Weightfee], [ArticleRegularExpression], [ArticleComment], [OrderingRules], [VideoLink], NoFrame) VALUES (@CatalogueName, @Link, @CatalogueDescription, @ImageLink, @Active, @SortOrder, @Men, @Women, @Chilrden, @Shoes, @Chubby, @Toys, @Sport, @Home, @Leather, @Makeup, @Bed, @Jems, @PriceIndex, @NoReturn, @MinPrice, @WeightFee, @ArticleRegularExpression, @ArticleComment, @OrderingRules, @VideoLink, @NoFrame)"
-        SelectCommand="select Catalogue_id, CatalogueName, Link, ImageLink, CatalogueDescription, '~/Images/Logos/' +  ImageLink as [ImageView], Active, SortOrder, Men, Women, Chilrden, Shoes, Chubby, Toys, Sport, Home, Leather, Makeup, Bed, Jems, PriceIndex, NoReturn, MinPrice, WeightFee, ArticleRegularExpression, ArticleComment, OrderingRules, VideoLink, NoFrame from Catalogues WHERE ([Catalogue_id] = @Catalogue_id)"
-        UpdateCommand="UPDATE [Catalogues] SET [CatalogueName] = @CatalogueName, [Link] = @Link, [CatalogueDescription] = @CatalogueDescription, [ImageLink] = @ImageLink, [Active] = @Active,[SortOrder] = @SortOrder, [Men] = @Men, [Women] = @Women, [Chilrden] = @Chilrden, [Shoes] = @Shoes, [Chubby] = @Chubby, [Toys] = @Toys, [Sport] = @Sport, [Home] = @Home, [Leather] = @Leather, [Makeup] = @Makeup, [Bed] = @Bed, [Jems] = @Jems, [PriceIndex] = @PriceIndex, [NoReturn] = @NoReturn, [MinPrice] = @MinPrice, [WeightFee] = @WeightFee, [ArticleRegularExpression] = @ArticleRegularExpression, [ArticleComment] = @ArticleComment, [OrderingRules] = @OrderingRules, [VideoLink] = @VideoLink, NoFrame = @NoFrame WHERE [Catalogue_id] = @Catalogue_id"
+        InsertCommand="INSERT INTO [Catalogues] ([CatalogueName], [Link], [CatalogueDescription], [ImageLink], [Active], [SortOrder], [Men], [Women], [Chilrden], [Shoes], [Chubby], [Toys], [Sport], [Home], [Premium], [Makeup], [Economy], [Jems], [PriceIndex], [NoReturn], [MinPrice], [Weightfee], [ArticleRegularExpression], [ArticleComment], [OrderingRules], [VideoLink], NoFrame) VALUES (@CatalogueName, @Link, @CatalogueDescription, @ImageLink, @Active, @SortOrder, @Men, @Women, @Chilrden, @Shoes, @Chubby, @Toys, @Sport, @Home, @Premium, @Makeup, @Economy, @Jems, @PriceIndex, @NoReturn, @MinPrice, @WeightFee, @ArticleRegularExpression, @ArticleComment, @OrderingRules, @VideoLink, @NoFrame)"
+        SelectCommand="select Catalogue_id, CatalogueName, Link, ImageLink, CatalogueDescription, '~/Images/Logos/' +  ImageLink as [ImageView], Active, SortOrder, Men, Women, Chilrden, Shoes, Chubby, Toys, Sport, Home, Premium, Makeup, Economy, Jems, PriceIndex, NoReturn, MinPrice, WeightFee, ArticleRegularExpression, ArticleComment, OrderingRules, VideoLink, NoFrame from Catalogues WHERE ([Catalogue_id] = @Catalogue_id)"
+        UpdateCommand="UPDATE [Catalogues] SET [CatalogueName] = @CatalogueName, [Link] = @Link, [CatalogueDescription] = @CatalogueDescription, [ImageLink] = @ImageLink, [Active] = @Active,[SortOrder] = @SortOrder, [Men] = @Men, [Women] = @Women, [Chilrden] = @Chilrden, [Shoes] = @Shoes, [Chubby] = @Chubby, [Toys] = @Toys, [Sport] = @Sport, [Home] = @Home, [Premium] = @Premium, [Makeup] = @Makeup, [Economy] = @Economy, [Jems] = @Jems, [PriceIndex] = @PriceIndex, [NoReturn] = @NoReturn, [MinPrice] = @MinPrice, [WeightFee] = @WeightFee, [ArticleRegularExpression] = @ArticleRegularExpression, [ArticleComment] = @ArticleComment, [OrderingRules] = @OrderingRules, [VideoLink] = @VideoLink, NoFrame = @NoFrame WHERE [Catalogue_id] = @Catalogue_id"
         OnInserted="CatalogueDetailsSource_Inserted">
         <DeleteParameters>
             <asp:Parameter Name="Catalogue_id" Type="Int32" />
@@ -30,9 +30,9 @@
             <asp:Parameter Name="Toys" Type="Boolean" />
             <asp:Parameter Name="Sport" Type="Boolean" />
             <asp:Parameter Name="Home" Type="Boolean" />
-            <asp:Parameter Name="Leather" Type="Boolean" />
+            <asp:Parameter Name="Premium" Type="Boolean" />
             <asp:Parameter Name="Makeup" Type="Boolean" />
-            <asp:Parameter Name="Bed" Type="Boolean" />
+            <asp:Parameter Name="Economy" Type="Boolean" />
             <asp:Parameter Name="Jems" Type="Boolean" />
             <asp:Parameter Name="NoReturn" Type="Boolean" />
             <asp:Parameter Name="PriceIndex" Type="Decimal" />
@@ -61,9 +61,9 @@
             <asp:Parameter Name="Toys" Type="Boolean" />
             <asp:Parameter Name="Sport" Type="Boolean" />
             <asp:Parameter Name="Home" Type="Boolean" />
-            <asp:Parameter Name="Leather" Type="Boolean" />
+            <asp:Parameter Name="Premium" Type="Boolean" />
             <asp:Parameter Name="Makeup" Type="Boolean" />
-            <asp:Parameter Name="Bed" Type="Boolean" />
+            <asp:Parameter Name="Economy" Type="Boolean" />
             <asp:Parameter Name="Jems" Type="Boolean" />
             <asp:Parameter Name="NoReturn" Type="Boolean" />
             <asp:Parameter Name="PriceIndex" Type="Decimal" />
@@ -291,6 +291,28 @@
                         </InsertItemTemplate>
                         <ItemTemplate>
                             <asp:CheckBox ID="JemsCheckBox" runat="server" Checked='<%# Bind("Jems") %>' Enabled="false" />
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField HeaderText="Премиум" SortExpression="Premium">
+                        <EditItemTemplate>
+                            <asp:CheckBox ID="PremiumCheckBox" runat="server" Checked='<%# Bind("Premium") %>' />
+                        </EditItemTemplate>
+                        <InsertItemTemplate>
+                            <asp:CheckBox ID="PremiumCheckBox" runat="server" Checked='<%# Bind("Premium") %>' />
+                        </InsertItemTemplate>
+                        <ItemTemplate>
+                            <asp:CheckBox ID="PremiumCheckBox" runat="server" Checked='<%# Bind("Premium") %>' Enabled="false" />
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                    <asp:TemplateField HeaderText="Эконом" SortExpression="Economy">
+                        <EditItemTemplate>
+                            <asp:CheckBox ID="EconomyCheckBox" runat="server" Checked='<%# Bind("Economy") %>' />
+                        </EditItemTemplate>
+                        <InsertItemTemplate>
+                            <asp:CheckBox ID="EconomyCheckBox" runat="server" Checked='<%# Bind("Economy") %>' />
+                        </InsertItemTemplate>
+                        <ItemTemplate>
+                            <asp:CheckBox ID="EconomyCheckBox" runat="server" Checked='<%# Bind("Economy") %>' Enabled="false" />
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="Коэфициент наценки" SortExpression="PriceIndex">

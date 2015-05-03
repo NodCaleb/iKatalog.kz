@@ -84,6 +84,7 @@
 				PaymentsView as P
 			where
 				P.Customer_id = @Customer_id
+				and P.Committed = 1
 			order by
 				P.PaymentTime desc">
 		<SelectParameters>

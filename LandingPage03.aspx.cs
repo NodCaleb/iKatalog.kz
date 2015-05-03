@@ -33,7 +33,11 @@ public partial class About : System.Web.UI.Page
     
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (iKConnection.State.ToString() == "Closed") iKConnection.Open();
+        //int milliseconds = DateTime.Now.Millisecond;
+        //int reminder = milliseconds % 2;
+	//if (reminder == 1) Response.Redirect("~/LandingPage04.aspx");
+	
+	if (iKConnection.State.ToString() == "Closed") iKConnection.Open();
         //AskMultiView.ActiveViewIndex = 1;
         if (Request.QueryString["source"] != null)
         {

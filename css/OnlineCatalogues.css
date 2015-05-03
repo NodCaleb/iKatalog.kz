@@ -76,3 +76,14 @@ div.categoryBlock > p
 {
     padding-left: 6px;
 }
+a.catCTA
+{
+    font-size: small;
+    display: block;
+    margin: 5px 14px 5px 5px;
+    padding: 5px;
+    color: #CB0000;
+    background-color: #eda57d;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fcece3), to(#eda57d));
+    font-weight: bold;
+}

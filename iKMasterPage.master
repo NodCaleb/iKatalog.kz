@@ -96,6 +96,8 @@
 		<li><a>Каталоги</a>
 		    <ul>
 			<li><asp:HyperLink ID="WebCataloguesAllesLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=active">Все сразу</asp:HyperLink></li>
+			<li><asp:HyperLink ID="WebCataloguesPremiumLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=premium">Премиум</asp:HyperLink></li>
+			<li><asp:HyperLink ID="WebCataloguesEconomyLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=economy">Эконом</asp:HyperLink></li>
 			<li><asp:HyperLink ID="WebCataloguesMenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=men">Мужчинам</asp:HyperLink></li>
 			<li><asp:HyperLink ID="WebCataloguesWomenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=frau">Женщинам</asp:HyperLink></li>
 			<li><asp:HyperLink ID="WebCataloguesChildrenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=children">Детям</asp:HyperLink></li>
@@ -104,38 +106,14 @@
 			<li><asp:HyperLink ID="WebCataloguesSportLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=sport">Спорт</asp:HyperLink></li>
 			<li><asp:HyperLink ID="WebCataloguesMakeupLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=makeup">Парфюмерия и косметика</asp:HyperLink></li>
 			<li><asp:HyperLink ID="WebCataloguesSchmuckLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=jems">Ювелирные украшения</asp:HyperLink></li>
-			<li><u><asp:HyperLink ID="OffersLink" runat="server" NavigateUrl="~/UpsellOffers.aspx">Горячие предложения</asp:HyperLink></u></li>
-			<li><u><asp:HyperLink ID="DiscountsLink" runat="server" NavigateUrl="~/Discount.aspx">Скидки и акции</asp:HyperLink></u></li>
+			
 		    </ul>
 		</li>
-		<li><asp:HyperLink ID="NewsLink" runat="server" NavigateUrl="~/News.aspx">Новости</asp:HyperLink></li>
+		
+		
+		<li><asp:HyperLink ID="OffersLink" runat="server" NavigateUrl="~/UpsellOffers.aspx">Горячие предложения</asp:HyperLink></li>
+		<li><asp:HyperLink ID="DiscountsLink" runat="server" NavigateUrl="~/Discount.aspx">Скидки и акции</asp:HyperLink></li>
 		<li><asp:HyperLink ID="TestimonialsLink" runat="server" NavigateUrl="~/Testimonials.aspx">Отзывы</asp:HyperLink></li>
-		<li><a>Информация</a>
-		    <ul>
-			<li><asp:HyperLink ID="FAQLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=12">Вопросы и ответы по оформлению заказов</asp:HyperLink></li>
-			<li><asp:HyperLink ID="WoerteBuchLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=9">Словарик немецкого</asp:HyperLink></li>
-			<li><asp:HyperLink ID="GroessenLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=10">Размеры одежды</asp:HyperLink></li>
-			<li><asp:HyperLink ID="KleidungPfledgeSymboleLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=5">Символы ухода за одеждой</asp:HyperLink></li>
-			<li><asp:HyperLink ID="FigureTypesLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=6">Подбор одежды по типу фигуры</asp:HyperLink></li>
-			<li><asp:HyperLink ID="GoodsWeightLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=7">Примерный вес товаров</asp:HyperLink></li>
-			<li><asp:HyperLink ID="EuroChinaLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=18">Китай или Европа, где лучше заказывать и почему?</asp:HyperLink></li>
-			<li><asp:HyperLink ID="InetVsShopLink" runat="server" NavigateUrl="~/News.aspx?Article=89">Покупки в интернете или в обычном Торговом Центре?</asp:HyperLink></li>
-			<li><asp:HyperLink ID="FiveReasonsLink" runat="server" NavigateUrl="~/News.aspx?Article=90">5 причин почему выгоднее покупать в Германии, а не в Казахстане</asp:HyperLink></li>
-		    </ul>
-		</li>
-		<li><asp:HyperLink ID="HowtoOrderLink" runat="server" NavigateUrl="~/Infos/OrderingRules.aspx">Как заказать?</asp:HyperLink></li>
-		<li><asp:HyperLink ID="PaymentHelpLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=14">Оплата</asp:HyperLink></li>
-		<li><asp:HyperLink ID="DeliveryLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=15">Доставка</asp:HyperLink></li>
-		<li><asp:HyperLink ID="ReturnLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=16">Возврат</asp:HyperLink></li>
-		<li><a>О нас</a>
-		    <ul>
-			<li><asp:HyperLink ID="AboutLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=0">О компании</asp:HyperLink></li>
-			<li><asp:HyperLink ID="VertragLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=2">Публичная оферта</asp:HyperLink></li>
-			<li><asp:HyperLink ID="CrewLink" runat="server" NavigateUrl="~/Crew.aspx">Наша команда</asp:HyperLink></li>
-			<li><asp:HyperLink ID="ContactsLink" runat="server" NavigateUrl="~/Contacts.aspx">Контактная информация</asp:HyperLink></li>
-			<li><asp:HyperLink ID="AffilateLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=17">Партнерская программа</asp:HyperLink></li>
-		    </ul>
-		</li>
 	    </ul>
 	</div>
     </div>
@@ -144,8 +122,69 @@
 	</asp:ContentPlaceHolder>
 	<div style="clear:both;"></div>
     </div>
-    <div class="cellar">
+    <div class="cellar">	
 	<div class="innercellar">
+	    <div class="secondmenue">
+		<asp:SqlDataSource ID="NewsHeaderSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>"
+		    SelectCommand="select top 3 LEFT(N.Header, 60) + case when LEN(N.Header) > 60 then '...' else '' end as Header, '~/News.aspx?Article='+convert(nvarchar(5), N.id) as [URL] from news as N order by id desc"></asp:SqlDataSource>
+		<table border="0" cellpadding="10" cellspacing="0" width="100%">
+		    <tbody>
+			<tr>
+				<td><b><asp:HyperLink ID="AboutLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=0">О нас</asp:HyperLink></b></td>
+				<td><b><asp:HyperLink ID="InfoLinkBottom" runat="server" NavigateUrl="~/Infos/Information.aspx">Информация</asp:HyperLink></b></td>
+				<td><b><asp:HyperLink ID="NewsLinkBottom" runat="server" NavigateUrl="~/News.aspx">Новости</asp:HyperLink></b></td>
+				<td><b>Мы в социальных сетях</b></td>
+			</tr>
+			<tr>
+				<td>
+				    <ul>
+					<li><asp:HyperLink ID="VertragLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=2">Публичная оферта</asp:HyperLink></li>
+					<li><asp:HyperLink ID="CrewLinkBottom" runat="server" NavigateUrl="~/Crew.aspx">Наша команда</asp:HyperLink></li>
+					<li><asp:HyperLink ID="ContactsLinkBottom" runat="server" NavigateUrl="~/Contacts.aspx">Контактная информация</asp:HyperLink></li>
+					<li><asp:HyperLink ID="AffilateLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=17">Партнерская программа</asp:HyperLink></li>
+				    </ul>
+				</td>
+				<td>
+				    <ul>
+					<li><asp:HyperLink ID="FAQLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=12">Вопросы и ответы</asp:HyperLink></li>
+					<li><asp:HyperLink ID="WoerteBuchLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=9">Словарик немецкого</asp:HyperLink></li>
+					<li><asp:HyperLink ID="GroessenLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=10">Размеры одежды</asp:HyperLink></li>
+					<li><asp:HyperLink ID="GoodsWeightLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=7">Примерный вес товаров</asp:HyperLink></li>
+				    </ul>
+				</td>
+				<td>
+				    <asp:Repeater ID="NewsRepeater" runat="server" DataSourceID="NewsHeaderSource">
+					<HeaderTemplate>
+					    <ul>
+					</HeaderTemplate>
+					<ItemTemplate>
+					    <li>
+						<asp:HyperLink ID="NewsLink" runat="server" NavigateUrl='<%# Eval("URL") %>'>
+						    <asp:Label ID="NewsLabel" runat="server" Text='<%# Eval("Header") %>'></asp:Label>
+						</asp:HyperLink>
+					    </li>
+					</ItemTemplate>
+					<FooterTemplate>
+					    </ul>
+					</FooterTemplate>
+				    </asp:Repeater>
+				</td>
+				<td>
+				    <a href="https://www.facebook.com/goodsiKatalog" target="_blank"><img src="http://ikatalog.kz/Images/fb_logo.png" alt="Facebook" title="Facebook" /></a>
+				    <a href="http://ikatalog-kz.yvision.kz/" target="_blank"><img src="http://ikatalog.kz/Images/yv_logo.png" alt="Your Vision" title="Your Vision" /></a>
+				    <a href="https://instagram.com/ikataloggoods/" target="_blank"><img src="http://ikatalog.kz/Images/inst_logo.png" alt="Instagram" title="Instagram" /></a>
+				    <a href="http://vse.kz/topic/646836-zakazy-odezhdy-i-liubykh-tovarov-iz-evropy/" target="_blank"><img src="http://ikatalog.kz/Images/vse_logo.png" alt="Все вместе" title="Все вместе" /></a>
+				</td>
+			</tr>
+		    </tbody>
+		</table>
+	    </div>
+	</div>
+    </div>
+    <div class="cellar" style="display: none">
+	
+	<div class="innercellar">
+	    <a href="http://ikatalog.kz/StaticPages.aspx?Page=25">Ссылки</a>
 	    <img src="http://ikatalog.kz/images/cardlogo.png" alt="" />
 	    <!-- Yandex.Metrika informer -->
 	    <a href="https://metrika.yandex.ru/stat/?id=26407257&amp;from=informer"
@@ -170,6 +209,7 @@
 	(w[c] = w[c] || []).push(function() {
 	    try {
 		w.yaCounter26407257 = new Ya.Metrika({id:26407257,
+			webvisor:true,
 			clickmap:true,
 			trackLinks:true,
 			accurateTrackBounce:true});
@@ -259,6 +299,12 @@
 	    </asp:Panel>
 	</ContentTemplate>
     </asp:UpdatePanel>
+    <div class="floater">
+	<asp:HyperLink ID="BottomHowtoOrderLink" runat="server" NavigateUrl="~/Infos/OrderingRules.aspx">Как заказать?</asp:HyperLink>
+	<asp:HyperLink ID="BottomPaymentHelpLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=14">Оплата</asp:HyperLink>
+	<asp:HyperLink ID="BottomDeliveryLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=15">Доставка</asp:HyperLink>
+	<asp:HyperLink ID="BottomReturnLink" runat="server" NavigateUrl="~/StaticPages.aspx?Page=16">Возврат</asp:HyperLink>
+    </div>
     </form>
     <div ID="toTop"> ^ Наверх </div>
 </body>

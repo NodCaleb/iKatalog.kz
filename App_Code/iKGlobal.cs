@@ -74,6 +74,8 @@ namespace iKGlobal
 	{
 	    EnsureDatabaseConnection();
 	    
+	    CreateLog("Registering user: " + email + " " + name + " " + phone, "Register.txt");
+	    
 	    String RegisterUserString = "Ktrade_CreateUser";
 	    SqlCommand RegisterUser = new SqlCommand(RegisterUserString, iKConnection);
 	    
@@ -198,6 +200,19 @@ namespace iKGlobal
 	    NotifySeller.Body += "</trable>";
     
 	    //Сообщение для покупателя
+	    
+	    GetStandartMail.Parameters.Clear();
+	    GetStandartMail.Parameters.AddWithValue("id", 7);
+		    
+	    SqlDataReader MailReader = GetStandartMail.ExecuteReader();
+	    MailReader.Read();
+    
+	    string NotifyCustomerSubject = MailReader["Subject"].ToString();
+	    string NotifyCustomerBody = MailReader["Body"].ToString();
+		    
+	    MailReader.Close();    
+	    
+	    
 	    MailMessage NotifyCustomer = new MailMessage();
 	    NotifyCustomer.From = Admin;
 	    NotifyCustomer.To.Add(Customer);
@@ -206,27 +221,21 @@ namespace iKGlobal
 	    NotifyCustomer.IsBodyHtml = true;
 	    NotifyCustomer.BodyEncoding = System.Text.Encoding.UTF8;
 	    NotifyCustomer.SubjectEncoding = System.Text.Encoding.UTF8;
-	    NotifyCustomer.Subject = "Подтверждение регистрации на iKatalog.kz";
-	    NotifyCustomer.Body = "";
-	    NotifyCustomer.Body = "<p>Здравствуйте, " + FirstName + ", ";
-	    NotifyCustomer.Body += "ваша регистрация на <a href=\"http://ikatalog.kz\">iKatalog</a> подтверждена. </p>";
-	    NotifyCustomer.Body += "<p>Имя пользователя для входа в систему — ваш Email: " + Email + "<br />";
-	    NotifyCustomer.Body += "Пароль для входа в систему: " + Password + ", вы можете поменять его в <a href=\"http://ikatalog.kz/Customer/AccountInfo.aspx\">Личном кабинете на сайте</a><br />";
-	    //NotifyCustomer.Body += "Номер договора для оплаты через терминалы Qiwi: " + ContractNumber + "</p>";
-	    //NotifyCustomer.Body += "<p><b><small>Пожалуйста, не отвечайте на это письмо, робот читать не умеет!</small></b></p><p><small>Чтобы связаться с нами, пишите на <a href=\"mailto:sale@ikatalog.kz\">sale@ikatalog.kz</a>.</small></p>";
+	    NotifyCustomer.Subject = NotifyCustomerSubject;
+	    NotifyCustomer.Body = NotifyCustomerBody.Replace("%USER_NAME%", FirstName).Replace("%USER_MAIL%", Email).Replace("%USER_PASS%", Password);
     
 	    //И еще одно для покупателя
 	    
 	    GetStandartMail.Parameters.Clear();
 	    GetStandartMail.Parameters.AddWithValue("id", 0);
 		    
-	    SqlDataReader MailReader = GetStandartMail.ExecuteReader();
-	    MailReader.Read();
+	    SqlDataReader MailReader2 = GetStandartMail.ExecuteReader();
+	    MailReader2.Read();
     
-	    string ThankCustomerSubject = MailReader["Subject"].ToString();
-	    string ThankCustomerBody = MailReader["Body"].ToString();
+	    string ThankCustomerSubject = MailReader2["Subject"].ToString();
+	    string ThankCustomerBody = MailReader2["Body"].ToString();
 		    
-	    MailReader.Close();
+	    MailReader2.Close();
 	    
 	    MailMessage ThankCustomer = new MailMessage();
     
@@ -380,7 +389,7 @@ namespace iKGlobal
 	    }
 	    else
 	    {
-		return -1;
+		return -2;
 	    }
 	}
 	public string GetCustomerLoginByID(string C_ID)
@@ -434,6 +443,25 @@ namespace iKGlobal
 	    if (GetStandartMail.ExecuteScalar() != null)
 	    {
 		return GetStandartMail.ExecuteScalar().ToString();
+	    }
+	    else
+	    {
+		return "";
+	    }
+	}
+	public string GetPageContent(int page_id)
+	{
+	    EnsureDatabaseConnection();
+	    
+	    string GetPageContentString = "select Body from StaticPages where id = @id";
+	    SqlCommand GetPageContent = new SqlCommand(GetPageContentString, iKConnection);
+	    	    
+	    GetPageContent.Parameters.Clear();
+	    GetPageContent.Parameters.AddWithValue("id", page_id);
+	    
+	    if (GetPageContent.ExecuteScalar() != null)
+	    {
+		return GetPageContent.ExecuteScalar().ToString();
 	    }
 	    else
 	    {
@@ -648,6 +676,22 @@ namespace iKGlobal
 		    return Decimal.Parse(XrateLast.ExecuteScalar().ToString());
 		}
 	    }
+	}
+	public string getCustomerIdForUser(string User_id)
+	{
+	    EnsureDatabaseConnection();
+	    
+	    string UserQueryString = "select Customer_id from CustomerInfo where User_id = @User_id";
+	    SqlCommand UserInfo = new SqlCommand(UserQueryString, iKConnection);
+	    UserInfo.Parameters.Clear();
+	    UserInfo.Parameters.AddWithValue("User_id", User_id);
+	    
+	    if (UserInfo.ExecuteScalar() != null)
+	    {
+		return UserInfo.ExecuteScalar().ToString();
+	    }
+	    
+	    return "-1";
 	}
     }
 }

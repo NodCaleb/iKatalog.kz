@@ -9,6 +9,8 @@
 	<div class="categoryBlock">
 	    <h3>Категории</h3>
 	    <asp:LinkButton ID="alleButton" runat="server" Text="Все" OnClick="ChangeCategoryButton_Click" />
+	    <asp:LinkButton ID="premiumButton" runat="server" Text="Премиум" OnClick="ChangeCategoryButton_Click" />
+	    <asp:LinkButton ID="economyButton" runat="server" Text="Эконом" OnClick="ChangeCategoryButton_Click" />
 	    <asp:LinkButton ID="menButton" runat="server" Text="Мужчинам" OnClick="ChangeCategoryButton_Click" />
 	    <asp:LinkButton ID="frauButton" runat="server" Text="Женщинам" OnClick="ChangeCategoryButton_Click" />
 	    <asp:LinkButton ID="childrenButton" runat="server" Text="Детям" OnClick="ChangeCategoryButton_Click" />
@@ -48,10 +50,14 @@
                                     <td width='114px'>
 					<asp:HyperLink ID="CatalogueLink2" runat="server" Text='<%# Eval("CatalogueName") %>' NavigateUrl='<%# Eval("FrameViewNameUrl") %>' Target='<%# Eval("Target") %>' />
 				    </td>
-                                    <td><asp:Label ID="DescriptionLabel" runat="server" style="font-size: smaller; line-height: normal;" Text='<%# Eval("DescriptionWithNoFrames") %>'/></td>
-                                    <td width='110px' style="text-align: center"><asp:Label ID="IndexLabel" style="font-size: large" runat="server" Text='<%# Eval("PriceIndex") %>'/><br/><asp:Label ID="NoReturnLabel" style="font-size: smaller" runat="server" Text='<%# Eval("ShortNoReturnTitle") %>'/></td>
-				    <td><asp:HyperLink ID="NewTabCatalogueLink" runat="server" Text='' NavigateUrl='<%# Eval("Link") %>' Target='_blank'><asp:Image ID="LinkLogo" runat="server" ImageUrl='~/Images/ext_link.png' AlternateText="Logo" /></asp:HyperLink></td>
+                                    <td colspan="1" rowspan="2"><asp:Label ID="DescriptionLabel" runat="server" style="font-size: smaller; line-height: normal;" Text='<%# Eval("DescriptionWithNoFrames") %>'/></td>
+                                    <td width='110px' style="text-align: center" colspan="1"><asp:Label ID="IndexLabel" style="font-size: large" runat="server" Text='<%# Eval("PriceIndex") %>'/><br/><asp:Label ID="NoReturnLabel" style="font-size: smaller" runat="server" Text='<%# Eval("ShortNoReturnTitle") %>'/></td>
+				    <td colspan="1"><asp:HyperLink ID="NewTabCatalogueLink" runat="server" Text='' NavigateUrl='<%# Eval("Link") %>' Target='_blank'><asp:Image ID="LinkLogo" runat="server" ImageUrl='~/Images/ext_link.png' AlternateText="Logo" /></asp:HyperLink></td>
                                 </tr>
+				<tr  style="height:30px;">
+				    <td colspan="2" rowspan="1" style="border-top: 0;"><asp:HyperLink ID="CatalogueLink3" runat="server" Text="Перейти к выбору товара>>>" NavigateUrl='<%# Eval("FrameViewNameUrl") %>' Target='<%# Eval("Target") %>' class="catCTA" style="color:#CB0000;" /></td>
+				    <td colspan="2" rowspan="1" style="text-align: center; border-top: 0;" ><asp:HyperLink ID="HelpLink" runat="server" Text="Как заказать?" NavigateUrl='<%# Eval("HelpURL") %>' Target="_blank" style="color:#CB0000;" class="catCTA"/></td>
+				</tr>
                             </ItemTemplate>
                         </asp:Repeater>
                     </ContentTemplate>

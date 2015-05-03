@@ -11,7 +11,7 @@
                 O.Customer_id,
                 O.id as id,
                 case
-		    when O.Customer_id = -1 then MAX(OMD.CustomerFullName) + ' (б/р)'
+		    when O.Customer_id < 0 then MAX(OMD.CustomerFullName) + ' (б/р)'
 		    else MAX (C.FirstName) + ' ' + MAX (C.LastName)
 		    end as CustomerName,
                 MAX (O.CreationDate) as CreationDate,

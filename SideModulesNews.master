@@ -39,7 +39,7 @@
                 SelectCommand="	select top 15
 					Tag_id,
 					Tag + case when count (Tag_id) > 1 then ' (' + convert(nvarchar(10), count (Tag_id)) + ')' else '' end as TagName,
-					'http:\\ikatalog.kz\News.aspx?Tag=' + convert (nvarchar(10), Tag_id) as TagURL,
+					'http://ikatalog.kz/News.aspx?Tag=' + convert (nvarchar(10), Tag_id) as TagURL,
 					count (Tag_id) as TagCount
 				from
 					NewsTags as NT

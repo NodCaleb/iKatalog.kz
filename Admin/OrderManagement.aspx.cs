@@ -18,9 +18,9 @@ public partial class Admin_OrderManagement : System.Web.UI.Page
     public ClientScriptManager CSM;
     static string iKConnectionString = ConfigurationManager.ConnectionStrings["iKConnectionString"].ConnectionString;
     //static string QueryString = "select [Klient], [PVU-Card Nr.], [Katalog], [Art.Nr.], [Cena], [Nazwanie], [Razmer], [Zwet], [Primechanie] from OrderExportView where Order_id = @Order_id";
-    static string KtradeImportString = "select [Klient], [PVU-Card Nr.], [Katalog], [Art.Nr.], [Cena], [Nazwanie], [Razmer], [Zwet], [Primechanie], [URL], [DiscountValue] from KtradeExportView where Order_id = @Order_id";
-    static string KtradeImportStringTotal = "select [Klient], [PVU-Card Nr.], [Katalog], [Art.Nr.], [Cena], [Nazwanie], [Razmer], [Zwet], [Primechanie], [URL], [DiscountValue] from KtradeExportView";
-    static string KtradeImportStringNew = "select [Klient], [PVU-Card Nr.], [Katalog], [Art.Nr.], [Cena], [Nazwanie], [Razmer], [Zwet], [Primechanie], [URL], [DiscountValue] from KtradeExportView where OrderStatus = 1 and KtradeStatus_id = 1";
+    static string KtradeImportString = "select [Klient], [PVU-Card Nr.], [Katalog], [Art.Nr.], [Cena], [Nazwanie], [Razmer], [Zwet], [Primechanie], [URL], [DiscountValue], [SiteOrder] from KtradeExportView where Order_id = @Order_id";
+    static string KtradeImportStringTotal = "select [Klient], [PVU-Card Nr.], [Katalog], [Art.Nr.], [Cena], [Nazwanie], [Razmer], [Zwet], [Primechanie], [URL], [DiscountValue], [SiteOrder] from KtradeExportView";
+    static string KtradeImportStringNew = "select [Klient], [PVU-Card Nr.], [Katalog], [Art.Nr.], [Cena], [Nazwanie], [Razmer], [Zwet], [Primechanie], [URL], [DiscountValue], [SiteOrder] from KtradeExportView where OrderStatus = 1 and KtradeStatus_id = 1";
     static string OrderHeaderString = "select CustomerName, CustomerEmail, OrderStatus from OrderHeaders where Order_id = @Order_id";
     static string OrderTableString = "select CatalogueName, Article_id, ArticleName, Comment, Size, Colour, Price, LineStatus, KtradeStatus from OrderDetailsView where Order_id = @Order_id";
     static SqlConnection iKConnection = new SqlConnection(iKConnectionString);
@@ -69,13 +69,13 @@ public partial class Admin_OrderManagement : System.Web.UI.Page
             RowCounter.Close();
 
             string[] Content = new String[RowCount];
-            Content[0] = "Klient" + tab + "PVU-Card Nr" + tab + "Katalog" + tab + "Art Nr" + tab + "Cena" + tab + "Nazwanie" + tab + "Razmer" + tab + "Zwet" + tab + "Primechanie" + tab + "URL" + tab + "Discount";
+            Content[0] = "Klient" + tab + "PVU-Card Nr" + tab + "Katalog" + tab + "Art Nr" + tab + "Cena" + tab + "Nazwanie" + tab + "Razmer" + tab + "Zwet" + tab + "Primechanie" + tab + "URL" + tab + "Discount" + tab + "SiteOrder";
 
             SqlDataReader ExportReader = KtradeImport.ExecuteReader();
 
             while (ExportReader.Read())
             {
-                Content[RowNumber] = ExportReader[0].ToString() + tab + ExportReader[1].ToString() + tab + ExportReader[2].ToString() + tab + ExportReader[3].ToString() + tab + ExportReader[4].ToString() + tab + ExportReader[5].ToString() + tab + ExportReader[6].ToString() + tab + ExportReader[7].ToString() + tab + ExportReader[8].ToString() + tab + ExportReader[9].ToString() + tab + ExportReader[10].ToString();
+                Content[RowNumber] = ExportReader[0].ToString() + tab + ExportReader[1].ToString() + tab + ExportReader[2].ToString() + tab + ExportReader[3].ToString() + tab + ExportReader[4].ToString() + tab + ExportReader[5].ToString() + tab + ExportReader[6].ToString() + tab + ExportReader[7].ToString() + tab + ExportReader[8].ToString() + tab + ExportReader[9].ToString() + tab + ExportReader[10].ToString() + tab + ExportReader[11].ToString();
                 ++RowNumber;
             }
 
@@ -154,13 +154,13 @@ public partial class Admin_OrderManagement : System.Web.UI.Page
         RowCounter.Close();
 
         string[] Content = new String[RowCount];
-        Content[0] = "Klient" + tab + "PVU-Card Nr" + tab + "Katalog" + tab + "Art Nr" + tab + "Cena" + tab + "Nazwanie" + tab + "Razmer" + tab + "Zwet" + tab + "Primechanie" + tab + "URL" + tab + "Discount";
+        Content[0] = "Klient" + tab + "PVU-Card Nr" + tab + "Katalog" + tab + "Art Nr" + tab + "Cena" + tab + "Nazwanie" + tab + "Razmer" + tab + "Zwet" + tab + "Primechanie" + tab + "URL" + tab + "Discount" + tab + "SiteOrder";
 
         SqlDataReader ExportReader = KtradeImportTotal.ExecuteReader();
 
         while (ExportReader.Read())
         {
-            Content[RowNumber] = ExportReader[0].ToString() + tab + ExportReader[1].ToString() + tab + ExportReader[2].ToString() + tab + ExportReader[3].ToString() + tab + ExportReader[4].ToString() + tab + ExportReader[5].ToString() + tab + ExportReader[6].ToString() + tab + ExportReader[7].ToString() + tab + ExportReader[8].ToString() + tab + ExportReader[9].ToString() + tab + ExportReader[10].ToString();
+            Content[RowNumber] = ExportReader[0].ToString() + tab + ExportReader[1].ToString() + tab + ExportReader[2].ToString() + tab + ExportReader[3].ToString() + tab + ExportReader[4].ToString() + tab + ExportReader[5].ToString() + tab + ExportReader[6].ToString() + tab + ExportReader[7].ToString() + tab + ExportReader[8].ToString() + tab + ExportReader[9].ToString() + tab + ExportReader[10].ToString() + tab + ExportReader[11].ToString();
             ++RowNumber;
         }
 
@@ -191,13 +191,13 @@ public partial class Admin_OrderManagement : System.Web.UI.Page
         RowCounter.Close();
 
         string[] Content = new String[RowCount];
-        Content[0] = "Klient" + tab + "PVU-Card Nr" + tab + "Katalog" + tab + "Art Nr" + tab + "Cena" + tab + "Nazwanie" + tab + "Razmer" + tab + "Zwet" + tab + "Primechanie" + tab + "URL" + tab + "Discount";
+        Content[0] = "Klient" + tab + "PVU-Card Nr" + tab + "Katalog" + tab + "Art Nr" + tab + "Cena" + tab + "Nazwanie" + tab + "Razmer" + tab + "Zwet" + tab + "Primechanie" + tab + "URL" + tab + "Discount" + tab + "SiteOrder";
 
         SqlDataReader ExportReader = KtradeImportNew.ExecuteReader();
 
         while (ExportReader.Read())
         {
-            Content[RowNumber] = ExportReader[0].ToString() + tab + ExportReader[1].ToString() + tab + ExportReader[2].ToString() + tab + ExportReader[3].ToString() + tab + ExportReader[4].ToString() + tab + ExportReader[5].ToString() + tab + ExportReader[6].ToString() + tab + ExportReader[7].ToString() + tab + ExportReader[8].ToString() + tab + ExportReader[9].ToString() + tab + ExportReader[10].ToString();
+            Content[RowNumber] = ExportReader[0].ToString() + tab + ExportReader[1].ToString() + tab + ExportReader[2].ToString() + tab + ExportReader[3].ToString() + tab + ExportReader[4].ToString() + tab + ExportReader[5].ToString() + tab + ExportReader[6].ToString() + tab + ExportReader[7].ToString() + tab + ExportReader[8].ToString() + tab + ExportReader[9].ToString() + tab + ExportReader[10].ToString() + tab + ExportReader[11].ToString();
             ++RowNumber;
         }
 

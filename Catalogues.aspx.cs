@@ -51,6 +51,8 @@ public partial class Catalogues : System.Web.UI.Page
             case "sport": sportButton.Style["font-weight"] = "bold"; sportButton.Enabled = false; break;
             case "makeup": makeupButton.Style["font-weight"] = "bold"; makeupButton.Enabled = false; break;
             case "jems": jemsButton.Style["font-weight"] = "bold"; jemsButton.Enabled = false; break;
+            case "premium": premiumButton.Style["font-weight"] = "bold"; premiumButton.Enabled = false; break;
+            case "economy": economyButton.Style["font-weight"] = "bold"; economyButton.Enabled = false; break;
             default: alleButton.Style["font-weight"] = "bold"; break;
         }       
     }
@@ -66,6 +68,8 @@ public partial class Catalogues : System.Web.UI.Page
             case "sport": return " (спорт) ";            
             case "makeup": return " (косметика) ";
             case "jems": return " (ювелирные изделия) ";
+            case "premium": return " (премиум) ";
+            case "economy": return " (эконом) ";
             default: return "";
         }
     }
@@ -84,6 +88,8 @@ public partial class Catalogues : System.Web.UI.Page
             case "chubby": return "frau"; break;
             case "toys": return "children"; break;
             case "bed": return "home"; break;
+            case "premium": return "premium"; break;
+            case "economy": return "economy"; break;
             default: return "active"; break;
         }
     }

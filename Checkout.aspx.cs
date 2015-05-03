@@ -150,7 +150,7 @@ public partial class Customer_NewOrder : System.Web.UI.Page
 	    Email = EmailTextBox.Text;
 	    Phone = PhoneTextBox.Text;
 	}
-	
+		
 	if (AuthList.SelectedIndex == 0 && Membership.GetUser() == null)
 	{
 	    if (iClass.CheckEmailExistence(Email))
@@ -186,7 +186,8 @@ public partial class Customer_NewOrder : System.Web.UI.Page
 	ArrangeOrder.CommandType = CommandType.StoredProcedure;
 	
 	SqlParameter Customer = new SqlParameter("@Customer_id", SqlDbType.Int);
-	if (Membership.GetUser() != null) Customer.Value = Session["Customer"].ToString();
+	//if (Membership.GetUser() != null) Customer.Value = Session["Customer"].ToString();
+	if (Membership.GetUser() != null) Customer.Value = iClass.getCustomerIdForUser(Membership.GetUser().ProviderUserKey.ToString());
 	else Customer.Value = iClass.GetCustomerIDByLogin(Email);
 	Customer.Direction = ParameterDirection.Input;
 	ArrangeOrder.Parameters.Add(Customer);
@@ -199,8 +200,12 @@ public partial class Customer_NewOrder : System.Web.UI.Page
 	SqlParameter Order = new SqlParameter("@Order_id", SqlDbType.Int);
 	Order.Direction = ParameterDirection.Output;
 	ArrangeOrder.Parameters.Add(Order);
+	
+	iClass.CreateLog("Order is ready to be arranged for Customer: " + Customer.Value.ToString() + ", on session: " + SessionID.Value.ToString(), "Checkout.txt");
 
-	ArrangeOrder.ExecuteNonQuery();	
+	ArrangeOrder.ExecuteNonQuery();
+	
+	iClass.CreateLog("Order #: " + Order.Value.ToString() + " has been arranged", "Checkout.txt");
 	
 	if (DeliveryList.SelectedIndex == 1) Address = AddressTextBox.Text;
 	
@@ -592,6 +597,8 @@ public partial class Customer_NewOrder : System.Web.UI.Page
 	    ArticleExpressionValidator.ValidationExpression = TermsReader["ArticleRegularExpression"].ToString();
 	    ArticleExpressionValidator.ErrorMessage = TermsReader["ArticleComment"].ToString();
 	    MinPrice = Decimal.Parse(TermsReader["MinPrice"].ToString());
+	    HelpLink.NavigateUrl = TermsReader["HelpURL"].ToString();
+	    HelpLink.Text = "Как заказать?";
 	}
 	
 	TermsReader.Close();
@@ -633,7 +640,7 @@ public partial class Customer_NewOrder : System.Web.UI.Page
 	    {
 		AddItem.Parameters.AddWithValue("Customer_id", -1);
 	    }
-	    AddItem.Parameters.AddWithValue("Comment", "");
+	    AddItem.Parameters.AddWithValue("Comment", URLInput.Text);
 	    AddItem.Parameters.AddWithValue("Session_id", HttpContext.Current.Session.SessionID.ToString());
 	    
 	    AddItem.ExecuteNonQuery();

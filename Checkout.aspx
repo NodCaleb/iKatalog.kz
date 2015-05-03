@@ -79,8 +79,9 @@
 	<asp:TextBox ID="PriceInput" runat="server" placeholder="Цена"></asp:TextBox>
 	<asp:TextBox ID="SizeInput" runat="server" placeholder="Размер"></asp:TextBox>
 	<asp:TextBox ID="ColorInput" runat="server" placeholder="Цвет"></asp:TextBox>
+	<asp:TextBox ID="URLInput" style="width: 741px;" runat="server" placeholder="Ссылка на товар"></asp:TextBox>
 	<asp:Button ID="AddItemButton" runat="server" Text="В корзину >" OnClick="AddItemButton_Click" ValidationGroup="OrderPositionValidationGroup" style="width:100px; font-size: medium; margin: 0;" />
-	<asp:Label ID="TermsLabel" runat="server" Text=''></asp:Label>
+	<br/><asp:Label ID="TermsLabel" runat="server" Text=''></asp:Label>&nbsp;<asp:HyperLink ID="HelpLink" runat="server" Text='' NavigateUrl='' Target="_blank" />
 	
 	<asp:CustomValidator ID="CatalogueValidator" runat="server" ControlToValidate="CatalogueList" Display="None" ErrorMessage="Не выбран каталог." ValidationGroup="OrderPositionValidationGroup">*</asp:CustomValidator>
 	<asp:RequiredFieldValidator ID="ArticleRequiredValidator" runat="server" ErrorMessage="Не заполнен артикул." Display="None" ValidationGroup="OrderPositionValidationGroup" ControlToValidate="Article_idInput"></asp:RequiredFieldValidator>

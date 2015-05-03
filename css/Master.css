@@ -62,7 +62,7 @@ div.content
 div.cellar
 {
 	width: 100%;
-	height: 100px;
+	min-height: height: 100px;
 	background-color: #98505f;
 	margin-top: 12px;
 }
@@ -176,7 +176,7 @@ div.title-holder > h2
 div.category, div.category-2
 {
 	width: 150px;
-	height: 60px;
+	height: 46px;
 	margin: 12px 12px 0px 0px;
 	box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
 	font-size: 1.125em;
@@ -190,7 +190,7 @@ div.category, div.category-2
 div.category > div, div.category-2 > div
 {
 	width: 150px;
-	height: 60px;
+	height: 46px;
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
@@ -405,6 +405,7 @@ div.background
     background-color: #FFFFFF;
     box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
     padding: 12px;
+    overflow: hidden;
 }
 div.widebackground
 {
@@ -414,16 +415,91 @@ div.widebackground
 	width: 960px;
 	margin-top: 12px;
 }
+
+/* нижее меню */
+
+div.secondmenue
+{
+	width: 960px;
+	--margin: 12px 0px 0px 0px;
+	padding: 1px 12px 1px 12px;
+	padding-bottom: 40px;
+	--background-color: #84182f;
+	--box-shadow: 5px 5px 6px rgba(0,0,0,0.3);
+	color: #FFFFFF;
+}
+div.secondmenue > table >tbody > tr > td
+{
+	width: 25%;
+	vertical-align: top;
+	text-align: left;
+}
+div.secondmenue > table >tbody > tr + tr > td
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+div.secondmenue > table >tbody > tr > td > ul
+{
+	padding-left: 0px;
+	list-style: none;
+	margin-top: 0px;
+}
+div.secondmenue > table >tbody > tr > td > ul > li
+{
+	margin-bottom: 15px;
+}
+div.secondmenue > table >tbody > tr > td > ul > li > a
+{
+	color: #fff;
+	font-size: 0.9em;
+}
+div.secondmenue > table >tbody > tr + tr > td > a > img
+{
+	height: 40px;
+	margin: 10px;
+}
+div.secondmenue > table >tbody > tr > td > b > a
+{
+	color: #fff;
+}
+/* плашечка внизу экранчика, мать ее за ногу */
+
+div.floater
+{
+	width: 100%;
+	height: 14px;
+	background-color: #84182f;
+	--font-weight: bold;
+	font-size: 1.125em;
+	color: #FFFFFF;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align: center;
+	padding: 10px;
+}
+div.floater > a
+{
+	color: #fff;
+	margin: 10px;
+	top: -6px;
+	position: relative;
+}
+
+
+/* кнопочка наверх */
+
 #toTop
 {
 	width:75px;
 	--border:1px solid #ccc;
 	background:#ED9E7C;
 	text-align:center;
-	padding:5px;
+	padding:3px;
 	position:fixed;
-	bottom:10px; /* отступ кнопки от нижнего края страницы*/
-	left:10px;
+	bottom:7px; /* отступ кнопки от нижнего края страницы*/
+	left:7px;
 	cursor:pointer;
 	display:none;
 	color:#8E3D1A;

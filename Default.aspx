@@ -47,25 +47,34 @@
 		    MAX (OI.id) desc">
     </asp:SqlDataSource>
     <div class="banner">
-	<iframe src="Carousel03.html" scrolling="no" width="636" height="321"></iframe>
+	<iframe src="Carousel01.aspx" scrolling="no" width="636" height="321"></iframe>
     </div>
     <div class="category-holder">
-	<div class="title-holder">
+	<div class="title-holder" style="height:26px">
 	    <h2>Категории товаров</h2>
 	</div>
+	<asp:HyperLink ID="WebCataloguesPremiumLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=premium"><div class="category"><div>Премиум</div></div></asp:HyperLink>
+	<asp:HyperLink ID="WebCataloguesEconomyLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=economy"><div class="category-2"><div>Эконом</div></div></asp:HyperLink>
 	<asp:HyperLink ID="WebCataloguesMenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=men"><div class="category"><div>Мужчинам</div></div></asp:HyperLink>
 	<asp:HyperLink ID="WebCataloguesWomenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=frau"><div class="category-2"><div>Женщинам</div></div></asp:HyperLink>
 	<asp:HyperLink ID="WebCataloguesChildrenLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=children"><div class="category"><div>Детям</div></div></asp:HyperLink>
 	<asp:HyperLink ID="WebCataloguesShoesLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=shoes"><div class="category-2"><div>Обувь</div></div></asp:HyperLink>
 	<asp:HyperLink ID="WebCataloguesHomeLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=home"><div class="category"><div>Дом</div></div></asp:HyperLink>
 	<asp:HyperLink ID="WebCataloguesSportLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=sport"><div class="category-2"><div>Спорт</div></div></asp:HyperLink>
-	<asp:HyperLink ID="WebCataloguesMakeupLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=makeup"><div class="category"><div>Парфюмерия и косметика</div></div></asp:HyperLink>
-	<asp:HyperLink ID="WebCataloguesSchmuckLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=jems"><div class="category-2"><div>Ювелирные украшения</div></div></asp:HyperLink>
+	<asp:HyperLink ID="WebCataloguesMakeupLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=makeup"><div class="category"><div>Косметика</div></div></asp:HyperLink>
+	<asp:HyperLink ID="WebCataloguesSchmuckLink" runat="server" NavigateUrl="~/Catalogues.aspx?Tag=jems"><div class="category-2"><div>Украшения</div></div></asp:HyperLink>
     </div>
     <div style="clear: both"></div>
     <div class="text-holder">
-	<p>Компания Ikatalog (Айкаталог), предлагает сервис по заказу женской, мужской, детской одежды, обуви и других товаров из Европы. Быстрая и недорогая доставка на дом, в любой город Казахстана, безопасно и быстро!</p>
-	<p>Ваши заказы не облагаются налогами и пошлинами, так как приобретаются для личного пользования, поэтому цена будет существенно ниже цен в розницу, до 50%!</p>
+	<p>Покупайте в популярных интернет-магазинах Германии, используя наш бесплатный склад в Ганновере для пересылки в Казахстан!</p>
+	<p>Используя доставку iKatalog, Вы получаете:</p>
+	<ul>
+		<li>Гарантию безопасности — мы исключаем риски при переводах денег за границу и гарантируем выполнение заказа, или возврат оплаты!</li>
+		<li>Выгодные цены — Ваши заказы не облагаются налогами и пошлинами, так как приобретаются для личного пользования!</li>
+		<li>Выгодные условия покупки — нам достаточно частичной предоплаты, для запуска заказа в работу!</li>
+		<li>Высокое качество и скорость обслуживания — от получения нами заказа и до передачи его Вам проходит от 1,5 недель!</li>
+		<li>Мы всегда рядом — позвоните или напишите нам в любой момент, без трудностей с иностранными языками!</li>
+	</ul>
     </div>
     <div class="title-holder">
 	<h2>Горячие предложения</h2>
@@ -101,17 +110,7 @@
 		</tr>
 	    </tbody>
 	</table>
-    </div>
-    <div class="likebox">
-	<div class="fb-like-box" data-href="https://www.facebook.com/goodsiKatalog" data-width="474" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
-    </div>
-    <div class="likebox">
-	<!-- VK Widget -->
-	<div id="vk_groups"></div>
-	<script type="text/javascript">
-	VK.Widgets.Group("vk_groups", {mode: 0, width: "474", height: "271", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 78423724);
-	</script>
-    </div>
+    </div>    
     <div style="clear: both"></div>
     <div class="title-holder">
 	<h2>Горячие предложения</h2>
@@ -131,6 +130,41 @@
 	    </div>
 	</ItemTemplate>
     </asp:Repeater>
+    <div style="clear: both"></div>
+    <div class="text-holder">
+	<table border="0" cellpadding="5" cellspacing="0" width="100%">
+	    <tbody>
+		<tr>
+		    <td style="width: 33%; text-align:center; padding-top: 20px;"><img alt="" src="http://ikatalog.kz/images/Lan1_3.png" /></td>
+		    <td style="width: 33%; text-align:center; padding-top: 20px;"><img alt="" src="http://ikatalog.kz/images/Lan1_2.png" /></td>
+		    <td style="width: 33%; text-align:center; padding-top: 20px;"><img alt="" src="http://ikatalog.kz/images/Lan1_1.png" /></td>
+		</tr>
+		<tr>
+		    <td style="vertical-align: top;">
+			<center><h4 style="margin:0px;">Как это работает?</h4></center>
+			<p>Вы делаете частичную предоплату;<br />
+			Наши менеджеры оплачивают ваши заказы в интернет магазинах;<br />
+			Мы получаем ваши покупки на наш склад в Германии;<br />
+			Консолидируем и формируем отправку посылки в Алматы;<br />
+			По получении взвешиваем ваши покупки, сообщаем вам остаток к оплате за товар и сумму за доставку;<br />
+			Вы завершаете оплату и забираете бесплатно заказ с нашего склада в Алматы, либо выбираете другой вид доставки в любой город Казахстана.</p>
+		    </td>
+		    <td style="vertical-align: top;">
+			<center><h4 style="margin:0px;">Доставка</h4></center>
+			<p>После получения заказов из Германии на нашем складе, мы осуществляем &nbsp;курьерскую и экспресс доставку в любой город Казахстана: Алматы, Астану, Актобе, Актау, Атырау, Уральск, Петропавловск, Усть - Каменогорск, Шымкент, Тараз, Караганду, Темиртау, Павлодар. Так же доступен бесплатный самовывоз с нашего склада в Алматы.</p>
+		    </td>
+		    <td style="vertical-align: top;">
+			<center><h4 style="margin:0px;">Оплата</h4></center>
+			<p>Оплачивайте банковским переводом на карту KKB, с банковской карты Visa/Mastercard на нашем сайте, через терминалы Qiwi - в любом городе Казахстана, наличными в г. Алматы.<br />
+			Для запуска заказа нам достаточно лишь небольшой предоплаты!<br />
+			Если вы хотите сделать возврат, у вас есть &nbsp;для этого 365 дней!*</p>
+
+			<p>*Только для интернет магазинов, осуществляющих прием возвратов.</p>
+		    </td>
+		</tr>
+	    </tbody>
+	</table>
+    </div>
     <div style="clear: both"></div>
 </asp:Content>
 

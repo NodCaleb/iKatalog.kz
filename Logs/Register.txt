@@ -1,0 +1,61 @@
+13.04.2015 16:24:46 ==> Registering user: jine@landmail.co select * from orders +37253518866
+14.04.2015 8:12:40 ==> Registering user: korolyova_l@mail.ru Лилия Королева +77019845825
+14.04.2015 8:25:12 ==> Registering user: lyudamila_89@mail.ru Людмила мартынова +77076442427
+14.04.2015 9:56:56 ==> Registering user: elena_ru2010@mail.ru Рубцова Елена 7055044838
+14.04.2015 11:28:51 ==> Registering user: gabit.-80@mail.ru Толганай Асетова 87026188202
+14.04.2015 11:58:09 ==> Registering user: 68_gul@mail.ru Гульжиян Каденова +77788988575
+14.04.2015 13:03:14 ==> Registering user: svetlanushka89@bk.ru Кравец Светлана 87053355039
+15.04.2015 10:00:40 ==> Registering user: larisatufanova@mail.ru Лариса 87014140716
+15.04.2015 10:51:17 ==> Registering user: leila.74@inbox.ru Leila 87012523264
+15.04.2015 12:43:40 ==> Registering user: bozaevas@mail.ru Сауле Бозаева 87772675722
+15.04.2015 18:16:23 ==> Registering user: togzhan_23@mail.ru Тогжан  Балбосынова 87015377730
+16.04.2015 9:02:24 ==> Registering user: emrah@bk.ru Татьяна 87022579367
+16.04.2015 12:30:23 ==> Registering user: yekaterina.astrakhantseva@gmail.com Екатерина Астраханцева 87019539059
+16.04.2015 13:23:16 ==> Registering user: fako.92@mail.ru Фариза Кожахметова 87757009360
+16.04.2015 13:28:32 ==> Registering user: jine@landmail.co Test landmail +37253518866
+16.04.2015 13:31:00 ==> Registering user: jine@landmail.co Test landmail +37253518866
+16.04.2015 15:14:47 ==> Registering user: tvoya2393@mail.ru Ломаева Наталья 87058119782
+16.04.2015 16:36:39 ==> Registering user: mr_miss.ostryakovi@mail.ru Елена Острякова +77776537616
+17.04.2015 3:59:51 ==> Registering user: gyeremina77@yandex.kz Галина 87015436259
+17.04.2015 8:23:09 ==> Registering user: naska_rakova@mail.ru Анастасия Бейсекенова +77779856958
+17.04.2015 9:18:06 ==> Registering user: samal_marat@mail.ru Мырзагельдина 87077887618
+17.04.2015 11:18:26 ==> Registering user: gulbarshin_79@mail.ru Гульбаршын Бабакулова 87017863900
+18.04.2015 5:28:55 ==> Registering user: moldir_1992@mail.ru Молдир Шайзатова 87786855484
+18.04.2015 15:15:25 ==> Registering user: benazir_b@bk.ru Беназир Бегимтаева +77012228043
+18.04.2015 16:10:26 ==> Registering user: nadezhda_aktau@mail.ru Надежда 87076141276
+19.04.2015 14:53:01 ==> Registering user: rodion02102010@gmail.com Алёна 87021969946
+20.04.2015 8:15:43 ==> Registering user: sema200250@gmail.com Ярослав Семков +77025055681
+20.04.2015 8:44:41 ==> Registering user: gulzhanmanan1985@gmail.com Капарова 87074663265
+20.04.2015 9:02:37 ==> Registering user: aymanmukhtar@mail.ru Aiman Mukhtar 7082232230
+21.04.2015 9:56:14 ==> Registering user: lhanapina@mail.ru Лязат 87017256602
+21.04.2015 12:03:54 ==> Registering user: aziza_z90@mail.ru Азиза Ахметжанова +77775743426
+21.04.2015 17:12:18 ==> Registering user: 210681-08@mail.ru Гульнара Акаласова +77019072499
+21.04.2015 20:20:42 ==> Registering user: finn1982@inbox.ru наталья 87051198595
+22.04.2015 6:38:14 ==> Registering user: aigulazamat@gmail.com Cатпаева Айгуль 87071821256
+22.04.2015 9:12:57 ==> Registering user: vvv.asel@bk.ru Асель +77015504132
+22.04.2015 11:11:03 ==> Registering user: lmb1990@mail.ru Маржан 87477775383
+22.04.2015 11:23:53 ==> Registering user: leolga_77@mail.ru ольга 87015269330
+22.04.2015 11:54:46 ==> Registering user: almashka_087@mail.ru Alma Duisebayeva 7023989414
+22.04.2015 11:56:35 ==> Registering user: nadezhda@naveq.kz Надежда Дувлатбаева +77017661114
+22.04.2015 19:12:49 ==> Registering user: diyora@mail.ru Диера 87053949750
+22.04.2015 19:13:07 ==> Registering user: di@mail.ru Диера 87053949759
+23.04.2015 6:41:16 ==> Registering user: vini.nazarova@mail.ru Венера Назарова 87758588807
+23.04.2015 10:30:23 ==> Registering user: yessos@inbox.ru Салтанат Есалиева 87073087202
+23.04.2015 13:12:28 ==> Registering user: toleukhanova.aliya@gmail.com Алия Толеуханова 87012357938
+23.04.2015 17:27:10 ==> Registering user: zhuldyz.1982@bk.ru жулдыз ешманова 87761313000
+24.04.2015 8:43:21 ==> Registering user: m.aikosh@mail.ru Айгерим Мустафина 87477008782
+27.04.2015 12:42:07 ==> Registering user: irokya@mail.ru Ирина Яроцкая +77013555751
+28.04.2015 6:26:44 ==> Registering user: mamimo12@rambler.ru Мария Малыгина 87773547645
+28.04.2015 14:44:34 ==> Registering user: aiman78.78@mail.ru Айман Оспанова 87051414256
+29.04.2015 8:44:17 ==> Registering user: madiko1989@mail.ru Мадина 87015160473
+29.04.2015 17:07:03 ==> Registering user: indok@mail.ru Индира 87014484844
+29.04.2015 18:02:27 ==> Registering user: evgewa_2010@mail.ru Евгения Магомедова 87772757405
+30.04.2015 5:12:00 ==> Registering user: veronika_0914@mail.ru Вероника Клименко 87054053040
+30.04.2015 13:02:57 ==> Registering user: music_style35@list.ru Ольга Данченко 87771130777
+30.04.2015 13:27:00 ==> Registering user: shirin-98@mail.ru Ануарбек 87025420703
+30.04.2015 13:27:22 ==> Registering user: shirin-1998@mail.ru Ануарбек 87025420703
+30.04.2015 14:30:12 ==> Registering user: sanim84@mail.ru Исина Саним 87772675957
+01.05.2015 11:16:48 ==> Registering user: aigera03.93@mail.ru Shalabayeva 87713109493
+01.05.2015 18:19:59 ==> Registering user: s.khvan92@gmail.com Светлана 87085111213
+02.05.2015 7:26:58 ==> Registering user: inessa.aleks.3003@gmail.com Инесса Милютина 87019771171
+02.05.2015 9:15:57 ==> Registering user: mira_ashat@mail.ru Садыкова +77021099724
