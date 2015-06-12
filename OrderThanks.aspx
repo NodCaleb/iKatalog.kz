@@ -6,8 +6,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div class="background">
-	<h1>Спасибо</h1>
-	<p>Благодарим вас за заказ, ознакомьтесь, пожалуйста с нашими горячими предложениям. Вы можете прямо отсюда добавить в заказ то, что вас заинтересует, нажав на кнопку Открыть:</p>
+        <asp:Label ID="PageContentLabel" runat="server" Text=""></asp:Label>
     </div>
     <asp:UpdatePanel ID="UpsellOffersUpdatePanel" runat="server" UpdateMode="Conditional">
 	<ContentTemplate>

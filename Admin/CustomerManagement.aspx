@@ -131,6 +131,7 @@
     </asp:UpdatePanel>
     <p>
         <asp:ImageButton ID="ExportCustomersButton" runat="server" ImageUrl="~/Images/Buttons/Export.png" Title="Экспорт для Unisender" onclick="ExportCustomersButton_Click" />
+        <asp:Button onclick="DoNotPress" Text="Не нажимать" runat="server" />
     </p>
 </asp:Content>
 

@@ -150,6 +150,8 @@ public partial class Customer_NewOrder : System.Web.UI.Page
 	    Email = EmailTextBox.Text;
 	    Phone = PhoneTextBox.Text;
 	}
+	
+	bool newCustomer = false;
 		
 	if (AuthList.SelectedIndex == 0 && Membership.GetUser() == null)
 	{
@@ -170,6 +172,7 @@ public partial class Customer_NewOrder : System.Web.UI.Page
 		if (iClass.RegisterCustomerLite(Email, Name, Phone))
 		{
 		    iClass.SendRegisterNotifcations(Email, Name, Phone);
+		    newCustomer = true;
 		}
 		else
 		{
@@ -239,6 +242,16 @@ public partial class Customer_NewOrder : System.Web.UI.Page
 
 	//if (PaymentList.SelectedIndex == 2) Response.Redirect("~/Customer/PaymentCardAutomated.aspx?ammount=" + GetOrderAmmountPayment(Order.Value.ToString()));
 	if (PaymentList.SelectedIndex == 2) Response.Redirect("~/Customer/PaymentCardAutomated.aspx?ammount=" + PaymentOptionsList.SelectedValue.ToString() + "&order=" + Order.Value.ToString());
+	else if (newCustomer)
+	{
+		
+		FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(Email.ToString(), true, 30);
+		string encTicket = FormsAuthentication.Encrypt(ticket);
+
+		Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName, encTicket));
+
+		Response.Redirect("~/OrderThanks.aspx?customer=" + Email.ToString());
+	}
 	else Response.Redirect("~/OrderThanks.aspx");
     }
     public void SendNotifications(string Order_id, string Address, int PaymentMethod)

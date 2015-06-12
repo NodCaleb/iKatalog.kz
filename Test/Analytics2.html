@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FlyStat — making main page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Blue Moon - Responsive Admin Dashboard" />
+    <meta name="keywords" content="Notifications, Admin, Dashboard, Bootstrap3, Sass, transform, CSS3, HTML5, Web design, UI Design, Responsive Dashboard, Responsive Admin, Admin Theme, Best Admin UI, Bootstrap Theme, Wrapbootstrap, Bootstrap, bootstrap.gallery" />
+    <meta name="author" content="Bootstrap Gallery" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/new.css" rel="stylesheet"> 
+    <link href="css/charts-graphs.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet">
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+	<script src="js/bootstrap-datetimepicker.js"></script>	
+    
+    <!-- jQuery UI JS -->
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+
+    <!-- Flot Charts -->
+    <script src="js/flot/jquery.flot.js"></script>
+    <script src="js/flot/jquery.flot.orderBar.min.js"></script>
+    <script src="js/flot/jquery.flot.stack.min.js"></script>
+    <script src="js/flot/jquery.flot.pie.min.js"></script>
+    <script src="js/flot/jquery.flot.tooltip.min.js"></script>
+    <script src="js/flot/jquery.flot.resize.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/menu.js"></script>
+    <script src="js/custom-index2.js"></script>
+    
+    <!-- Chart -->
+    <script src="js/Chart.min.js"></script>
+  	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-40304444-1', 'iamsrinu.com');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+
+  <body>
+
+    <!-- Header Start -->
+    <header>
+      <a href="index.html" class="logo">
+        <img src="img/flystat-logo.png" alt="Logo"/>
+      </a>
+
+      <div class="pull-right">
+        <ul id="mini-nav" class="clearfix">
+        	<li class="list-box hidden-xs">
+        		<a href="#">Profile</a>
+        	</li>
+        	<li class="list-box hidden-xs">
+        		<a href="#">Plan</a>
+        	</li>
+        	<li class="list-box hidden-xs">
+        		<a href="#">Logout</a>
+        	</li>
+          <li class="list-box user-profile">
+            <a id="drop7" href="#" role="button" class="dropdown-toggle user-avtar" data-toggle="dropdown">
+              <img src="img/user5.png" alt="Bluemoon User">
+            </a>
+            <ul class="dropdown-menu server-activity">
+              <li>
+                <p><i class="fa fa-cog text-info"></i> Account Settings</p>
+              </li>
+              <li>
+                <p><i class="fa fa-fire text-warning"></i> Payment Details</p>
+              </li>
+              <li>
+                <div class="demo-btn-group clearfix">
+                  <a href="#" data-original-title="" title="">
+                    <i class="fa fa-facebook fa-lg icon-rounded info-bg"></i>
+                  </a>
+                  <a href="#" data-original-title="" title="">
+                    <i class="fa fa-twitter fa-lg icon-rounded twitter-bg"></i>
+                  </a>
+                  <a href="#" data-original-title="" title="">
+                    <i class="fa fa-linkedin fa-lg icon-rounded linkedin-bg"></i>
+                  </a>
+                  <a href="#" data-original-title="" title="">
+                    <i class="fa fa-pinterest fa-lg icon-rounded danger-bg"></i>
+                  </a>
+                  <a href="#" data-original-title="" title="">
+                    <i class="fa fa-google-plus fa-lg icon-rounded success-bg"></i>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="demo-btn-group clearfix">
+                  <button href="#" class="btn btn-danger">
+                    Logout
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Container start -->
+    <div class="dashboard-container">
+
+      <div class="container">
+
+        <!-- Dashboard Wrapper Start -->
+        <div class="dashboard-wrapper-lg">
+          
+          <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group" id="dateGroup">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" id="datePick" value="may 10.2015" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker({
+                    format: 'LL', locale: 'en'
+                });
+            });
+        </script>
+        <div class='col-sm-6'>
+            <div class="form-group">
+            	<input type='text' class="form-control" id="datePick1"/>
+            </div>
+        </div>
+        <script>
+		  $(function() {
+			$( "#datePick1" ).datepicker();
+		  });
+		  </script>
+    </div>
+          
+          <div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+           		</div>
+              <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                <div class="widget">
+                  <div class="widget-header">
+                    <div class="title">
+                      Settings
+                    </div>
+                    <span class="tools">
+                      <i class="fa fa-cogs"></i>
+                    </span>
+                  </div>
+                  <div class="widget-body">
+                    <div class="row">
+
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <form class="form-horizontal">
+                        <div class="row">
+                        	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							  <div class="form-group">
+									<label class="col-sm-2 control-label">From</label>
+									<div class="col-sm-4">
+										<input type='text' class="form-control" id='datePick2'/>
+										<script>
+										  $(function() {
+											$("#datePick2").datepicker();
+											$("#datePick2").datepicker( "option", "dateFormat", "MM d yy" );
+                                              
+                                            $("#datePick2").datepicker("option", "dateFormat", "dd/mm/yy");
+                                            $("#datePick2").datepicker("setDate", "01/11/2014");
+                                            $("#datePick2").datepicker("option", "dateFormat", "MM d yy");
+										  });
+										</script>
+									</div>
+									<label class="col-sm-2 control-label">Till</label>
+									<div class="col-sm-5">
+                                                
+                                        <input class="form-control" data-val="true" data-val-date="The field StartDate must be a date." id="modelFilter_StartDate" name="modelFilter.StartDate" type="text" value="May 15 2014">
+
+                                        <script>
+                                            $(function () {
+                                                $('#modelFilter_StartDate').datepicker();
+                                                $('#modelFilter_StartDate').datepicker("option", "dateFormat", "MM d yy");
+
+                                                    $('#modelFilter_StartDate').datepicker("option", "dateFormat", "dd/mm/yy");
+                                                    $('#modelFilter_StartDate').datepicker("setDate", "15/5/2014");
+                                                    $('#modelFilter_StartDate').datepicker("option", "dateFormat", "MM d yy");
+
+                                            });
+                                        </script>
+                                    </div>
+							  </div>
+							  <div class="form-group" style="text-align:center">
+								<button type="button" class="btn btn-link" data-original-title="" title="">today</button>
+								<button type="button" class="btn btn-link" data-original-title="" title="">yesterday</button>
+								<button type="button" class="btn btn-link" data-original-title="" title="">7 days</button>
+								<button type="button" class="btn btn-link" data-original-title="" title="">30 days</button>
+								<button type="button" class="btn btn-link" data-original-title="" title="">365 days</button>
+							  </div>
+                          	</div>
+                          	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                          		<table class="table table-condensed table-bordered table-hover no-margin">
+									<thead>
+									  <tr>
+										<th style="width:10%">
+										  Select
+										</th>
+										<th style="width:70%">
+										  Name
+										</th>
+									  </tr>
+									</thead>
+									<tbody>
+									  <tr>
+										<td>
+										  <input type="checkbox" class="no-margin">
+										</td>
+										<td>
+											Very old task here
+										</td>
+									  </tr>
+									  <tr>
+										<td>
+										  <input type="checkbox" class="no-margin">
+										</td>
+										<td>
+										  Slightly newer task
+										</td>
+									  </tr>
+									  <tr>
+										<td>
+										  <input type="checkbox" class="no-margin">
+										</td>
+										<td>
+										  Do something
+										</td>
+									  </tr>
+									  <tr>
+										<td>
+										  <input type="checkbox" class="no-margin">
+										</td>
+										<td>
+										  Do in all night, do it with me
+										</td>
+									  </tr>
+									  <tr>
+										<td>
+										  <input type="checkbox" class="no-margin">
+										</td>
+										<td>
+										  Feed the demons
+										</td>
+									  </tr>
+									</tbody>
+								  </table>
+                          	</div>
+                          </div>
+                          <hr>
+                          <div class="form-actions">
+                            <button type="submit" class="btn btn-success pull-right">
+                              OK
+                            </button>
+                          </div>
+
+                        </form>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+           		</div>
+            </div>
+          
+            
+		<!-- Row Start -->
+            <div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+           		</div>
+              <div class="col-lg-10 col-md-10">
+                <div class="widget">
+                  <div class="widget-header">
+                    <div class="title">
+                      Statistics
+                    </div>
+                  </div>
+                  <div class="widget-body">
+                      <script>
+                            var barChartData = {
+                                labels : [
+                                            "Dec 10 - Dec 15",
+                                            "Dec 16 - Dec 23",
+                                            "Dec 24 - Dec 26",
+                                            "Dec 27 - Dec 29",
+                                            "Dec 30 - Dec 31",
+                                            "Jan 1 - Jan 4",
+                                            "Jan 5 - Jan 7",
+                                            "Jan 8 - Jan 10",
+                                            "Jan 11 - Jan 13",
+                                            "Jan 14 - Jan 16",
+                                            "Jan 17 - Jan 19",
+                                            "Jan 20 - Jan 22",
+                                            "Jan 23 - Jan 25",
+                                            "Jan 26 - Jan 28",
+                                            "Jan 29 - Jan 31",
+                                            "Feb 1 - Feb 3",
+                                            "Feb 4 - Feb 6",
+                                            "Feb 7 - Feb 9",
+                                            "Feb 10 - Feb 12",
+                                            "Feb 13 - Feb 15",
+                                            "Feb 16 - Feb 18",
+                                            "Feb 19 - Feb 21",
+                                            "Feb 22 - Feb 24",
+                                            "Feb 25 - Feb 27",
+                                            "Feb 28 - Mar 2",
+                                            "Mar 3 - Mar 5",
+                                            "Mar 6 - Mar 8",
+                                            "Mar 9 - Mar 11"
+                                        ],
+                                datasets : [
+                                    {
+                                        fillColor : "rgba(116,183,73,0.5)",
+                                        strokeColor : "rgba(116,183,73,0.8)",
+                                        highlightFill : "rgba(116,183,73,0.75)",
+                                        highlightStroke : "rgba(116,183,73,1)",
+                                        data : [
+                                            302,
+                                            146,
+                                            518,
+                                            892,
+                                            825,
+                                            372,
+                                            689,
+                                            1913,
+                                            914,
+                                            871,
+                                            658,
+                                            761,
+                                            588,
+                                            682,
+                                            1198,
+                                            1187,
+                                            4313,
+                                            783,
+                                            2641,
+                                            781,
+                                            512,
+                                            5601,
+                                            508,
+                                            3462,
+                                            1080,
+                                            1103,
+                                            3576,
+                                            10575
+                                        ]
+                                    }
+                                ]
+
+                            };
+                            
+                            function bar(){
+                                var ctx = document.getElementById("canvas").getContext("2d");
+                                var barChart = new Chart(ctx).Bar(barChartData, {
+                                    responsive : true, barShowStroke : true
+                                });
+                            };
+                          
+
+                    </script>
+                      <div >
+                        <canvas id="canvas"></canvas>
+                        </div>
+                      
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+           		</div>
+            </div>
+            <!-- Row End -->
+            
+            <!-- Row Start -->
+            <div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+           		</div>
+              <div class="col-lg-5 col-md-5">
+                <div class="widget">
+                  <div class="widget-header">
+                    <div class="title">
+                      Statistics
+                    </div>
+                  </div>
+                  <div class="widget-body">
+                      <div style="text-align:center;">
+                        <canvas id="piecanvas"  width="300" height="300"></canvas>
+                        </div>
+                      <script>
+                          var pieData =
+                                [
+                                    {
+                                        value: 3,
+                                        color: "#46BFBD",
+                                        highlight: "#5AD3D1",
+                                        label: "Followed"
+                                    },
+                                    {
+                                        value: 60,
+                                        color:"#d9d9d9",
+                                        highlight: "#e2e2e2",
+                                        label: "Not followed"
+                                    }
+                                    
+                                ];
+                          function pie(){
+                                var piectx = document.getElementById("piecanvas").getContext("2d");
+                                var pieChart = new Chart(piectx).Pie (pieData, { });
+                            };
+                          
+                    </script>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+           		</div>
+            </div>
+            <!-- Row End -->
+            
+            <!-- Row Start -->
+            <div class="row">
+				<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+           		</div>
+              <div class="col-lg-10 col-md-10">
+                <div class="widget">
+                  <div class="widget-header">
+                    <div class="title">
+                      Followers map
+                    </div>
+                  </div>
+                  <div class="widget-body">
+                      <div id="map-canvas" style="height:500px"></div>
+                      <script>
+                          
+                        var map;
+
+                        function initializeMap()
+                          {
+                          var center = new google.maps.LatLng(55.754078, 37.621505);
+                          var mapOptions = {
+                            zoom: 10,
+                            center: center,
+                              scrollwheel: false
+                          };
+
+                          map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+                              
+                              if(navigator.geolocation) {
+                            navigator.geolocation.getCurrentPosition(function(position) {
+                              var pos = new google.maps.LatLng(position.coords.latitude,
+                                                               position.coords.longitude);
+
+                              var infowindow = new google.maps.InfoWindow({
+                                map: map,
+                                position: pos,
+                                content: 'Location found using HTML5.'
+                              });
+
+                              map.setCenter(pos);
+                            }, function() {
+                              handleNoGeolocation(true);
+                            });
+                          }
+                                var marker1 = 'http://i1321.photobucket.com/albums/u551/Eugene_Rozhkov/marker1_zpsfqllgwmq.png';
+                                var marker2 = 'http://i1321.photobucket.com/albums/u551/Eugene_Rozhkov/marker2_zpsrmpxbtli.png';
+
+                          var position1 = new google.maps.LatLng(55.767793, 37.651203);
+                            var contentString1 = '<table border="0" cellpadding="1" cellspacing="0" style="width: 150px;"><tbody><tr><td colspan="2"><h5>nod_caleb</h5></td></tr><tr><td><img alt="" src="https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/10655139_1395008360758955_1131312314_a.jpg" style="float: left; width: 50px; height: 50px;" /></td><td>posts: 128<br />followers: 115<br />follows: 52</td></tr></tbody></table>';
+                          var infowindow1 = new google.maps.InfoWindow({content: contentString1});
+                          var marker1 = new google.maps.Marker({position: position1, map: map, title: 'nod_caleb', icon: marker1});
+                          google.maps.event.addListener(marker1, 'click', function() {infowindow1.open(map,marker1);});
+                              
+                            var position2 = new google.maps.LatLng(55.738329, 37.586486);
+                            var contentString2 = '<table border="0" cellpadding="1" cellspacing="0" style="width: 150px;"><tbody><tr><td colspan="2"><h5>kofe_s_limonom</h5></td></tr><tr><td><img alt="" src="https://instagramimages-a.akamaihd.net/profiles/profile_1261764306_75sq_1397315227.jpg" style="float: left; width: 50px; height: 50px;" /></td><td>posts: 36<br />followers: 219<br />follows: 270</td></tr></tbody></table>';
+                          var infowindow2 = new google.maps.InfoWindow({content: contentString2});
+                          var marker2 = new google.maps.Marker({position: position2, map: map, title: 'kofe_s_limonom', icon: marker2});
+                          google.maps.event.addListener(marker2, 'click', function() {infowindow2.open(map,marker2);});
+                              
+              
+                       
+                              
+                        } 
+                          /*
+                        function initializeMap() {
+                          var mapOptions = {
+                            zoom: 6
+                          };
+                          map = new google.maps.Map(document.getElementById('map-canvas'),
+                              mapOptions);
+
+                          // Try HTML5 geolocation
+                          if(navigator.geolocation) {
+                            navigator.geolocation.getCurrentPosition(function(position) {
+                              var pos = new google.maps.LatLng(position.coords.latitude,
+                                                               position.coords.longitude);
+
+                              var infowindow = new google.maps.InfoWindow({
+                                map: map,
+                                position: pos,
+                                content: 'Location found using HTML5.'
+                              });
+
+                              map.setCenter(pos);
+                            }, function() {
+                              handleNoGeolocation(true);
+                            });
+                          } else {
+                            // Browser doesn't support Geolocation
+                            handleNoGeolocation(false);
+                          }
+                        }
+
+                        function handleNoGeolocation(errorFlag) {
+                          if (errorFlag) {
+                            var content = 'Error: The Geolocation service failed.';
+                          } else {
+                            var content = 'Error: Your browser doesn\'t support geolocation.';
+                          }
+
+                          var options = {
+                            map: map,
+                            position: new google.maps.LatLng(60, 105),
+                            content: content
+                          };
+
+                          var infowindow = new google.maps.InfoWindow(options);
+                          map.setCenter(options.position);
+                        }
+*/
+                        google.maps.event.addDomListener(window, 'load', initializeMap);
+                          
+                    </script>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+           		</div>
+            </div>
+            <!-- Row End -->
+            
+            <script>
+                window.onload = function(){bar();pie()};
+            </script>
+
+        </div>
+        <!-- Dashboard Wrapper End -->
+
+        <footer>
+          <p>© BlueMoon 2013-15</p>
+        </footer>
+
+      </div>
+    </div>
+    <!-- Main Container end -->
+
+    
+    
+    <script type="text/javascript">
+      //ScrollUp
+      $(function () {
+        $.scrollUp({
+          scrollName: 'scrollUp', // Element ID
+          topDistance: '300', // Distance from top before showing element (px)
+          topSpeed: 300, // Speed back to top (ms)
+          animation: 'fade', // Fade, slide, none
+          animationInSpeed: 400, // Animation in speed (ms)
+          animationOutSpeed: 400, // Animation out speed (ms)
+          scrollText: 'Top', // Text for element
+          activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+        });
+      });
+    </script>
+
+  </body>
+</html>

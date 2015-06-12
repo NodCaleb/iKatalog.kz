@@ -147,3 +147,167 @@
 02.05.2015 1:01:04 ==> Coupon warnings sent: 1
 02.05.2015 1:01:04 ==> Exchange rate set to: 211,35
 02.05.2015 1:01:04 ==> Cron finished
+03.05.2015 1:01:02 ==> Cron started
+03.05.2015 1:01:06 ==> Coupon warnings sent: 3
+03.05.2015 1:01:06 ==> Exchange rate set to: 211,35
+03.05.2015 1:01:06 ==> Cron finished
+04.05.2015 1:01:01 ==> Cron started
+04.05.2015 1:01:07 ==> Coupon warnings sent: 4
+04.05.2015 1:01:07 ==> Exchange rate set to: 211,35
+04.05.2015 1:01:07 ==> Cron finished
+05.05.2015 1:01:02 ==> Cron started
+05.05.2015 1:01:02 ==> Coupon warnings sent: 0
+05.05.2015 1:01:02 ==> Exchange rate set to: 210,08
+05.05.2015 1:01:02 ==> Cron finished
+06.05.2015 1:01:02 ==> Cron started
+06.05.2015 1:01:05 ==> Coupon warnings sent: 2
+06.05.2015 1:01:05 ==> Exchange rate set to: 209,29
+06.05.2015 1:01:05 ==> Cron finished
+07.05.2015 1:01:01 ==> Cron started
+07.05.2015 1:01:06 ==> Coupon warnings sent: 3
+07.05.2015 1:01:06 ==> Exchange rate set to: 211,78
+07.05.2015 1:01:06 ==> Cron finished
+08.05.2015 1:01:01 ==> Cron started
+08.05.2015 1:01:04 ==> Coupon warnings sent: 2
+08.05.2015 1:01:04 ==> Exchange rate set to: 211,78
+08.05.2015 1:01:04 ==> Cron finished
+09.05.2015 1:01:01 ==> Cron started
+09.05.2015 1:01:09 ==> Coupon warnings sent: 6
+09.05.2015 1:01:09 ==> Exchange rate set to: 211,54
+09.05.2015 1:01:09 ==> Cron finished
+10.05.2015 1:01:02 ==> Cron started
+10.05.2015 1:01:04 ==> Coupon warnings sent: 1
+10.05.2015 1:01:04 ==> Exchange rate set to: 211,54
+10.05.2015 1:01:04 ==> Cron finished
+11.05.2015 1:01:01 ==> Cron started
+11.05.2015 1:01:08 ==> Coupon warnings sent: 5
+11.05.2015 1:01:08 ==> Exchange rate set to: 211,54
+11.05.2015 1:01:08 ==> Cron finished
+12.05.2015 1:01:02 ==> Cron started
+12.05.2015 1:01:08 ==> Coupon warnings sent: 5
+12.05.2015 1:01:08 ==> Exchange rate set to: 211,54
+12.05.2015 1:01:08 ==> Cron finished
+13.05.2015 1:01:02 ==> Cron started
+13.05.2015 1:01:07 ==> Coupon warnings sent: 4
+13.05.2015 1:01:07 ==> Exchange rate set to: 212,35
+13.05.2015 1:01:07 ==> Cron finished
+14.05.2015 1:01:01 ==> Cron started
+14.05.2015 1:01:03 ==> Coupon warnings sent: 1
+14.05.2015 1:01:03 ==> Exchange rate set to: 211,29
+14.05.2015 1:01:03 ==> Cron finished
+15.05.2015 1:01:01 ==> Cron started
+15.05.2015 1:01:10 ==> Coupon warnings sent: 7
+15.05.2015 1:01:10 ==> Exchange rate set to: 215,03
+15.05.2015 1:01:10 ==> Cron finished
+16.05.2015 1:01:01 ==> Cron started
+16.05.2015 1:01:07 ==> Coupon warnings sent: 4
+16.05.2015 1:01:07 ==> Exchange rate set to: 214,35
+16.05.2015 1:01:07 ==> Cron finished
+17.05.2015 1:01:01 ==> Cron started
+17.05.2015 1:01:08 ==> Coupon warnings sent: 5
+17.05.2015 1:01:08 ==> Exchange rate set to: 214,35
+17.05.2015 1:01:08 ==> Cron finished
+18.05.2015 1:01:01 ==> Cron started
+18.05.2015 1:01:13 ==> Coupon warnings sent: 9
+18.05.2015 1:01:13 ==> Exchange rate set to: 214,35
+18.05.2015 1:01:13 ==> Cron finished
+19.05.2015 1:01:01 ==> Cron started
+19.05.2015 1:01:05 ==> Coupon warnings sent: 2
+19.05.2015 1:01:05 ==> Exchange rate set to: 214,74
+19.05.2015 1:01:05 ==> Cron finished
+20.05.2015 1:01:01 ==> Cron started
+20.05.2015 1:01:10 ==> Coupon warnings sent: 7
+20.05.2015 1:01:10 ==> Exchange rate set to: 211,07
+20.05.2015 1:01:10 ==> Cron finished
+21.05.2015 1:01:01 ==> Cron started
+21.05.2015 1:01:06 ==> Coupon warnings sent: 3
+21.05.2015 1:01:06 ==> Exchange rate set to: 209,52
+21.05.2015 1:01:06 ==> Cron finished
+22.05.2015 1:01:01 ==> Cron started
+22.05.2015 1:01:03 ==> Coupon warnings sent: 1
+22.05.2015 1:01:03 ==> Exchange rate set to: 210,26
+22.05.2015 1:01:03 ==> Cron finished
+23.05.2015 1:01:02 ==> Cron started
+23.05.2015 1:01:06 ==> Coupon warnings sent: 3
+23.05.2015 1:01:06 ==> Exchange rate set to: 210,57
+23.05.2015 1:01:06 ==> Cron finished
+24.05.2015 1:01:01 ==> Cron started
+24.05.2015 1:01:04 ==> Coupon warnings sent: 2
+24.05.2015 1:01:04 ==> Exchange rate set to: 210,57
+24.05.2015 1:01:04 ==> Cron finished
+25.05.2015 1:01:01 ==> Cron started
+25.05.2015 1:01:12 ==> Coupon warnings sent: 8
+25.05.2015 1:01:12 ==> Exchange rate set to: 210,57
+25.05.2015 1:01:12 ==> Cron finished
+26.05.2015 1:01:01 ==> Cron started
+26.05.2015 1:01:08 ==> Coupon warnings sent: 5
+26.05.2015 1:01:08 ==> Exchange rate set to: 210,57
+26.05.2015 1:01:08 ==> Cron finished
+27.05.2015 1:01:01 ==> Cron started
+27.05.2015 1:01:02 ==> Coupon warnings sent: 0
+27.05.2015 1:01:02 ==> Exchange rate set to: 205,39
+27.05.2015 1:01:02 ==> Cron finished
+28.05.2015 1:01:01 ==> Cron started
+28.05.2015 1:01:01 ==> Coupon warnings sent: 0
+28.05.2015 1:01:01 ==> Exchange rate set to: 205,92
+28.05.2015 1:01:01 ==> Cron finished
+29.05.2015 1:01:01 ==> Cron started
+29.05.2015 1:01:03 ==> Coupon warnings sent: 1
+29.05.2015 1:01:03 ==> Exchange rate set to: 206,22
+29.05.2015 1:01:03 ==> Cron finished
+30.05.2015 1:01:01 ==> Cron started
+30.05.2015 1:01:12 ==> Coupon warnings sent: 9
+30.05.2015 1:01:12 ==> Exchange rate set to: 206,82
+30.05.2015 1:01:12 ==> Cron finished
+31.05.2015 1:01:01 ==> Cron started
+31.05.2015 1:01:07 ==> Coupon warnings sent: 4
+31.05.2015 1:01:07 ==> Exchange rate set to: 206,82
+31.05.2015 1:01:07 ==> Cron finished
+01.06.2015 1:01:01 ==> Cron started
+01.06.2015 1:03:22 ==> Coupon warnings sent: 119
+01.06.2015 1:03:22 ==> Exchange rate set to: 206,82
+01.06.2015 1:03:22 ==> Cron finished
+02.06.2015 1:01:01 ==> Cron started
+02.06.2015 1:01:01 ==> Coupon warnings sent: 0
+02.06.2015 1:01:01 ==> Exchange rate set to: 205,71
+02.06.2015 1:01:01 ==> Cron finished
+03.06.2015 1:01:01 ==> Cron started
+03.06.2015 1:01:07 ==> Coupon warnings sent: 4
+03.06.2015 1:01:07 ==> Exchange rate set to: 207,36
+03.06.2015 1:01:07 ==> Cron finished
+04.06.2015 1:01:01 ==> Cron started
+04.06.2015 1:01:04 ==> Coupon warnings sent: 2
+04.06.2015 1:01:04 ==> Exchange rate set to: 210,15
+04.06.2015 1:01:04 ==> Cron finished
+05.06.2015 1:01:01 ==> Cron started
+05.06.2015 1:01:12 ==> Coupon warnings sent: 8
+05.06.2015 1:01:12 ==> Exchange rate set to: 214,16
+05.06.2015 1:01:12 ==> Cron finished
+06.06.2015 1:01:02 ==> Cron started
+06.06.2015 1:01:10 ==> Coupon warnings sent: 6
+06.06.2015 1:01:10 ==> Exchange rate set to: 212,33
+06.06.2015 1:01:10 ==> Cron finished
+07.06.2015 1:01:13 ==> Cron started
+07.06.2015 1:01:18 ==> Coupon warnings sent: 2
+07.06.2015 1:01:18 ==> Exchange rate set to: 212,33
+07.06.2015 1:01:18 ==> Cron finished
+08.06.2015 1:01:02 ==> Cron started
+08.06.2015 1:01:08 ==> Coupon warnings sent: 4
+08.06.2015 1:01:08 ==> Exchange rate set to: 212,33
+08.06.2015 1:01:08 ==> Cron finished
+09.06.2015 1:01:01 ==> Cron started
+09.06.2015 1:01:04 ==> Coupon warnings sent: 2
+09.06.2015 1:01:04 ==> Exchange rate set to: 209,97
+09.06.2015 1:01:04 ==> Cron finished
+10.06.2015 1:01:01 ==> Cron started
+10.06.2015 1:01:07 ==> Coupon warnings sent: 4
+10.06.2015 1:01:07 ==> Exchange rate set to: 212,88
+10.06.2015 1:01:07 ==> Cron finished
+11.06.2015 1:01:01 ==> Cron started
+11.06.2015 1:01:03 ==> Coupon warnings sent: 1
+11.06.2015 1:01:03 ==> Exchange rate set to: 213,75
+11.06.2015 1:01:03 ==> Cron finished
+12.06.2015 1:01:01 ==> Cron started
+12.06.2015 1:01:03 ==> Coupon warnings sent: 1
+12.06.2015 1:01:03 ==> Exchange rate set to: 213,75
+12.06.2015 1:01:03 ==> Cron finished

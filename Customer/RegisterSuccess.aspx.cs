@@ -27,13 +27,19 @@ public partial class Customer_Register : System.Web.UI.Page
     {
         if (iKConnection.State.ToString() == "Closed") iKConnection.Open();
 	
-	if (Request.QueryString["username"] != null)
-	{
-	    string username = Request.QueryString["username"].ToString();
-	    string userpass = GetUserPass(username);
-	    
-	    PageContentLabel.Text = iClass.GetPageContent(24).Replace("%USER_MAIL%", username).Replace("%USER_PASS%", userpass);
-	}
+		if (Request.QueryString["username"] != null)
+		{
+			if (Membership.GetUser() != null && Membership.GetUser().UserName == Request.QueryString["username"].ToString())
+			{
+				string username = Request.QueryString["username"].ToString();
+				string userpass = GetUserPass(username);
+		
+				if (Request.QueryString["source"] != null && Request.QueryString["source"] == "ad")
+					PageContentLabel.Text = iClass.GetPageContent(31).Replace("%USER_MAIL%", username).Replace("%USER_PASS%", userpass);
+				else
+					PageContentLabel.Text = iClass.GetPageContent(24).Replace("%USER_MAIL%", username).Replace("%USER_PASS%", userpass);
+			}
+		}
     }
     string GetUserPass(string username)
     {

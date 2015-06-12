@@ -44,7 +44,7 @@
 			    NEWID()">
     </asp:SqlDataSource>
     <asp:SqlDataSource ID="LandingBlocksSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>"
-	    SelectCommand="select Body from StaticPages as SP join BlocksToLandings as BTL on BTL.StaticPage_id = SP.id where BTL.Landing_id = @Landing">
+	    SelectCommand="select Body from StaticPages as SP join BlocksToLandings as BTL on BTL.StaticPage_id = SP.id where BTL.Landing_id = @Landing order by BTL.StaticPage_id ">
 	<SelectParameters>
             <asp:Parameter Name="Landing" DefaultValue="0" />
         </SelectParameters>

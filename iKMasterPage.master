@@ -41,6 +41,7 @@
     </script>
    
     <!-- meta name="description" content="Мы предоставляем услуги доставки товаров по каталогам - OTTO, H&M, Lacoste, ZARA, MEXX, Amazon и других - из Германии. Вашему вниманию предлагаются более 130 европейских каталогов одежды онлайн с огромным ассортиментом товаров на любой вкус для людей разного возраста." / -->
+    <meta name="google-site-verification" content="S9Ag3fYm0fx7US5h2xEOJoiXc3NPQkMMvbQzJk_mC7c" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -141,13 +142,13 @@
 					<li><asp:HyperLink ID="VertragLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=2">Публичная оферта</asp:HyperLink></li>
 					<li><asp:HyperLink ID="CrewLinkBottom" runat="server" NavigateUrl="~/Crew.aspx">Наша команда</asp:HyperLink></li>
 					<li><asp:HyperLink ID="ContactsLinkBottom" runat="server" NavigateUrl="~/Contacts.aspx">Контактная информация</asp:HyperLink></li>
-					<li><asp:HyperLink ID="AffilateLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=17">Партнерская программа</asp:HyperLink></li>
+					<li><asp:HyperLink ID="AffilateLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=34">Для оптовых клиентов</asp:HyperLink></li>
 				    </ul>
 				</td>
 				<td>
 				    <ul>
 					<li><asp:HyperLink ID="FAQLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=12">Вопросы и ответы</asp:HyperLink></li>
-					<li><asp:HyperLink ID="WoerteBuchLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=9">Словарик немецкого</asp:HyperLink></li>
+					<li><asp:HyperLink ID="WoerteBuchLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=27">Бонусная программа</asp:HyperLink></li>
 					<li><asp:HyperLink ID="GroessenLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=10">Размеры одежды</asp:HyperLink></li>
 					<li><asp:HyperLink ID="GoodsWeightLinkBottom" runat="server" NavigateUrl="~/StaticPages.aspx?Page=7">Примерный вес товаров</asp:HyperLink></li>
 				    </ul>
@@ -172,7 +173,7 @@
 				<td>
 				    <a href="https://www.facebook.com/goodsiKatalog" target="_blank"><img src="http://ikatalog.kz/Images/fb_logo.png" alt="Facebook" title="Facebook" /></a>
 				    <a href="http://ikatalog-kz.yvision.kz/" target="_blank"><img src="http://ikatalog.kz/Images/yv_logo.png" alt="Your Vision" title="Your Vision" /></a>
-				    <a href="https://instagram.com/ikataloggoods/" target="_blank"><img src="http://ikatalog.kz/Images/inst_logo.png" alt="Instagram" title="Instagram" /></a>
+				    <a href="https://instagram.com/ikataloggoodskz/" target="_blank"><img src="http://ikatalog.kz/Images/inst_logo.png" alt="Instagram" title="Instagram" /></a>
 				    <a href="http://vse.kz/topic/646836-zakazy-odezhdy-i-liubykh-tovarov-iz-evropy/" target="_blank"><img src="http://ikatalog.kz/Images/vse_logo.png" alt="Все вместе" title="Все вместе" /></a>
 				</td>
 			</tr>
@@ -307,6 +308,105 @@
     </div>
     </form>
     <div ID="toTop"> ^ Наверх </div>
+    <!-- Код тега ремаркетинга Google -->
+	<!--------------------------------------------------
+	С помощью тега ремаркетинга запрещается собирать информацию, по которой можно идентифицировать личность пользователя. Также запрещается размещать тег на страницах с контентом деликатного характера. Подробнее об этих требованиях и о настройке тега читайте на странице http://google.com/ads/remarketingsetup.
+	--------------------------------------------------->
+	<script type="text/javascript">
+	var google_tag_params = {
+	ecomm_prodid: 'REPLACE_WITH_VALUE',
+	ecomm_pagetype: 'REPLACE_WITH_VALUE',
+	ecomm_totalvalue: 'REPLACE_WITH_VALUE',
+	};
+	</script>
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 1002578196;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1002578196/?value=0&amp;guid=ON&amp;script=0"/>
+	</div>
+	</noscript>
+	
+	<!-- Ниже — коды всяких казахстанских катологов сайтов -->
+	
+	<!-- ZERO.kz -->
+	<span id=""_zero_64061"">
+	<noscript>
+	<a href=""http://zero.kz/?s=64061"" target=""_blank"">
+	<img src=""http://c.zero.kz/z.png?u=64061"" width=""88"" height=""31"" alt=""ZERO.kz"" />
+	</a>
+	</noscript>
+	</span>
+
+	<script type=""text/javascript""><!--
+	var _zero_kz_ = _zero_kz_ || [];
+	_zero_kz_.push([""id"", 64061]);
+	_zero_kz_.push([""type"", 1]);
+
+	(function () {
+		var a = document.getElementsByTagName(""script"")[0],
+		s = document.createElement(""script"");
+		s.type = ""text/javascript"";
+		s.async = true;
+		s.src = (document.location.protocol == ""https:"" ? ""https:"" : ""http:"")
+		+ ""//c.zero.kz/z.js"";
+		a.parentNode.insertBefore(s, a);
+	})(); //-->
+	</script>
+	<!-- End ZERO.kz -->
+	
+	<!-- Сайты Казахстана, казахстанские сайты, казахские сайты, сайты в Казахстане -->
+	<a href=""http://goto.kz/"">
+	<script language=""javascript"">
+	java=""1.0"";
+	java1=""""+""refer=""+escape(document.referrer)+""&page=""+
+	escape(window.location.href);
+	document.cookie=""astratop=1; path=/""; java1+=""&c=""+(document.cookie?""yes"":""now"");
+	</script>
+	<script language=""javascript1.1"">java=""1.1"";java1+=""&java=""+(navigator.javaEnabled()?""yes"":""now"")</script>
+	<script language=""javascript1.2"">java=""1.2"";
+	java1+=""&razresh=""+screen.width+'x'+screen.height+""&cvet=""+
+	(((navigator.appName.substring(0,3)==""Mic""))?
+	screen.colorDepth:screen.pixelDepth)</script><script language=""javascript1.3"">java=""1.3""</script>
+	<script language=""javascript"">java1+=""&jscript=""+java+""&rand=""+Math.random();
+	document.write(""<a href='http://goto.kz/?fromsite=7703' target='_blank'><img ""+
+	"" src='http://goto.kz/img.php?id=7703&""+java1+""&' border=0 alt='Сайты Казахстана, казахстанские сайты, казахские сайты, сайты в Казахстане' width='88' height='31'></a>"")</script>
+	<noscript><a href=http://goto.kz/?fromsite=7703 target=_blank><img src=""http://goto.kz/img.php?id=7703"" border=0 alt=""Сайты Казахстана, казахстанские сайты, казахские сайты, сайты в Казахстане"" width='88' height='31'></a></noscript>
+	</a>
+	<!-- /Сайты Казахстана, казахстанские сайты, казахские сайты, сайты в Казахстане -->
+	
+	<!-- Статистика сайта, рейтинг сайтов, сайты Казахстана, каталог сайтов , code for http://ikatalog.kz -->
+	<script type=""text/javascript"">java=""1.0"";java1=""""+""refer=""+escape(document.referrer)+""&page=""+escape(window.location.href); document.cookie=""astratop=1; path=/""; java1+=""&c=""+(document.cookie?""yes"":""now"");</script>
+	<script type=""text/javascript1.1"">java=""1.1"";java1+=""&java=""+(navigator.javaEnabled()?""yes"":""now"")</script>
+	<script type=""text/javascript1.2"">java=""1.2"";java1+=""&razresh=""+screen.width+'x'+screen.height+""&cvet=""+(((navigator.appName.substring(0,3)==""Mic""))? screen.colorDepth:screen.pixelDepth)</script>
+	<script type=""text/javascript1.3"">java=""1.3""</script>
+	<script type=""text/javascript"">java1+=""&jscript=""+java+""&rand=""+Math.random(); document.write(""<a href='http://directory.kz/?fromsite=646'><img ""+"" src='http://directory.kz/img.php?id=646&""+java1+""&' border='0' alt='Статистика сайта, рейтинг сайтов, сайты Казахстана, каталог сайтов' width='88' height='31'><\/a>"");</script>
+	<noscript><a href=""http://directory.kz/?fromsite=646"" target=""_blank""><img src=""http://directory.kz/img.php?id=646"" border=""0"" alt=""Статистика сайта, рейтинг сайтов, сайты Казахстана, каталог сайтов"" width=""88"" height=""31""></a></noscript>
+	<!-- /Статистика сайта, рейтинг сайтов, сайты Казахстана, каталог сайтов -->
+	
+	<!-- TOP Ards.KZ-->
+	<a href=""http://ards.kz"" target=""_top"" title=""Рейтинг ARDS.kz"">
+	<img src=""http://ards.kz/c4.php?usr=77799658&dc=1"" alt=""ARDS.kz"" border=""0""></a>
+	<!-- END -->
+	
+	<!-- Статистика сайтов, каталог сайтов, сайты Казахстана, рейтинг сайтов , code for http://ikatalog.kz -->
+	<script type=""text/javascript"">java=""1.0"";java1=""""+""refer=""+escape(document.referrer)+""&page=""+escape(window.location.href); document.cookie=""astratop=1; path=/""; java1+=""&c=""+(document.cookie?""yes"":""now"");</script>
+	<script type=""text/javascript1.1"">java=""1.1"";java1+=""&java=""+(navigator.javaEnabled()?""yes"":""now"")</script>
+	<script type=""text/javascript1.2"">java=""1.2"";java1+=""&razresh=""+screen.width+'x'+screen.height+""&cvet=""+(((navigator.appName.substring(0,3)==""Mic""))? screen.colorDepth:screen.pixelDepth)</script>
+	<script type=""text/javascript1.3"">java=""1.3""</script>
+	<script type=""text/javascript"">java1+=""&jscript=""+java+""&rand=""+Math.random(); document.write(""<a href='http://kazlog.kz/?fromsite=697'><img ""+"" src='http://kazlog.kz/img.php?id=697&""+java1+""&' border='0' alt='Статистика сайтов, каталог сайтов, сайты Казахстана, рейтинг сайтов' width='88' height='31'><\/a>"");</script>
+	<noscript><a href=""http://kazlog.kz/?fromsite=697"" target=""_blank""><img src=""http://kazlog.kz/img.php?id=697"" border=""0"" alt=""Статистика сайтов, каталог сайтов, сайты Казахстана, рейтинг сайтов"" width=""88"" height=""31""></a></noscript>
+	<!-- /Статистика сайтов, каталог сайтов, сайты Казахстана, рейтинг сайтов -->
+	
+	
+	
 </body>
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>

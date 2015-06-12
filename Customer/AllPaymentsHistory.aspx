@@ -21,7 +21,7 @@
 			order by
 				P.PaymentTime desc">
 		<SelectParameters>
-            <asp:SessionParameter DefaultValue="-1" Name="Customer_id" SessionField="Customer" Type="Int32" />
+            <asp:Parameter DefaultValue="-2" Name="Customer_id" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
     
@@ -63,7 +63,7 @@
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="Состояние платежа" SortExpression="Committed">
                         <ItemTemplate>
-                            <asp:Label ID="PaymentState" runat="server" Text='<%#String.Compare(Convert.ToString(Eval("Committed")),"1",true)==0?"Подтвержден":"Не подтвержен"%>'></asp:Label>
+                            <asp:Label ID="PaymentState" runat="server" Text='<%#String.Compare(Convert.ToString(Eval("Committed")),"1",true)==0?"Подтвержден":"Не подтвержден"%>'></asp:Label>
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>

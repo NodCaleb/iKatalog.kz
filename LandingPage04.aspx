@@ -9,12 +9,11 @@
     <div class="validationsummary">
 	    <asp:ValidationSummary ID="OrderPositionValidationSummary" runat="server" ValidationGroup="RegisterValidationGroup" />
 	</div>
-    </div>
     <div class="bannerblock">
 	<div class="title_mid">Покупайте в популярных интернет-магазинах Германии,</div>
-	<div class="title_big">Используя бесплатный склад в Ганновере для пересылки в Казахстан</div>
+	<div class="title_big">OTTO, H&M, Next, Lacoste, ZARA, Amazon, Stradivarius</div>
 	<div class="title_small" style="margin-bottom: 16px;"><img src="http://ru.litemf.com/img/benefit_bg.png" style="position: relative; top: 14px;"/>Безналоговый сервис<img src="http://ru.litemf.com/img/benefit_bg.png" style="position: relative; top: 14px; margin-left: 30px;"/>Выгодная экспресс-доставка<img src="http://ru.litemf.com/img/benefit_bg.png" style="position: relative; top: 14px; margin-left: 30px;"/>Без скрытых платежей</div>
-	<table border="0" cellpadding="0" cellspacing="0" style="width: 800px; margin: auto">
+	<%--<table border="0" cellpadding="0" cellspacing="0" style="width: 800px; margin: auto">
 	<tbody>
 		<tr>
 		    <td>
@@ -43,8 +42,9 @@
 		    </td>
 		</tr>
 	    </tbody>
-	</table>
-	<p><input type="checkbox" checked="checked" name="agree" value="1">Я принимаю <a href="http://ikatalog.kz/StaticPages.aspx?Page=2" target="_blank">условия соглашения</a> для первого заказа </p>
+	</table>--%>
+	<%--<p><input type="checkbox" checked="checked" name="agree" value="1">Я принимаю <a href="http://ikatalog.kz/StaticPages.aspx?Page=2" target="_blank">условия соглашения</a> для первого заказа </p>--%>
+        <p>Вы любите носить качественную одежду известных брендов и модные аксессуары? Вы цените уют и комфорт в доме? Но Вам не с руки ездить в Европу за каждым предметом? Ikatalog (Айкаталог) предлагает услуги по доставке косметики, женской, мужской, детской одежды, обуви и других товаров из лучших магазинов Германии. Быстрая и недорогая доставка на дом, в любой город – Алматы, Астану, Актау, Атырау и по всему Казахстану!</p>
     </div>
     <div class="colorblock whiteblock">
 	<div class="title_big title_dark" style="padding: 0px 250px 0px 250px;">Как это работает?</div>
@@ -65,11 +65,11 @@
 			<td>&nbsp;</td>
 		</tr>
 		<tr>
-			<td style="width: 300px; vertical-align: top;">Вы делаете лишь <a href="http://ikatalog.kz/StaticPages.aspx?Page=14" target="_blank">частичную предоплату</a> за выбранный товар удобным для вас способом, а наши менеджеры оплачивают ваши заказы в интернет <a href="http://ikatalog.kz/Catalogues.aspx?Tag=active" target="_blank">магазинах Германии</a>. Мы не взимаем скрытых платежей или комиссий, а <a href="http://ikatalog.kz/StaticPages.aspx?Page=14" target="_blank">наши тарифы</a> указаны в разделе с каталогами магазинов и в форме заказа.</td>
+			<td style="width: 300px; vertical-align: top;">Вы делаете лишь <a href="http://ikatalog.kz/StaticPages.aspx?Page=14" target="_blank">частичную предоплату</a> за выбранный товар удобным для вас способом, внося остаток только после доставки товара в Казахстан и его проверки на качество нашими сотрудниками. Мы не взимаем скрытых платежей или комиссий, а <a href="http://ikatalog.kz/StaticPages.aspx?Page=14" target="_blank">наши тарифы</a> указаны в разделе с каталогами магазинов и в форме заказа.</td>
 			<td>&nbsp;</td>
-			<td style="width: 300px; vertical-align: top;">Мы получаем ваши покупки на наш склад в Германии (в течении 3 - 4 дней после оплаты), далее консолидируем их и формируем отправку посылки в Алматы (срок доставки около 7 дней).</td>
+			<td style="width: 300px; vertical-align: top;">Мы получаем ваши покупки на наш склад в Германии (в течении 3 - 4 дней после оплаты), далее формируем отправку посылки в Алматы (срок доставки около 7 дней). При получении товара от каталога перед отправкой все вещи проверяются на отсутствие каких-либо дефектов. Вы получаете только качественный и проверенный товар.</td>
 			<td>&nbsp;</td>
-			<td style="width: 300px; vertical-align: top;">По получении взвешиваем ваши покупки, сообщаем вам остаток к оплате за товар и <a href="http://ikatalog.kz/StaticPages.aspx?Page=15" target="_blank">сумму за доставку</a>. Вы завершаете оплату и забираете бесплатно заказ с нашего склада в Алматы, либо выбираете доставку на дом в любой город Казахстана курьерской службой. После получения покупки у вас есть возможность <a href="http://ikatalog.kz/Testimonials.aspx" target="_blank">оставить отзыв</a>. Мы стремимся сделать наш сервис удобным и выгодным, поэтому нам важно ваше мнение.</td>
+			<td style="width: 300px; vertical-align: top;">По получении взвешиваем ваши покупки, сообщаем вам остаток к оплате за товар и <a href="http://ikatalog.kz/StaticPages.aspx?Page=15" target="_blank">сумму за доставку</a>. Вы завершаете оплату и забираете бесплатно заказ с нашего склада в Алматы, либо выбираете доставку на дом в любой город Казахстана курьерской службой. После получения покупки у вас есть возможность <a href="http://ikatalog.kz/Testimonials.aspx" target="_blank">оставить отзыв</a>&nbsp;или <a href="http://ikatalog.kz/StaticPages.aspx?Page=16" target="_blank">вернуть товар</a>. Мы стремимся сделать наш сервис удобным и выгодным, поэтому нам важно ваше мнение.</td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
@@ -143,10 +143,37 @@
 		    </li>
 		</ul>
 	</div>
-	<div class="title_mid" style="padding: 0px 250px 0px 250px;">Лучшие товары из Германии прямо к Вашему порогу</div>
-	<div class="title_small" style="padding: 0px 150px 0px 150px;">Вы любите носить качественную одежду известных брендов и модные аксессуары? Вы цените уют и комфорт в доме? Но Вам не с руки ездить в Европу за каждым предметом? Ikatalog (Айкаталог) предлагает услуги по доставке косметики, женской, мужской, детской одежды, обуви и других товаров из лучших магазинов Германии. Быстрая и недорогая доставка на дом, в любой город – Алматы, Астану, Актау, Атырау и по всему Казахстану!</div>
+	<%--<div class="title_mid" style="padding: 0px 250px 0px 250px;">Лучшие товары из Германии прямо к Вашему порогу</div>--%>
+	<%--<div class="title_small" style="padding: 0px 150px 0px 150px;">Вы любите носить качественную одежду известных брендов и модные аксессуары? Вы цените уют и комфорт в доме? Но Вам не с руки ездить в Европу за каждым предметом? Ikatalog (Айкаталог) предлагает услуги по доставке косметики, женской, мужской, детской одежды, обуви и других товаров из лучших магазинов Германии. Быстрая и недорогая доставка на дом, в любой город – Алматы, Астану, Актау, Атырау и по всему Казахстану!</div>--%>
     </div>
-    
+    <div class="colorblock whiteblock">
+		<div class="title_big title_dark" style="padding: 0px 250px 0px 250px;">Делайте заказы на популярных интернет магазинах Германии!</div>
+
+        <table border="0" cellpadding="0" cellspacing="0" class="cats">
+	        <tbody>
+		        <tr>
+			        <td><a href="http://www.amazon.de/" target="_blank"><img src="Images/Logos/amazon.jpg" /></a></td>
+			        <td><a href="http://www.ebay.de/" target="_blank"><img src="Images/Logos/ebay.png" /></a></td>
+			        <td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=OTTO" target="_blank"><img src="Images/Logos/otto.png" /></a></td>
+			        <td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=HM" target="_blank"><img src="Images/Logos/hm_logo.png" /></a></td>
+			        <td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=NEXT" target="_blank"><img src="Images/Logos/next.png" /></a></td>
+			        <td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=KIK24" target="_blank"><img src="Images/Logos/kik_logo.png" /></a></td>
+			        <td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=ZARA" target="_blank"><img src="Images/Logos/logo_Zara.png" /></a></td>
+			        <td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=MANGO" target="_blank"><img src="Images/Logos/mango.png" /></a></td>
+			        <td><a href="http://goo.gl/YLVuJ" target="_blank"><img src="Images/Logos/stradivarius.png" /></a></td>
+		        </tr>
+		        <tr>
+			        <td>&nbsp;</td>
+			        <td>&nbsp;</td>
+			        <td>&nbsp;</td>
+			        <td colspan="3" style="height: 35px; background-color: #ED9E7C; font-weight: bold; border-radius: 5px;"><a href="http://ikatalog.kz/Catalogues.aspx?Tag=active" target="_blank">КАТАЛОГ ИНТЕРНЕТ-МАГАЗИНОВ!</a></td>
+			        <td>&nbsp;</td>
+			        <td>&nbsp;</td>
+			        <td>&nbsp;</td>
+		        </tr>
+	        </tbody>
+        </table>
+    </div>
 	<div class="colorblock yellowblock">
 		<div class="title_big title_dark" style="padding: 0px 250px 0px 250px;">Чем мы лучше остальных?</div>
 		<table border="0" cellpadding="0" cellspacing="0" style="margin: auto;">
@@ -208,48 +235,21 @@
 		</tbody>
 	</table>
 	</div>
-	<div class="colorblock whiteblock">
-		<div class="title_big title_dark" style="padding: 0px 250px 0px 250px;">Делайте заказы на популярных интернет магазинах Германии!</div>
-
-<table border="0" cellpadding="0" cellspacing="0" class="cats">
-	<tbody>
-		<tr>
-			<td><a href="http://www.amazon.de/" target="_blank"><img src="Images/Logos/amazon.jpg" /></a></td>
-			<td><a href="http://www.ebay.de/" target="_blank"><img src="Images/Logos/ebay.png" /></a></td>
-			<td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=OTTO" target="_blank"><img src="Images/Logos/otto.png" /></a></td>
-			<td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=HM" target="_blank"><img src="Images/Logos/hm_logo.png" /></a></td>
-			<td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=NEXT" target="_blank"><img src="Images/Logos/next.png" /></a></td>
-			<td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=KIK24" target="_blank"><img src="Images/Logos/kik_logo.png" /></a></td>
-			<td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=ZARA" target="_blank"><img src="Images/Logos/logo_Zara.png" /></a></td>
-			<td><a href="http://ikatalog.kz/CatalogueView.aspx?Catalogue=MANGO" target="_blank"><img src="Images/Logos/mango.png" /></a></td>
-			<td><a href="http://goo.gl/YLVuJ" target="_blank"><img src="Images/Logos/stradivarius.png" /></a></td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td colspan="3" style="height: 35px; background-color: #ED9E7C; font-weight: bold; border-radius: 5px;"><a href="http://ikatalog.kz/Catalogues.aspx?Tag=active" target="_blank">КАТАЛОГ ИНТЕРНЕТ-МАГАЗИНОВ!</a></td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-		</tr>
-	</tbody>
-</table>
-
-<div class="colorblock lightgreenblock">
-    <div class="title_big title_dark" style="padding: 0px 250px 0px 250px;">Что говорят наши клиенты?</div>
-    <asp:SqlDataSource ID="TestimonialsSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>" SelectCommand="select Name + ' (' + City + ')' as Header, Body from Testimonials where isnull(Approved, -1) = 1 order by CreationDate desc"></asp:SqlDataSource>
-    <asp:Repeater ID="TestimonialsRepeater" runat="server" DataSourceID="TestimonialsSource">
-	<ItemTemplate>
-	    <div class="testomonial">
-		<div>
-		    <h4><%# Eval("Header") %></h4>
-		    <asp:Label ID="TextLabel" runat="server" Text='<%# Eval("Body") %>'></asp:Label>
-		</div>
-	    </div>
-	</ItemTemplate>
-    </asp:Repeater>
-</div>
+	
+    <div class="colorblock lightgreenblock">
+        <div class="title_big title_dark" style="padding: 0px 250px 0px 250px;">Что говорят наши клиенты?</div>
+        <asp:SqlDataSource ID="TestimonialsSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>" SelectCommand="select Name + ' (' + City + ')' as Header, Body from Testimonials where isnull(Approved, -1) = 1 order by CreationDate desc"></asp:SqlDataSource>
+        <asp:Repeater ID="TestimonialsRepeater" runat="server" DataSourceID="TestimonialsSource">
+	    <ItemTemplate>
+	        <div class="testomonial">
+		    <div>
+		        <h4><%# Eval("Header") %></h4>
+		        <asp:Label ID="TextLabel" runat="server" Text='<%# Eval("Body") %>'></asp:Label>
+		    </div>
+	        </div>
+	    </ItemTemplate>
+        </asp:Repeater>
+    </div>
     
 </asp:Content>
 

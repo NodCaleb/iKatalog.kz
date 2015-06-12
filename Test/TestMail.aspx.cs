@@ -55,8 +55,35 @@ public partial class Test_TestGeneral : System.Web.UI.Page
 	string LastName = LastNameInput.Text;
 	string Phone = PhoneInput.Text;
 	string Address = AddressInput.Text;
-	
-	SendNotifcations(Login, Password, Email, FirstName, LastName, Phone, Address);
+
+    SmtpClient TEPSMTP = new SmtpClient();
+
+    TEPSMTP.Host = "smtp.ikatalog.kz";
+    TEPSMTP.Port = 25;
+    //TEPSMTP.EnableSsl = true;
+    TEPSMTP.Timeout = 10000;
+    TEPSMTP.DeliveryMethod = SmtpDeliveryMethod.Network;
+    TEPSMTP.UseDefaultCredentials = true;
+    TEPSMTP.Credentials = new System.Net.NetworkCredential("admin@ikatalog.kz", "3SUxRU5UT5mq");
+
+    MailAddress TEP = new MailAddress("admin@ikatalog.kz", "Личный кабинет Теполэнергопроф");
+    MailAddress Office = new MailAddress("nod.caleb@gmail.com", "Офис");
+
+    MailMessage FeedBackMessage = new MailMessage();
+    FeedBackMessage.From = TEP;
+    FeedBackMessage.To.Add(Office);
+    //FeedBackMessage.ReplyTo = Office;
+    FeedBackMessage.IsBodyHtml = true;
+    FeedBackMessage.BodyEncoding = System.Text.Encoding.UTF8;
+    FeedBackMessage.Subject = "Отзыв в личном кабинете";
+    FeedBackMessage.Body = "<p>Содержание отзыва:</p><p><em>" + AddressInput.Text + "</em></p>";
+
+    TEPSMTP.Send(FeedBackMessage);
+
+
+	//SendNotifcations(Login, Password, Email, FirstName, LastName, Phone, Address);
+
+
 	
 	TestLabel.Text = "Типа отправили...";
     }

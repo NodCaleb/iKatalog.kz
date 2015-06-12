@@ -264,7 +264,7 @@
 					<asp:ListItem>Наличными</asp:ListItem>
 					<asp:ListItem>Qiwi</asp:ListItem>
 					<asp:ListItem>Карта VISA/Mastercard на сайте</asp:ListItem>
-					<asp:ListItem>Зачисление  на карту KazCom</asp:ListItem>
+					<asp:ListItem>Зачисление  на карту KazKom</asp:ListItem>
 				    </asp:radiobuttonlist>
 				</td>
 				<td style="text-align: left; vertical-align: top;">

@@ -40,6 +40,7 @@
 	});
     </script>
    
+   	<meta name="google-site-verification" content="S9Ag3fYm0fx7US5h2xEOJoiXc3NPQkMMvbQzJk_mC7c" />
     <!-- meta name="description" content="Мы предоставляем услуги доставки товаров по каталогам - OTTO, H&M, Lacoste, ZARA, MEXX, Amazon и других - из Германии. Вашему вниманию предлагаются более 130 европейских каталогов одежды онлайн с огромным ассортиментом товаров на любой вкус для людей разного возраста." / -->
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -93,16 +94,7 @@
     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
     </asp:ContentPlaceHolder>
     <div style="clear:both;"></div>
-    <div class="cellar" style="margin-top: 0px">
-	<div class="innercellar">
-	    <img src="http://ikatalog.kz/images/cardlogo.png" alt="" />
-	    <!-- Yandex.Metrika informer -->
-	    <a href="https://metrika.yandex.ru/stat/?id=26407257&amp;from=informer"
-	    target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/26407257/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
-	    style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:26407257,lang:'ru'});return false}catch(e){}"/></a>
-	    <!-- /Yandex.Metrika informer -->
-	</div>
-    </div>
+    
     <!-- Ниже — Google Analytics -->
     <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -210,6 +202,31 @@
     </asp:UpdatePanel>
     </form>
     <div ID="toTop"> ^ Наверх </div>
+    <!-- Код тега ремаркетинга Google -->
+	<!--------------------------------------------------
+	С помощью тега ремаркетинга запрещается собирать информацию, по которой можно идентифицировать личность пользователя. Также запрещается размещать тег на страницах с контентом деликатного характера. Подробнее об этих требованиях и о настройке тега читайте на странице http://google.com/ads/remarketingsetup.
+	--------------------------------------------------->
+	<script type="text/javascript">
+	var google_tag_params = {
+	ecomm_prodid: 'REPLACE_WITH_VALUE',
+	ecomm_pagetype: 'REPLACE_WITH_VALUE',
+	ecomm_totalvalue: 'REPLACE_WITH_VALUE',
+	};
+	</script>
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 1002578196;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1002578196/?value=0&amp;guid=ON&amp;script=0"/>
+	</div>
+	</noscript>
 </body>
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>

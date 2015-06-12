@@ -30,7 +30,35 @@
 		    UpsellOffers as UO with (nolock)
 		    join Catalogues as C with (nolock) on C.Catalogue_id = UO.Catalogue_id
 	    order by
-		    NEWID()">
+		    UO.id desc">
+	</asp:SqlDataSource>
+	<asp:SqlDataSource ID="UpsellOffersSource2" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>"
+		SelectCommand="
+			select top 4 * from
+			(
+					select
+						UO.id,
+						UO.Catalogue_id,
+						C.CatalogueName,
+						UO.Article_id,
+						UO.ArticleNameDe,
+						UO.ArticleNameRu,
+						case UO.PriceOld when 0 then null else UO.PriceOld end as PriceOld,
+						UO.PriceNew as PriceNew,
+						UO.CatalogueURL as CatalogueURL,
+						UO.ImageURL as ImageURL,
+						UO.RecordDate as RecordDate,
+						'~/Images/Logos/' + C.ImageLink as LogoURL,
+						case isnull(C.NoFrame, 0)
+						when 0 then 'http://ikatalog.kz/CatalogueView.aspx?catalogue=' + convert (nvarchar(25), UO.Catalogue_id) + '&article=' + convert(nvarchar(25), Article_id) + '&name=' + convert(nvarchar(25), ArticleNameDe) + '&price=' + replace(convert(nvarchar(25), PriceNew), '.', ',') + '&URL=' + CatalogueURL
+						else UO.CatalogueURL
+						end as OrderURL,
+						ROW_NUMBER() OVER (ORDER BY UO.id desc) AS ROW_NUM
+					from
+						UpsellOffers as UO with (nolock)
+						join Catalogues as C with (nolock) on C.Catalogue_id = UO.Catalogue_id
+					) x
+			where ROW_NUM>4">
     </asp:SqlDataSource>
     <asp:SqlDataSource ID="PopularsSource" runat="server" ConnectionString="<%$ ConnectionStrings:iKConnectionString %>"
 	SelectCommand="
@@ -66,14 +94,14 @@
     </div>
     <div style="clear: both"></div>
     <div class="text-holder">
-	<p>Покупайте в популярных интернет-магазинах Германии, используя наш бесплатный склад в Ганновере для пересылки в Казахстан!</p>
+	<p>Покупайте в популярных интернет-магазинах и каталогах Германии с помощью сервиса прямой доставки iKatalog!</p>
 	<p>Используя доставку iKatalog, Вы получаете:</p>
 	<ul>
-		<li>Гарантию безопасности — мы исключаем риски при переводах денег за границу и гарантируем выполнение заказа, или возврат оплаты!</li>
-		<li>Выгодные цены — Ваши заказы не облагаются налогами и пошлинами, так как приобретаются для личного пользования!</li>
-		<li>Выгодные условия покупки — нам достаточно частичной предоплаты, для запуска заказа в работу!</li>
-		<li>Высокое качество и скорость обслуживания — от получения нами заказа и до передачи его Вам проходит от 1,5 недель!</li>
-		<li>Мы всегда рядом — позвоните или напишите нам в любой момент, без трудностей с иностранными языками!</li>
+		<li><strong>Гарантию безопасности</strong> &mdash; мы исключаем риски при переводах денег за границу и гарантируем выполнение заказа, или возврат оплаты!</li>
+		<li><strong>Выгодные цены</strong> &mdash; Ваши заказы не облагаются налогами и пошлинами, так как приобретаются для личного пользования!</li>
+		<li><strong>Выгодные условия покупки</strong> &mdash; частичная предоплата, проверка &ldquo;на месте&rdquo; качества товара нашим&nbsp;сотрудником,&nbsp;доставка на дом.</li>
+		<li><strong>Высокое качество и скорость обслуживания</strong> &mdash; от получения нами заказа и до передачи его Вам проходит от 1,5 до 3&nbsp;недель!</li>
+		<li><strong>Мы всегда рядом</strong> &mdash; &nbsp;позвоните или напишите нам в любой момент! Мы рады помочь Вам с выбором, оформлением и&nbsp;любыми вопросами.</li>
 	</ul>
     </div>
     <div class="title-holder">
@@ -115,7 +143,7 @@
     <div class="title-holder">
 	<h2>Горячие предложения</h2>
     </div>
-    <asp:Repeater ID="OffersRepeater2" runat="server" DataSourceID="UpsellOffersSource">
+    <asp:Repeater ID="OffersRepeater2" runat="server" DataSourceID="UpsellOffersSource2">
 	<ItemTemplate>
 	    <div class="offer">
 	    <div>
@@ -143,7 +171,7 @@
 		    <td style="vertical-align: top;">
 			<center><h4 style="margin:0px;">Как это работает?</h4></center>
 			<p>Вы делаете частичную предоплату;<br />
-			Наши менеджеры оплачивают ваши заказы в интернет магазинах;<br />
+			Наши менеджеры оплачивают ваши заказы в каталогах;<br />
 			Мы получаем ваши покупки на наш склад в Германии;<br />
 			Консолидируем и формируем отправку посылки в Алматы;<br />
 			По получении взвешиваем ваши покупки, сообщаем вам остаток к оплате за товар и сумму за доставку;<br />

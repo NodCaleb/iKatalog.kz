@@ -44,7 +44,8 @@ public partial class About : System.Web.UI.Page
             Response.Cookies["Visitor source"].Value = Request.QueryString["source"].ToString();
             Response.Cookies["Visitor source"].Expires = DateTime.Now.AddDays(7);
         }
-	if (Request.QueryString["mod"] != null) LandingBlocksSource.SelectParameters["Landing"].DefaultValue = Request.QueryString["mod"].ToString();
+	    if (Request.QueryString["mod"] != null) LandingBlocksSource.SelectParameters["Landing"].DefaultValue = Request.QueryString["mod"].ToString();
+        else Response.Redirect("~/LandingPage04.aspx");
     }
     private static string CreateSalt(int size)
     {
@@ -80,7 +81,7 @@ public partial class About : System.Web.UI.Page
 		FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(EmailTextBox.Text, true, 30);
 		string encTicket = FormsAuthentication.Encrypt(ticket);
 		Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName, encTicket));
-		Response.Redirect("~/Customer/RegisterSuccess.aspx?username=" + EmailTextBox.Text);
+		Response.Redirect("~/Customer/RegisterSuccess.aspx?source=ad&username=" + EmailTextBox.Text);
 	    }
 	    else
 	    {

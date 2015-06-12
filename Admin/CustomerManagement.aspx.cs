@@ -70,4 +70,22 @@ public partial class Admin_CustomerManagement : System.Web.UI.Page
             Response.Redirect(Request.RawUrl);
         }
     }
+    protected void DoNotPress(object sender, EventArgs e)
+    {
+    	iClass.CreateLog("Pressed", "Service.txt");
+    	
+    	string getNewUsersString = "select M.Email, C.FirstName, '' from aspnet_Membership as M join aspnet_Users as U on U.UserId = M.UserId join Customers as C on C.User_id = M.UserId where M.CreateDate >= dateadd(MONTH, -1, GETDATE())";
+    	//string getNewUsersString = "select * from Customers";
+    	SqlCommand getNewUsers = new SqlCommand(getNewUsersString, iKConnection);
+    	
+    	SqlDataReader newCustReader = getNewUsers.ExecuteReader();
+    	
+    	while (newCustReader.Read())
+    	{
+    		iClass.CreateLog(newCustReader[0].ToString(), "Service.txt");
+    		iClass.SendRegisterNotifcations(newCustReader[0].ToString(), newCustReader[1].ToString(), "");
+    	}
+    	
+    	newCustReader.Close();
+    }
 }

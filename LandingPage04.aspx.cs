@@ -15,38 +15,38 @@ public partial class About : System.Web.UI.Page
     {
         
     }
-    protected void RegisterCustomer(object sender, EventArgs e)
-    {	
-	if (iClass.CheckEmailExistence(EmailTextBox.Text))
-        {
-            EmailUniquenessValidator.IsValid = false;
-        }
-        else
-        {
-            EmailUniquenessValidator.IsValid = true;
-        }
+    //protected void RegisterCustomer(object sender, EventArgs e)
+    //{	
+    //if (iClass.CheckEmailExistence(EmailTextBox.Text))
+    //    {
+    //        EmailUniquenessValidator.IsValid = false;
+    //    }
+    //    else
+    //    {
+    //        EmailUniquenessValidator.IsValid = true;
+    //    }
 	
-	if (Page.IsValid)
-        {   
-	    //Здесь и далее в качестве имени пользователя используется email
-	    if (iClass.RegisterCustomerLite(EmailTextBox.Text, UserFullNameTextBox.Text, PhoneTextBox.Text))
-	    {
-		iClass.SendRegisterNotifcations(EmailTextBox.Text, UserFullNameTextBox.Text, PhoneTextBox.Text);
+    //if (Page.IsValid)
+    //    {   
+    //    //Здесь и далее в качестве имени пользователя используется email
+    //    if (iClass.RegisterCustomerLite(EmailTextBox.Text, UserFullNameTextBox.Text, PhoneTextBox.Text))
+    //    {
+    //    iClass.SendRegisterNotifcations(EmailTextBox.Text, UserFullNameTextBox.Text, PhoneTextBox.Text);
 		
-		string couponNumber = iClass.CraftCoupon(iClass.GetCustomerIDByLogin(EmailTextBox.Text), 0.95f, 7);
-		iClass.SendCouponIssueNotifcations(couponNumber);
+    //    string couponNumber = iClass.CraftCoupon(iClass.GetCustomerIDByLogin(EmailTextBox.Text), 0.95f, 7);
+    //    iClass.SendCouponIssueNotifcations(couponNumber);
 		
-		FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(EmailTextBox.Text, true, 30);
-		string encTicket = FormsAuthentication.Encrypt(ticket);
-		Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName, encTicket));
-		Response.Redirect("~/Customer/RegisterSuccess.aspx?username=" + EmailTextBox.Text);
-	    }
-	    else
-	    {
-		Response.Redirect("~/Customer/RegisterFail.aspx");
-	    }
-        }
-    }
+    //    FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(EmailTextBox.Text, true, 30);
+    //    string encTicket = FormsAuthentication.Encrypt(ticket);
+    //    Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName, encTicket));
+    //    Response.Redirect("~/Customer/RegisterSuccess.aspx?username=" + EmailTextBox.Text);
+    //    }
+    //    else
+    //    {
+    //    Response.Redirect("~/Customer/RegisterFail.aspx");
+    //    }
+    //    }
+    //}
     protected void RegisterCustomer2(object sender, EventArgs e)
     {	
 	if (iClass.CheckEmailExistence(EmailTextBox2.Text))
@@ -71,7 +71,7 @@ public partial class About : System.Web.UI.Page
 		FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(EmailTextBox2.Text, true, 30);
 		string encTicket = FormsAuthentication.Encrypt(ticket);
 		Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName, encTicket));
-		Response.Redirect("~/Customer/RegisterSuccess.aspx?username=" + EmailTextBox2.Text);
+		Response.Redirect("~/Customer/RegisterSuccess.aspx?source=ad&username=" + EmailTextBox2.Text);
 	    }
 	    else
 	    {

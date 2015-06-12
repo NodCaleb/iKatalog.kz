@@ -183,3 +183,209 @@
 30.04.2015 14:02:56 ==> Order #: 390 has been arranged
 01.05.2015 9:56:16 ==> Order is ready to be arranged for Customer: 246, on session: 0ootdgjxhqxmtwztjr0mthmd
 01.05.2015 9:56:16 ==> Order #: 391 has been arranged
+03.05.2015 20:16:34 ==> Order is ready to be arranged for Customer: 549, on session: os5vn4wo4wl2yst30rgcxluo
+03.05.2015 20:16:34 ==> Order #: 392 has been arranged
+05.05.2015 8:14:10 ==> Order is ready to be arranged for Customer: 606, on session: ftg1fwvy5yqj3pl4kcw4foiq
+05.05.2015 8:14:10 ==> Order #: 393 has been arranged
+05.05.2015 11:12:59 ==> Order is ready to be arranged for Customer: 1, on session: nxhvoop0ad3uc2pdnjnkx2pi
+05.05.2015 11:12:59 ==> Order #: 394 has been arranged
+06.05.2015 20:25:25 ==> Order is ready to be arranged for Customer: 614, on session: vu2jjvksenxbuyfedr1rxqtq
+06.05.2015 20:25:25 ==> Order #: 395 has been arranged
+07.05.2015 11:29:53 ==> Order is ready to be arranged for Customer: 615, on session: dzp1qevkjaxazixx3mmubvdv
+07.05.2015 11:29:54 ==> Order #: 396 has been arranged
+07.05.2015 12:43:13 ==> Order is ready to be arranged for Customer: 615, on session: dzp1qevkjaxazixx3mmubvdv
+07.05.2015 12:43:13 ==> Order #: 397 has been arranged
+08.05.2015 6:16:42 ==> Order is ready to be arranged for Customer: 622, on session: rwiphxtutpijzrurfiyc0z05
+08.05.2015 6:16:42 ==> Order #: 398 has been arranged
+08.05.2015 8:36:39 ==> Order is ready to be arranged for Customer: 606, on session: 2bostn1rc5tfvbmru0i042kh
+08.05.2015 8:36:39 ==> Order #: 399 has been arranged
+08.05.2015 14:17:31 ==> Order is ready to be arranged for Customer: 179, on session: e0ygzdqotdbjzxqyevpfrt0j
+08.05.2015 14:17:31 ==> Order #: 400 has been arranged
+08.05.2015 15:19:08 ==> Order is ready to be arranged for Customer: 628, on session: c2gjik3sfou253xioflly0vf
+08.05.2015 15:19:08 ==> Order #: 401 has been arranged
+08.05.2015 15:22:34 ==> Order is ready to be arranged for Customer: 629, on session: c2gjik3sfou253xioflly0vf
+08.05.2015 15:22:34 ==> Order #: 402 has been arranged
+09.05.2015 6:05:07 ==> Order is ready to be arranged for Customer: 300, on session: 4o0m3vu40od0fymzhib41kpf
+09.05.2015 6:05:07 ==> Order #: 403 has been arranged
+09.05.2015 21:25:04 ==> Order is ready to be arranged for Customer: 364, on session: bqqjjjbirmwozeivx434l4qk
+09.05.2015 21:25:04 ==> Order #: 404 has been arranged
+11.05.2015 6:42:06 ==> Order is ready to be arranged for Customer: 635, on session: fqt5rn0mxxfdarkg0ns4nwtw
+11.05.2015 6:42:06 ==> Order #: 405 has been arranged
+11.05.2015 18:24:24 ==> Order is ready to be arranged for Customer: 364, on session: jqro0aqju2zig3n322kii4dx
+11.05.2015 18:24:24 ==> Order #: 406 has been arranged
+12.05.2015 21:43:46 ==> Order is ready to be arranged for Customer: 335, on session: kwhjckr0syblij4uw0sxicz1
+12.05.2015 21:43:46 ==> Order #: 407 has been arranged
+14.05.2015 12:13:32 ==> Order is ready to be arranged for Customer: 444, on session: 4zt3pxkqlyrrizfsdg5f1tcw
+14.05.2015 12:13:32 ==> Order #: 408 has been arranged
+14.05.2015 17:05:27 ==> Order is ready to be arranged for Customer: 676, on session: pyeggyjmgp4tpbn4zrrkbdos
+14.05.2015 17:05:27 ==> Order #: 409 has been arranged
+14.05.2015 20:47:55 ==> Order is ready to be arranged for Customer: 114, on session: 2nmv1qnyjci1luzh5ks5kltx
+14.05.2015 20:47:55 ==> Order #: 410 has been arranged
+15.05.2015 12:57:24 ==> Order is ready to be arranged for Customer: 679, on session: xm3yg4wbcbbaknd0tyhiklzy
+15.05.2015 12:57:24 ==> Order #: 411 has been arranged
+16.05.2015 8:47:09 ==> Order is ready to be arranged for Customer: 688, on session: pqgwa3w45acairrfpg2mkqfq
+16.05.2015 8:47:09 ==> Order #: 412 has been arranged
+16.05.2015 10:40:54 ==> Order is ready to be arranged for Customer: 597, on session: 1uzpagqsii1jqmaltteg2zzq
+16.05.2015 10:40:54 ==> Order #: 413 has been arranged
+16.05.2015 10:52:14 ==> Order is ready to be arranged for Customer: 597, on session: 1uzpagqsii1jqmaltteg2zzq
+16.05.2015 10:52:14 ==> Order #: 414 has been arranged
+16.05.2015 12:12:53 ==> Order is ready to be arranged for Customer: 692, on session: 3camopgc1zlhmig0dkrt2doa
+16.05.2015 12:12:53 ==> Order #: 415 has been arranged
+16.05.2015 12:46:41 ==> Order is ready to be arranged for Customer: 597, on session: byqyntsli5n431mmhs5oinqh
+16.05.2015 12:46:41 ==> Order #: 416 has been arranged
+16.05.2015 14:13:03 ==> Order is ready to be arranged for Customer: 597, on session: oljpooxwdb2fzwb13rqhd04c
+16.05.2015 14:13:03 ==> Order #: 417 has been arranged
+16.05.2015 16:04:03 ==> Order is ready to be arranged for Customer: 293, on session: m3bfq3txsnaz35fibvuzdjq4
+16.05.2015 16:04:03 ==> Order #: 418 has been arranged
+16.05.2015 18:24:26 ==> Order is ready to be arranged for Customer: 699, on session: inytp45ockisb5ga4xa1u5ni
+16.05.2015 18:24:26 ==> Order #: 419 has been arranged
+19.05.2015 8:40:42 ==> Order is ready to be arranged for Customer: 716, on session: b2cfmkttmmstyhnp24qlvzcc
+19.05.2015 8:40:42 ==> Order #: 421 has been arranged
+19.05.2015 9:07:30 ==> Order is ready to be arranged for Customer: -2, on session: x5uxkfd5dxigilocvzcbjtuc
+19.05.2015 9:07:30 ==> Order #: 422 has been arranged
+19.05.2015 13:34:44 ==> Order is ready to be arranged for Customer: 399, on session: hcmbnolxi4xlcf5oawxuubhy
+19.05.2015 13:34:44 ==> Order #: 423 has been arranged
+19.05.2015 14:38:02 ==> Order is ready to be arranged for Customer: -2, on session: x5uxkfd5dxigilocvzcbjtuc
+19.05.2015 14:38:02 ==> Order #: -1 has been arranged
+19.05.2015 20:05:52 ==> Order is ready to be arranged for Customer: 719, on session: xzmfsoqqosf1swajx1r2exty
+19.05.2015 20:05:52 ==> Order #: 424 has been arranged
+19.05.2015 21:43:44 ==> Order is ready to be arranged for Customer: 551, on session: ezmhxt5bxsh5345dyxzm2vhk
+19.05.2015 21:43:44 ==> Order #: 425 has been arranged
+20.05.2015 11:05:33 ==> Order is ready to be arranged for Customer: 720, on session: zvrdbsapwvy5bxggs3b0zzrf
+20.05.2015 11:05:33 ==> Order #: 426 has been arranged
+20.05.2015 15:43:28 ==> Order is ready to be arranged for Customer: 293, on session: szuinbdhfkkw2sapq2gvqwlx
+20.05.2015 15:43:28 ==> Order #: 427 has been arranged
+21.05.2015 9:13:12 ==> Order is ready to be arranged for Customer: 708, on session: cr1lgjuo4iunkt3p1kjufc32
+21.05.2015 9:13:12 ==> Order #: 428 has been arranged
+21.05.2015 14:38:21 ==> Order is ready to be arranged for Customer: 278, on session: kl3gfsqqnrtwi1oy4vgdo1rf
+21.05.2015 14:38:21 ==> Order #: 429 has been arranged
+22.05.2015 7:35:45 ==> Order is ready to be arranged for Customer: -2, on session: 5cifreusuh10w54qc12krqnk
+22.05.2015 7:35:45 ==> Order #: 430 has been arranged
+22.05.2015 7:35:55 ==> Order is ready to be arranged for Customer: -2, on session: 5cifreusuh10w54qc12krqnk
+22.05.2015 7:35:55 ==> Order #: -1 has been arranged
+22.05.2015 8:54:12 ==> Order is ready to be arranged for Customer: 399, on session: 5cifreusuh10w54qc12krqnk
+22.05.2015 8:54:12 ==> Order #: 431 has been arranged
+22.05.2015 17:28:37 ==> Order is ready to be arranged for Customer: 300, on session: 4t30d0p5m4qcfhi0lj3crglf
+22.05.2015 17:28:37 ==> Order #: 432 has been arranged
+23.05.2015 8:04:14 ==> Order is ready to be arranged for Customer: 300, on session: 21bhc3nwuf2mq4z1srmubasl
+23.05.2015 8:04:14 ==> Order #: 433 has been arranged
+23.05.2015 21:20:36 ==> Order is ready to be arranged for Customer: 385, on session: 0ziydm5wneuduyd2ffidtrp4
+23.05.2015 21:20:36 ==> Order #: 434 has been arranged
+24.05.2015 18:29:21 ==> Order is ready to be arranged for Customer: 114, on session: ymbyzoaekb4c3acq2cimxctb
+24.05.2015 18:29:21 ==> Order #: 435 has been arranged
+25.05.2015 12:27:01 ==> Order is ready to be arranged for Customer: 179, on session: udominbjrmt0rnbhrfbuhhav
+25.05.2015 12:27:01 ==> Order #: 436 has been arranged
+25.05.2015 13:44:02 ==> Order is ready to be arranged for Customer: 753, on session: kt0ga53uctvqqqt5hr4sasrm
+25.05.2015 13:44:02 ==> Order #: 437 has been arranged
+26.05.2015 14:41:45 ==> Order is ready to be arranged for Customer: 753, on session: oxednayxzlrusqo2vn4dzh1r
+26.05.2015 14:41:45 ==> Order #: 438 has been arranged
+27.05.2015 9:06:59 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:06:59 ==> Order #: -1 has been arranged
+27.05.2015 9:07:11 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:07:11 ==> Order #: -1 has been arranged
+27.05.2015 9:07:19 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:07:19 ==> Order #: -1 has been arranged
+27.05.2015 9:07:33 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:07:33 ==> Order #: -1 has been arranged
+27.05.2015 9:07:48 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:07:48 ==> Order #: -1 has been arranged
+27.05.2015 9:08:10 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:08:10 ==> Order #: -1 has been arranged
+27.05.2015 9:08:37 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:08:37 ==> Order #: -1 has been arranged
+27.05.2015 9:08:48 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:08:48 ==> Order #: -1 has been arranged
+27.05.2015 9:09:45 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:09:45 ==> Order #: -1 has been arranged
+27.05.2015 9:11:16 ==> Order is ready to be arranged for Customer: 399, on session: wsfshtfzbas2hxzxc2gdruv5
+27.05.2015 9:11:16 ==> Order #: 439 has been arranged
+27.05.2015 10:39:57 ==> Order is ready to be arranged for Customer: 399, on session: jv5fcg5myh1rmmtnbcrivofu
+27.05.2015 10:39:57 ==> Order #: 440 has been arranged
+27.05.2015 13:30:29 ==> Order is ready to be arranged for Customer: 772, on session: zszaiqvnanelfcra4svlzefe
+27.05.2015 13:30:29 ==> Order #: 441 has been arranged
+27.05.2015 21:10:32 ==> Order is ready to be arranged for Customer: 415, on session: hhrv1znoxuxhnzoomezmwkih
+27.05.2015 21:10:32 ==> Order #: 442 has been arranged
+28.05.2015 6:13:58 ==> Order is ready to be arranged for Customer: 1, on session: rmldsnyxno5nbol5hnrx1rpq
+28.05.2015 6:13:58 ==> Order #: 443 has been arranged
+28.05.2015 12:50:55 ==> Order is ready to be arranged for Customer: 780, on session: cfoiv05tj4c5va1qqtdw3puy
+28.05.2015 12:50:55 ==> Order #: 444 has been arranged
+28.05.2015 13:10:36 ==> Order is ready to be arranged for Customer: 3, on session: lkjenhq3wkqzlzwjgwlogqwb
+28.05.2015 13:10:36 ==> Order #: 445 has been arranged
+28.05.2015 17:24:49 ==> Order is ready to be arranged for Customer: 1, on session: rmldsnyxno5nbol5hnrx1rpq
+28.05.2015 17:24:49 ==> Order #: 446 has been arranged
+28.05.2015 20:05:40 ==> Order is ready to be arranged for Customer: 785, on session: soh0wakm1jf0p32bacummhs4
+28.05.2015 20:05:40 ==> Order #: 447 has been arranged
+29.05.2015 11:34:55 ==> Order is ready to be arranged for Customer: 505, on session: g5tcxf54cyzhdo1qgsvkdyej
+29.05.2015 11:34:55 ==> Order #: 448 has been arranged
+30.05.2015 17:27:42 ==> Order is ready to be arranged for Customer: 798, on session: 4uk0scpurvenpkjy0mfggh0w
+30.05.2015 17:27:42 ==> Order #: 449 has been arranged
+31.05.2015 6:41:57 ==> Order is ready to be arranged for Customer: 785, on session: soh0wakm1jf0p32bacummhs4
+31.05.2015 6:41:57 ==> Order #: 450 has been arranged
+31.05.2015 12:04:32 ==> Order is ready to be arranged for Customer: 802, on session: rrzjptjkxkr05crv0spy4xpq
+31.05.2015 12:04:32 ==> Order #: 451 has been arranged
+31.05.2015 21:05:27 ==> Order is ready to be arranged for Customer: 696, on session: do5jhcx3bng2nt1a5rlz1kfi
+31.05.2015 21:05:27 ==> Order #: 452 has been arranged
+31.05.2015 23:00:47 ==> Order is ready to be arranged for Customer: 805, on session: pnwyvryoxzsupplxq1zym2ck
+31.05.2015 23:00:47 ==> Order #: 453 has been arranged
+01.06.2015 19:38:05 ==> Order is ready to be arranged for Customer: 808, on session: 2gryl4q5lpzesi05zjwc0der
+01.06.2015 19:38:05 ==> Order #: 454 has been arranged
+06.06.2015 11:31:06 ==> Order is ready to be arranged for Customer: 848, on session: 0jrgsuisie0feevz141kb5co
+06.06.2015 11:31:06 ==> Order #: 455 has been arranged
+06.06.2015 12:40:00 ==> Order is ready to be arranged for Customer: 850, on session: ykmnox5wwqdt0srglz24bd2s
+06.06.2015 12:40:00 ==> Order #: 456 has been arranged
+07.06.2015 13:17:38 ==> Order is ready to be arranged for Customer: 1, on session: z11r5pnqapuw0jmqtmuzdcgo
+07.06.2015 13:17:38 ==> Order #: 457 has been arranged
+07.06.2015 13:28:46 ==> Order is ready to be arranged for Customer: 865, on session: ttj1zqsfqp32wfb1qchbr2qt
+07.06.2015 13:28:46 ==> Order #: 458 has been arranged
+07.06.2015 13:37:02 ==> Order is ready to be arranged for Customer: 866, on session: ttj1zqsfqp32wfb1qchbr2qt
+07.06.2015 13:37:02 ==> Order #: 459 has been arranged
+07.06.2015 13:42:00 ==> Order is ready to be arranged for Customer: 867, on session: ttj1zqsfqp32wfb1qchbr2qt
+07.06.2015 13:42:00 ==> Order #: 460 has been arranged
+08.06.2015 14:35:44 ==> Order is ready to be arranged for Customer: 872, on session: flhr3y1b50lhoktfcdsmathq
+08.06.2015 14:35:44 ==> Order #: 461 has been arranged
+08.06.2015 14:41:14 ==> Order is ready to be arranged for Customer: 873, on session: flhr3y1b50lhoktfcdsmathq
+08.06.2015 14:41:14 ==> Order #: 462 has been arranged
+08.06.2015 15:19:16 ==> Order is ready to be arranged for Customer: 874, on session: uhoysa3rxxene3bhf2jpjxac
+08.06.2015 15:19:16 ==> Order #: 463 has been arranged
+09.06.2015 10:44:04 ==> Order is ready to be arranged for Customer: 874, on session: ukdp51iy0fb1pv5dpape5jwm
+09.06.2015 10:44:04 ==> Order #: 464 has been arranged
+09.06.2015 15:56:25 ==> Order is ready to be arranged for Customer: 641, on session: theni3w15m00blzcl0skmgm5
+09.06.2015 15:56:25 ==> Order #: 465 has been arranged
+09.06.2015 18:11:23 ==> Order is ready to be arranged for Customer: 246, on session: aqixyi025dcl2w23xphd0idt
+09.06.2015 18:11:23 ==> Order #: 466 has been arranged
+09.06.2015 18:11:29 ==> Order is ready to be arranged for Customer: 246, on session: aqixyi025dcl2w23xphd0idt
+09.06.2015 18:11:29 ==> Order #: -1 has been arranged
+09.06.2015 18:11:51 ==> Order is ready to be arranged for Customer: 246, on session: aqixyi025dcl2w23xphd0idt
+09.06.2015 18:11:51 ==> Order #: -1 has been arranged
+09.06.2015 18:12:00 ==> Order is ready to be arranged for Customer: 246, on session: aqixyi025dcl2w23xphd0idt
+09.06.2015 18:12:00 ==> Order #: -1 has been arranged
+09.06.2015 18:12:06 ==> Order is ready to be arranged for Customer: 246, on session: aqixyi025dcl2w23xphd0idt
+09.06.2015 18:12:06 ==> Order #: -1 has been arranged
+09.06.2015 18:12:07 ==> Order is ready to be arranged for Customer: 246, on session: aqixyi025dcl2w23xphd0idt
+09.06.2015 18:12:07 ==> Order #: -1 has been arranged
+09.06.2015 18:12:09 ==> Order is ready to be arranged for Customer: 246, on session: aqixyi025dcl2w23xphd0idt
+09.06.2015 18:12:09 ==> Order #: -1 has been arranged
+10.06.2015 6:55:12 ==> Order is ready to be arranged for Customer: 881, on session: qoi5fncpunjyzwtzh2fdsbfm
+10.06.2015 6:55:12 ==> Order #: 467 has been arranged
+10.06.2015 9:27:00 ==> Order is ready to be arranged for Customer: 399, on session: c0pz0bm0kam3zgwnxt4dkibz
+10.06.2015 9:27:00 ==> Order #: 468 has been arranged
+10.06.2015 11:46:08 ==> Order is ready to be arranged for Customer: 784, on session: 0mc50dl5bhcnrvdxwmsbwgm5
+10.06.2015 11:46:08 ==> Order #: 469 has been arranged
+10.06.2015 12:52:45 ==> Order is ready to be arranged for Customer: 757, on session: 5puylfwpviwvl2ij2epfddwu
+10.06.2015 12:52:45 ==> Order #: 470 has been arranged
+10.06.2015 13:05:44 ==> Order is ready to be arranged for Customer: 757, on session: 5puylfwpviwvl2ij2epfddwu
+10.06.2015 13:05:44 ==> Order #: 471 has been arranged
+10.06.2015 14:32:27 ==> Order is ready to be arranged for Customer: 293, on session: jx3vv4bywmi3hvs5qumuhep0
+10.06.2015 14:32:27 ==> Order #: 472 has been arranged
+10.06.2015 19:35:46 ==> Order is ready to be arranged for Customer: 343, on session: cn4nfh4zrry40ympoi03ox0p
+10.06.2015 19:35:46 ==> Order #: 473 has been arranged
+11.06.2015 20:52:47 ==> Order is ready to be arranged for Customer: -2, on session: ig2w0hvyxam4cwykonsu13go
+11.06.2015 20:52:47 ==> Order #: 474 has been arranged
+11.06.2015 20:53:54 ==> Order is ready to be arranged for Customer: -2, on session: ig2w0hvyxam4cwykonsu13go
+11.06.2015 20:53:54 ==> Order #: -1 has been arranged
+11.06.2015 22:04:21 ==> Order is ready to be arranged for Customer: 293, on session: vxhsy3uqiuc3tdgyd3aluryd
+11.06.2015 22:04:21 ==> Order #: 475 has been arranged
+12.06.2015 6:20:02 ==> Order is ready to be arranged for Customer: 784, on session: ukxkths131lmpxc1gg3lbv3r
+12.06.2015 6:20:02 ==> Order #: 476 has been arranged
+12.06.2015 8:18:48 ==> Order is ready to be arranged for Customer: 889, on session: 3lj2hgjoom2e5z5uk5onrctj
+12.06.2015 8:18:48 ==> Order #: 477 has been arranged

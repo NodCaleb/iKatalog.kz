@@ -72,7 +72,9 @@
                                 <li>
                                     <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin/OrderManagement.aspx">Заказы</asp:HyperLink>
 				</li>
-			
+				<li>
+                                    <asp:HyperLink ID="IncompleteOrdersLink" runat="server" NavigateUrl="~/Admin/IncompleteOrders.aspx">Неоформленные заказы</asp:HyperLink>
+				</li>
 				<li>
 					<asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Admin/CustomerManagement.aspx">Покупатели</asp:HyperLink>
 				</li>

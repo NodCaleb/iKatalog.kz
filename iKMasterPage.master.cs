@@ -75,7 +75,11 @@ public partial class iKMasterPage : System.Web.UI.MasterPage
 		    else Session["Admin"] = "false";
 		    Session["Customer"] = UserCredentials["Customer_id"].ToString();
 
-		    UserNameLabel.Text = UserCredentials["FullName"].ToString();
+		    string userFullName = UserCredentials["FullName"].ToString();
+
+		    if (userFullName.Length > 25) UserNameLabel.Text = userFullName.Substring(0,22) + "...";
+		    else UserNameLabel.Text = userFullName;
+		    
 		    Session["UserName"] = UserCredentials["FirstName"].ToString();
 		    Session["UserFullName"] = UserCredentials["FullName"].ToString();
 		    Session["UserMail"] = UserCredentials["Email"].ToString();

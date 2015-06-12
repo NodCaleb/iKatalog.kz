@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Slider - Default functionality</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#breastSlider" ).slider({animate: "fast", min: 78, max: 118, value: 90,
+                                 slide: function( event, ui )
+                                 {
+                                     $( "#breast" ).val( ui.value + " cm" );
+                                     ajustWaist();
+                                     $( "#waist" ).val( $( "#waistSlider" ).slider( "option", "value" ) + " cm" );
+                                     showSize();
+                                 }});
+    $( "#waistSlider" ).slider({animate: "fast", min: 58, max: 98, value: 70,
+                                 slide: function( event, ui )
+                                {
+                                    $( "#waist" ).val( ui.value + " cm" );
+                                    ajustBreast();
+                                    $( "#breast" ).val( $( "#breastSlider" ).slider( "option", "value" ) + " cm" );
+                                    showSize();
+                                }});
+  });
+      function ajustWaist()
+      {
+          var breastValue = parseInt($( "#breastSlider" ).slider( "option", "value" ));
+          var waistValue = parseInt($( "#waistSlider" ).slider( "option", "value" ));
+          if ((breastValue - waistValue) > 20) waistValue = breastValue - 20;
+          if ((waistValue - breastValue) > 15) waistValue = breastValue + 15;
+          $( "#waistSlider" ).slider( "option", "value", waistValue );
+      };
+      function ajustBreast()
+      {
+          var breastValue = parseInt($( "#breastSlider" ).slider( "option", "value" ));
+          var waistValue = parseInt($( "#waistSlider" ).slider( "option", "value" ));
+          if ((breastValue - waistValue) > 20) breastValue = waistValue + 20;
+          if ((waistValue - breastValue) > 15) breastValue = waistValue - 15;
+          $( "#breastSlider" ).slider( "option", "value", breastValue );
+      };
+      function showSize()
+      {
+          var breastValue = parseInt($( "#breastSlider" ).slider( "option", "value" ));
+          if (breastValue > 114) {$( "#russian" ).val("58"); $( "#german" ).val("50");}
+          else if (breastValue > 110) {$( "#russian" ).val("56"); $( "#german" ).val("48");}
+          else if (breastValue > 106) {$( "#russian" ).val("54"); $( "#german" ).val("46");}
+          else if (breastValue > 102) {$( "#russian" ).val("52"); $( "#german" ).val("44");}
+          else if (breastValue > 98) {$( "#russian" ).val("50"); $( "#german" ).val("42");}
+          else if (breastValue > 94) {$( "#russian" ).val("48"); $( "#german" ).val("40");}
+          else if (breastValue > 90) {$( "#russian" ).val("46"); $( "#german" ).val("38");}
+          else if (breastValue > 86) {$( "#russian" ).val("44"); $( "#german" ).val("36");}
+          else if (breastValue > 82) {$( "#russian" ).val("42"); $( "#german" ).val("34");}
+          else {$( "#russian" ).val("40"); $( "#german" ).val("32");}
+      }
+  </script>
+</head>
+<body>
+    <div style="width:300px">
+     <p>
+      <label for="amount">Обхват груди:</label>
+      <input type="text" id="breast" readonly style="border:0">
+    </p>
+    <div id="breastSlider"></div>
+    <p>
+      <label for="amount">Обхват талии:</label>
+      <input type="text" id="waist" readonly style="border:0">
+    </p>
+    <div id="waistSlider"></div>
+     <p>
+      <label for="amount">Российский размер :</label>
+      <input type="text" id="russian" readonly style="border:0">
+         <br>
+         <label for="amount">Европа / Германия :</label>
+      <input type="text" id="german" readonly style="border:0">
+    </p>
+ </div>
+</body>
+</html>

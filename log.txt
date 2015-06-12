@@ -1,857 +1,422 @@
-2015-04-07 12:00:23,435 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-07 12:00:23,450 RestClient INFO  Start writeStream to request
-2015-04-07 12:00:23,450 RestClient INFO  Start GetBytes from PostData
-2015-04-07 12:00:23,450 RestClient INFO  End GetBytes from PostData
-2015-04-07 12:00:23,982 RestClient INFO  End writeStream to request
-2015-04-07 12:00:23,982 RestClient INFO  Start GetResponse
-2015-04-07 12:00:24,075 RestClient INFO  End GetResponse
-2015-04-07 12:00:24,075 RestClient INFO  Start parsing response
-2015-04-07 12:00:24,075 RestClient INFO  End parsing response
-2015-04-07 12:00:24,075 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-07 12:00:24,075 PaymentOnline INFO  Saving token in DB
-2015-04-07 12:00:24,153 PaymentOnline INFO  Saved token in DB
-2015-04-07 12:06:26,531 RestClient INFO  Start writeStream to request
-2015-04-07 12:06:26,531 RestClient INFO  End writeStream to request
-2015-04-07 12:06:26,531 RestClient INFO  Start GetResponse
-2015-04-07 12:06:26,906 RestClient INFO  End GetResponse
-2015-04-07 12:06:26,906 RestClient INFO  Start parsing response
-2015-04-07 12:06:26,906 RestClient INFO  End parsing response
-2015-04-09 09:42:24,313 PaymentOnline INFO  Page_load
-2015-04-09 09:42:24,438 PaymentOnline INFO  eCommCharge choosed
-2015-04-09 09:42:24,438 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-09 09:42:24,485 PaymentOnline INFO  Sql execution finished
-2015-04-09 09:42:24,485 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-09 09:42:25,125 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-09 09:42:25,125 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-09 09:42:25,125 RestClient INFO  Start writeStream to request
-2015-04-09 09:42:25,125 RestClient INFO  Start GetBytes from PostData
-2015-04-09 09:42:25,125 RestClient INFO  End GetBytes from PostData
-2015-04-09 09:42:25,563 RestClient INFO  End writeStream to request
-2015-04-09 09:42:25,563 RestClient INFO  Start GetResponse
-2015-04-09 09:42:25,688 RestClient INFO  End GetResponse
-2015-04-09 09:42:25,688 RestClient INFO  Start parsing response
-2015-04-09 09:42:25,688 RestClient INFO  End parsing response
-2015-04-09 09:42:25,688 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-09 09:42:25,688 PaymentOnline INFO  Saving token in DB
-2015-04-09 09:42:25,766 PaymentOnline INFO  Saved token in DB
-2015-04-09 10:27:01,485 PaymentOnline INFO  Page_load
-2015-04-09 10:27:01,485 PaymentOnline INFO  eCommCharge choosed
-2015-04-09 10:27:01,485 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-09 10:27:01,485 PaymentOnline INFO  Sql execution finished
-2015-04-09 10:27:01,485 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-09 10:27:01,485 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-09 10:27:01,485 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-09 10:27:01,485 RestClient INFO  Start writeStream to request
-2015-04-09 10:27:01,485 RestClient INFO  Start GetBytes from PostData
-2015-04-09 10:27:01,485 RestClient INFO  End GetBytes from PostData
-2015-04-09 10:27:01,703 RestClient INFO  End writeStream to request
-2015-04-09 10:27:01,703 RestClient INFO  Start GetResponse
-2015-04-09 10:27:01,766 RestClient INFO  End GetResponse
-2015-04-09 10:27:01,766 RestClient INFO  Start parsing response
-2015-04-09 10:27:01,766 RestClient INFO  End parsing response
-2015-04-09 10:27:01,766 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-09 10:27:01,766 PaymentOnline INFO  Saving token in DB
-2015-04-09 10:27:01,766 PaymentOnline INFO  Saved token in DB
-2015-04-09 13:30:43,188 PaymentOnline INFO  Page_load
-2015-04-09 13:31:06,094 PaymentOnline INFO  Page_load
-2015-04-09 13:31:09,906 PaymentOnline INFO  Page_load
-2015-04-09 13:31:09,922 PaymentOnline INFO  eCommCharge choosed
-2015-04-09 13:31:09,922 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-09 13:31:09,922 PaymentOnline INFO  Sql execution finished
-2015-04-09 13:31:09,922 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-09 13:31:10,156 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-09 13:31:10,156 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-09 13:31:10,156 RestClient INFO  Start writeStream to request
-2015-04-09 13:31:10,156 RestClient INFO  Start GetBytes from PostData
-2015-04-09 13:31:10,156 RestClient INFO  End GetBytes from PostData
-2015-04-09 13:31:10,375 RestClient INFO  End writeStream to request
-2015-04-09 13:31:10,375 RestClient INFO  Start GetResponse
-2015-04-09 13:31:10,453 RestClient INFO  End GetResponse
-2015-04-09 13:31:10,453 RestClient INFO  Start parsing response
-2015-04-09 13:31:10,453 RestClient INFO  End parsing response
-2015-04-09 13:31:10,453 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-09 13:31:10,453 PaymentOnline INFO  Saving token in DB
-2015-04-09 13:31:10,531 PaymentOnline INFO  Saved token in DB
-2015-04-10 09:45:20,516 PaymentOnline INFO  Page_load
-2015-04-10 09:46:02,453 PaymentOnline INFO  Page_load
-2015-04-10 09:46:02,625 PaymentOnline INFO  eCommCharge choosed
-2015-04-10 09:46:02,625 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-10 09:46:02,672 PaymentOnline INFO  Sql execution finished
-2015-04-10 09:46:02,672 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-10 09:46:03,313 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-10 09:46:03,313 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-10 09:46:03,313 RestClient INFO  Start writeStream to request
-2015-04-10 09:46:03,313 RestClient INFO  Start GetBytes from PostData
-2015-04-10 09:46:03,313 RestClient INFO  End GetBytes from PostData
-2015-04-10 09:46:03,625 RestClient INFO  End writeStream to request
-2015-04-10 09:46:03,625 RestClient INFO  Start GetResponse
-2015-04-10 09:46:03,766 RestClient INFO  End GetResponse
-2015-04-10 09:46:03,766 RestClient INFO  Start parsing response
-2015-04-10 09:46:03,766 RestClient INFO  End parsing response
-2015-04-10 09:46:03,766 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-10 09:46:03,766 PaymentOnline INFO  Saving token in DB
-2015-04-10 09:46:03,860 PaymentOnline INFO  Saved token in DB
-2015-04-10 09:49:30,422 RestClient INFO  Start writeStream to request
-2015-04-10 09:49:30,422 RestClient INFO  End writeStream to request
-2015-04-10 09:49:30,422 RestClient INFO  Start GetResponse
-2015-04-10 09:49:30,813 RestClient INFO  End GetResponse
-2015-04-10 09:49:30,813 RestClient INFO  Start parsing response
-2015-04-10 09:49:30,813 RestClient INFO  End parsing response
-2015-04-11 15:18:43,641 PaymentOnline INFO  Page_load
-2015-04-11 15:18:43,688 PaymentOnline INFO  eCommCharge choosed
-2015-04-11 15:18:43,688 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-11 15:18:43,719 PaymentOnline INFO  Sql execution finished
-2015-04-11 15:18:43,719 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-11 15:18:43,953 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-11 15:18:43,953 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-11 15:18:43,953 RestClient INFO  Start writeStream to request
-2015-04-11 15:18:43,953 RestClient INFO  Start GetBytes from PostData
-2015-04-11 15:18:43,953 RestClient INFO  End GetBytes from PostData
-2015-04-11 15:18:44,250 RestClient INFO  End writeStream to request
-2015-04-11 15:18:44,250 RestClient INFO  Start GetResponse
-2015-04-11 15:18:44,360 RestClient INFO  End GetResponse
-2015-04-11 15:18:44,360 RestClient INFO  Start parsing response
-2015-04-11 15:18:44,360 RestClient INFO  End parsing response
-2015-04-11 15:18:44,360 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-11 15:18:44,360 PaymentOnline INFO  Saving token in DB
-2015-04-11 15:18:44,422 PaymentOnline INFO  Saved token in DB
-2015-04-11 15:59:41,125 PaymentOnline INFO  Page_load
-2015-04-11 15:59:41,125 PaymentOnline INFO  eCommCharge choosed
-2015-04-11 15:59:41,125 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-11 15:59:41,125 PaymentOnline INFO  Sql execution finished
-2015-04-11 15:59:41,125 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-11 15:59:41,125 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-11 15:59:41,125 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-11 15:59:41,125 RestClient INFO  Start writeStream to request
-2015-04-11 15:59:41,125 RestClient INFO  Start GetBytes from PostData
-2015-04-11 15:59:41,125 RestClient INFO  End GetBytes from PostData
-2015-04-11 15:59:41,344 RestClient INFO  End writeStream to request
-2015-04-11 15:59:41,344 RestClient INFO  Start GetResponse
-2015-04-11 15:59:41,406 RestClient INFO  End GetResponse
-2015-04-11 15:59:41,406 RestClient INFO  Start parsing response
-2015-04-11 15:59:41,406 RestClient INFO  End parsing response
-2015-04-11 15:59:41,406 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-11 15:59:41,406 PaymentOnline INFO  Saving token in DB
-2015-04-11 15:59:41,406 PaymentOnline INFO  Saved token in DB
-2015-04-11 16:44:02,266 PaymentOnline INFO  Page_load
-2015-04-11 16:44:57,531 PaymentOnline INFO  Page_load
-2015-04-11 16:45:23,766 PaymentOnline INFO  Page_load
-2015-04-11 16:47:29,672 PaymentOnline INFO  Page_load
-2015-04-11 16:47:49,750 PaymentOnline INFO  Page_load
-2015-04-11 16:47:49,750 PaymentOnline INFO  eCommCharge choosed
-2015-04-11 16:47:49,750 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-11 16:47:49,750 PaymentOnline INFO  Sql execution finished
-2015-04-11 16:47:49,750 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-11 16:47:49,750 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-11 16:47:49,750 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-11 16:47:49,750 RestClient INFO  Start writeStream to request
-2015-04-11 16:47:49,750 RestClient INFO  Start GetBytes from PostData
-2015-04-11 16:47:49,750 RestClient INFO  End GetBytes from PostData
-2015-04-11 16:47:50,344 RestClient INFO  End writeStream to request
-2015-04-11 16:47:50,344 RestClient INFO  Start GetResponse
-2015-04-11 16:47:50,422 RestClient INFO  End GetResponse
-2015-04-11 16:47:50,422 RestClient INFO  Start parsing response
-2015-04-11 16:47:50,422 RestClient INFO  End parsing response
-2015-04-11 16:47:50,422 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-11 16:47:50,422 PaymentOnline INFO  Saving token in DB
-2015-04-11 16:47:50,438 PaymentOnline INFO  Saved token in DB
-2015-04-11 16:51:38,922 PaymentOnline INFO  Page_load
-2015-04-11 17:05:07,360 PaymentOnline INFO  Page_load
-2015-04-11 17:05:07,360 PaymentOnline INFO  eCommCharge choosed
-2015-04-11 17:05:07,360 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-11 17:05:07,360 PaymentOnline INFO  Sql execution finished
-2015-04-11 17:05:07,360 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-11 17:05:07,360 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-11 17:05:07,360 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-11 17:05:07,360 RestClient INFO  Start writeStream to request
-2015-04-11 17:05:07,360 RestClient INFO  Start GetBytes from PostData
-2015-04-11 17:05:07,360 RestClient INFO  End GetBytes from PostData
-2015-04-11 17:05:07,891 RestClient INFO  End writeStream to request
-2015-04-11 17:05:07,891 RestClient INFO  Start GetResponse
-2015-04-11 17:05:07,953 RestClient INFO  End GetResponse
-2015-04-11 17:05:07,953 RestClient INFO  Start parsing response
-2015-04-11 17:05:07,953 RestClient INFO  End parsing response
-2015-04-11 17:05:07,953 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-11 17:05:07,953 PaymentOnline INFO  Saving token in DB
-2015-04-11 17:05:07,953 PaymentOnline INFO  Saved token in DB
-2015-04-11 17:17:26,047 PaymentOnline INFO  Page_load
-2015-04-11 17:17:26,047 PaymentOnline INFO  eCommCharge choosed
-2015-04-11 17:17:26,047 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-11 17:17:26,047 PaymentOnline INFO  Sql execution finished
-2015-04-11 17:17:26,047 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-11 17:17:26,047 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-11 17:17:26,047 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-11 17:17:26,047 RestClient INFO  Start writeStream to request
-2015-04-11 17:17:26,047 RestClient INFO  Start GetBytes from PostData
-2015-04-11 17:17:26,047 RestClient INFO  End GetBytes from PostData
-2015-04-11 17:17:26,328 RestClient INFO  End writeStream to request
-2015-04-11 17:17:26,328 RestClient INFO  Start GetResponse
-2015-04-11 17:17:26,406 RestClient INFO  End GetResponse
-2015-04-11 17:17:26,406 RestClient INFO  Start parsing response
-2015-04-11 17:17:26,406 RestClient INFO  End parsing response
-2015-04-11 17:17:26,406 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-11 17:17:26,406 PaymentOnline INFO  Saving token in DB
-2015-04-11 17:17:26,406 PaymentOnline INFO  Saved token in DB
-2015-04-11 17:20:48,844 RestClient INFO  Start writeStream to request
-2015-04-11 17:20:48,844 RestClient INFO  End writeStream to request
-2015-04-11 17:20:48,844 RestClient INFO  Start GetResponse
-2015-04-11 17:20:49,094 RestClient INFO  End GetResponse
-2015-04-11 17:20:49,094 RestClient INFO  Start parsing response
-2015-04-11 17:20:49,094 RestClient INFO  End parsing response
-2015-04-13 06:24:32,375 PaymentOnline INFO  Page_load
-2015-04-13 06:24:38,672 PaymentOnline INFO  Page_load
-2015-04-13 06:24:38,688 PaymentOnline INFO  eCommCharge choosed
-2015-04-13 06:24:38,688 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-13 06:24:38,703 PaymentOnline INFO  Sql execution finished
-2015-04-13 06:24:38,703 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-13 06:24:38,938 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-13 06:24:38,938 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-13 06:24:38,938 RestClient INFO  Start writeStream to request
-2015-04-13 06:24:38,938 RestClient INFO  Start GetBytes from PostData
-2015-04-13 06:24:38,938 RestClient INFO  End GetBytes from PostData
-2015-04-13 06:24:39,563 RestClient INFO  End writeStream to request
-2015-04-13 06:24:39,563 RestClient INFO  Start GetResponse
-2015-04-13 06:24:39,656 RestClient INFO  End GetResponse
-2015-04-13 06:24:39,656 RestClient INFO  Start parsing response
-2015-04-13 06:24:39,656 RestClient INFO  End parsing response
-2015-04-13 06:24:39,656 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-13 06:24:39,656 PaymentOnline INFO  Saving token in DB
-2015-04-13 06:24:39,735 PaymentOnline INFO  Saved token in DB
-2015-04-13 06:27:29,516 RestClient INFO  Start writeStream to request
-2015-04-13 06:27:29,516 RestClient INFO  End writeStream to request
-2015-04-13 06:27:29,516 RestClient INFO  Start GetResponse
-2015-04-13 06:27:29,953 RestClient INFO  End GetResponse
-2015-04-13 06:27:29,953 RestClient INFO  Start parsing response
-2015-04-13 06:27:29,953 RestClient INFO  End parsing response
-2015-04-13 12:08:40,610 PaymentOnline INFO  Page_load
-2015-04-13 12:08:40,641 PaymentOnline INFO  eCommCharge choosed
-2015-04-13 12:08:40,641 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-13 12:08:40,641 PaymentOnline INFO  Sql execution finished
-2015-04-13 12:08:40,641 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-13 12:08:40,641 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-13 12:08:40,641 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-13 12:08:40,641 RestClient INFO  Start writeStream to request
-2015-04-13 12:08:40,641 RestClient INFO  Start GetBytes from PostData
-2015-04-13 12:08:40,641 RestClient INFO  End GetBytes from PostData
-2015-04-13 12:08:41,125 RestClient INFO  End writeStream to request
-2015-04-13 12:08:41,125 RestClient INFO  Start GetResponse
-2015-04-13 12:08:41,188 RestClient INFO  End GetResponse
-2015-04-13 12:08:41,188 RestClient INFO  Start parsing response
-2015-04-13 12:08:41,188 RestClient INFO  End parsing response
-2015-04-13 12:08:41,188 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-13 12:08:41,188 PaymentOnline INFO  Saving token in DB
-2015-04-13 12:08:41,188 PaymentOnline INFO  Saved token in DB
-2015-04-13 12:17:53,750 PaymentOnline INFO  Page_load
-2015-04-13 12:18:46,250 PaymentOnline INFO  Page_load
-2015-04-13 12:18:50,875 PaymentOnline INFO  Page_load
-2015-04-13 12:19:04,391 PaymentOnline INFO  Page_load
-2015-04-13 12:19:04,406 PaymentOnline INFO  eCommCharge choosed
-2015-04-13 12:19:04,406 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-13 12:19:04,406 PaymentOnline INFO  Sql execution finished
-2015-04-13 12:19:04,406 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-13 12:19:04,406 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-13 12:19:04,406 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-13 12:19:04,406 RestClient INFO  Start writeStream to request
-2015-04-13 12:19:04,406 RestClient INFO  Start GetBytes from PostData
-2015-04-13 12:19:04,406 RestClient INFO  End GetBytes from PostData
-2015-04-13 12:19:04,563 RestClient INFO  End writeStream to request
-2015-04-13 12:19:04,563 RestClient INFO  Start GetResponse
-2015-04-13 12:19:04,625 RestClient INFO  End GetResponse
-2015-04-13 12:19:04,625 RestClient INFO  Start parsing response
-2015-04-13 12:19:04,625 RestClient INFO  End parsing response
-2015-04-13 12:19:04,625 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-13 12:19:04,625 PaymentOnline INFO  Saving token in DB
-2015-04-13 12:19:04,625 PaymentOnline INFO  Saved token in DB
-2015-04-13 16:37:58,696 PaymentOnline INFO  Page_load
-2015-04-13 16:37:58,759 PaymentOnline INFO  eCommCharge choosed
-2015-04-13 16:37:58,759 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-13 16:37:58,759 PaymentOnline INFO  Sql execution finished
-2015-04-13 16:37:58,759 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-13 16:37:59,134 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-13 16:37:59,134 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-13 16:37:59,134 RestClient INFO  Start writeStream to request
-2015-04-13 16:37:59,134 RestClient INFO  Start GetBytes from PostData
-2015-04-13 16:37:59,134 RestClient INFO  End GetBytes from PostData
-2015-04-13 16:37:59,603 RestClient INFO  End writeStream to request
-2015-04-13 16:37:59,603 RestClient INFO  Start GetResponse
-2015-04-13 16:37:59,696 RestClient INFO  End GetResponse
-2015-04-13 16:37:59,696 RestClient INFO  Start parsing response
-2015-04-13 16:37:59,696 RestClient INFO  End parsing response
-2015-04-13 16:37:59,696 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-13 16:37:59,696 PaymentOnline INFO  Saving token in DB
-2015-04-13 16:37:59,759 PaymentOnline INFO  Saved token in DB
-2015-04-13 16:44:01,960 RestClient INFO  Start writeStream to request
-2015-04-13 16:44:01,960 RestClient INFO  End writeStream to request
-2015-04-13 16:44:01,960 RestClient INFO  Start GetResponse
-2015-04-13 16:44:02,257 RestClient INFO  End GetResponse
-2015-04-13 16:44:02,257 RestClient INFO  Start parsing response
-2015-04-13 16:44:02,257 RestClient INFO  End parsing response
-2015-04-15 13:21:59,775 PaymentOnline INFO  Page_load
-2015-04-16 19:45:54,540 PaymentOnline INFO  Page_load
-2015-04-16 19:45:54,759 PaymentOnline INFO  eCommCharge choosed
-2015-04-16 19:45:54,759 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-16 19:45:54,806 PaymentOnline INFO  Sql execution finished
-2015-04-16 19:45:54,806 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-16 19:45:55,321 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-16 19:45:55,321 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-16 19:45:55,337 RestClient INFO  Start writeStream to request
-2015-04-16 19:45:55,337 RestClient INFO  Start GetBytes from PostData
-2015-04-16 19:45:55,337 RestClient INFO  End GetBytes from PostData
-2015-04-16 19:45:55,556 RestClient INFO  End writeStream to request
-2015-04-16 19:45:55,556 RestClient INFO  Start GetResponse
-2015-04-16 19:45:55,650 RestClient INFO  End GetResponse
-2015-04-16 19:45:55,650 RestClient INFO  Start parsing response
-2015-04-16 19:45:55,650 RestClient INFO  End parsing response
-2015-04-16 19:45:55,650 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-16 19:45:55,650 PaymentOnline INFO  Saving token in DB
-2015-04-16 19:45:55,728 PaymentOnline INFO  Saved token in DB
-2015-04-16 19:56:13,118 PaymentOnline INFO  Page_load
-2015-04-16 19:56:13,118 PaymentOnline INFO  eCommCharge choosed
-2015-04-16 19:56:13,118 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-16 19:56:13,134 PaymentOnline INFO  Sql execution finished
-2015-04-16 19:56:13,134 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-16 19:56:13,134 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-16 19:56:13,134 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-16 19:56:13,134 RestClient INFO  Start writeStream to request
-2015-04-16 19:56:13,134 RestClient INFO  Start GetBytes from PostData
-2015-04-16 19:56:13,134 RestClient INFO  End GetBytes from PostData
-2015-04-16 19:56:13,728 RestClient INFO  End writeStream to request
-2015-04-16 19:56:13,728 RestClient INFO  Start GetResponse
-2015-04-16 19:56:13,806 RestClient INFO  End GetResponse
-2015-04-16 19:56:13,806 RestClient INFO  Start parsing response
-2015-04-16 19:56:13,806 RestClient INFO  End parsing response
-2015-04-16 19:56:13,806 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-16 19:56:13,806 PaymentOnline INFO  Saving token in DB
-2015-04-16 19:56:13,806 PaymentOnline INFO  Saved token in DB
-2015-04-17 07:37:33,946 PaymentOnline INFO  Page_load
-2015-04-17 07:54:57,931 PaymentOnline INFO  Page_load
-2015-04-17 07:57:08,743 PaymentOnline INFO  Page_load
-2015-04-17 07:59:54,790 PaymentOnline INFO  Page_load
-2015-04-17 07:59:54,806 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 07:59:54,806 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 07:59:54,821 PaymentOnline INFO  Sql execution finished
-2015-04-17 07:59:54,821 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 07:59:54,821 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 07:59:54,821 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 07:59:54,821 RestClient INFO  Start writeStream to request
-2015-04-17 07:59:54,821 RestClient INFO  Start GetBytes from PostData
-2015-04-17 07:59:54,821 RestClient INFO  End GetBytes from PostData
-2015-04-17 07:59:55,025 RestClient INFO  End writeStream to request
-2015-04-17 07:59:55,025 RestClient INFO  Start GetResponse
-2015-04-17 07:59:55,103 RestClient INFO  End GetResponse
-2015-04-17 07:59:55,103 RestClient INFO  Start parsing response
-2015-04-17 07:59:55,103 RestClient INFO  End parsing response
-2015-04-17 07:59:55,103 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 07:59:55,103 PaymentOnline INFO  Saving token in DB
-2015-04-17 07:59:55,103 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:00:02,040 PaymentOnline INFO  Page_load
-2015-04-17 08:00:02,056 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:00:02,056 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:00:02,071 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:00:02,071 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:00:02,071 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:00:02,071 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:00:02,071 RestClient INFO  Start writeStream to request
-2015-04-17 08:00:02,071 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:00:02,071 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:00:02,087 RestClient INFO  End writeStream to request
-2015-04-17 08:00:02,087 RestClient INFO  Start GetResponse
-2015-04-17 08:00:02,165 RestClient INFO  End GetResponse
-2015-04-17 08:00:02,165 RestClient INFO  Start parsing response
-2015-04-17 08:00:02,165 RestClient INFO  End parsing response
-2015-04-17 08:00:02,165 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:00:02,165 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:00:02,165 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:00:25,759 PaymentOnline INFO  Page_load
-2015-04-17 08:00:25,775 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:00:25,775 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:00:25,775 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:00:25,775 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:00:25,775 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:00:25,775 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:00:25,775 RestClient INFO  Start writeStream to request
-2015-04-17 08:00:25,775 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:00:25,775 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:00:25,790 RestClient INFO  End writeStream to request
-2015-04-17 08:00:25,790 RestClient INFO  Start GetResponse
-2015-04-17 08:00:25,884 RestClient INFO  End GetResponse
-2015-04-17 08:00:25,884 RestClient INFO  Start parsing response
-2015-04-17 08:00:25,884 RestClient INFO  End parsing response
-2015-04-17 08:00:25,884 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:00:25,884 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:00:25,884 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:00:28,868 PaymentOnline INFO  Page_load
-2015-04-17 08:00:28,868 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:00:28,868 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:00:28,868 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:00:28,868 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:00:28,868 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:00:28,868 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:00:28,868 RestClient INFO  Start writeStream to request
-2015-04-17 08:00:28,868 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:00:28,868 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:00:28,900 RestClient INFO  End writeStream to request
-2015-04-17 08:00:28,900 RestClient INFO  Start GetResponse
-2015-04-17 08:00:28,962 RestClient INFO  End GetResponse
-2015-04-17 08:00:28,962 RestClient INFO  Start parsing response
-2015-04-17 08:00:28,962 RestClient INFO  End parsing response
-2015-04-17 08:00:28,962 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:00:28,962 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:00:28,962 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:00:41,040 PaymentOnline INFO  Page_load
-2015-04-17 08:00:41,056 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:00:41,056 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:00:41,056 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:00:41,056 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:00:41,056 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:00:41,056 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:00:41,056 RestClient INFO  Start writeStream to request
-2015-04-17 08:00:41,056 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:00:41,056 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:00:41,071 RestClient INFO  End writeStream to request
-2015-04-17 08:00:41,071 RestClient INFO  Start GetResponse
-2015-04-17 08:00:41,134 RestClient INFO  End GetResponse
-2015-04-17 08:00:41,134 RestClient INFO  Start parsing response
-2015-04-17 08:00:41,134 RestClient INFO  End parsing response
-2015-04-17 08:00:41,134 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:00:41,134 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:00:41,134 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:00:41,337 PaymentOnline INFO  Page_load
-2015-04-17 08:00:53,275 PaymentOnline INFO  Page_load
-2015-04-17 08:00:53,275 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:00:53,275 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:00:53,275 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:00:53,275 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:00:53,275 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:00:53,275 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:00:53,275 RestClient INFO  Start writeStream to request
-2015-04-17 08:00:53,275 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:00:53,275 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:00:53,306 RestClient INFO  End writeStream to request
-2015-04-17 08:00:53,306 RestClient INFO  Start GetResponse
-2015-04-17 08:00:53,368 RestClient INFO  End GetResponse
-2015-04-17 08:00:53,368 RestClient INFO  Start parsing response
-2015-04-17 08:00:53,368 RestClient INFO  End parsing response
-2015-04-17 08:00:53,368 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:00:53,368 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:00:53,368 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:00:58,275 PaymentOnline INFO  Page_load
-2015-04-17 08:00:58,290 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:00:58,290 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:00:58,290 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:00:58,290 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:00:58,290 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:00:58,290 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:00:58,290 RestClient INFO  Start writeStream to request
-2015-04-17 08:00:58,290 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:00:58,290 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:00:58,321 RestClient INFO  End writeStream to request
-2015-04-17 08:00:58,321 RestClient INFO  Start GetResponse
-2015-04-17 08:00:58,384 RestClient INFO  End GetResponse
-2015-04-17 08:00:58,384 RestClient INFO  Start parsing response
-2015-04-17 08:00:58,384 RestClient INFO  End parsing response
-2015-04-17 08:00:58,384 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:00:58,384 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:00:58,384 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:01:03,400 PaymentOnline INFO  Page_load
-2015-04-17 08:01:03,400 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:01:03,400 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:01:03,400 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:01:03,400 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:01:03,400 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:01:03,400 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:01:03,400 RestClient INFO  Start writeStream to request
-2015-04-17 08:01:03,400 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:01:03,400 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:01:03,431 RestClient INFO  End writeStream to request
-2015-04-17 08:01:03,431 RestClient INFO  Start GetResponse
-2015-04-17 08:01:03,493 RestClient INFO  End GetResponse
-2015-04-17 08:01:03,493 RestClient INFO  Start parsing response
-2015-04-17 08:01:03,493 RestClient INFO  End parsing response
-2015-04-17 08:01:03,493 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:01:03,493 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:01:03,493 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:01:06,150 PaymentOnline INFO  Page_load
-2015-04-17 08:01:06,150 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:01:06,150 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:01:06,150 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:01:06,150 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:01:06,150 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:01:06,150 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:01:06,165 RestClient INFO  Start writeStream to request
-2015-04-17 08:01:06,165 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:01:06,165 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:01:06,181 RestClient INFO  End writeStream to request
-2015-04-17 08:01:06,181 RestClient INFO  Start GetResponse
-2015-04-17 08:01:06,243 RestClient INFO  End GetResponse
-2015-04-17 08:01:06,243 RestClient INFO  Start parsing response
-2015-04-17 08:01:06,243 RestClient INFO  End parsing response
-2015-04-17 08:01:06,243 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:01:06,243 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:01:06,243 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:05:45,946 PaymentOnline INFO  Page_load
-2015-04-17 08:05:49,775 PaymentOnline INFO  Page_load
-2015-04-17 08:05:55,165 PaymentOnline INFO  Page_load
-2015-04-17 08:08:22,275 PaymentOnline INFO  Page_load
-2015-04-17 08:08:22,275 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:08:22,275 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:08:22,275 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:08:22,275 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:08:22,275 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:08:22,275 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:08:22,275 RestClient INFO  Start writeStream to request
-2015-04-17 08:08:22,275 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:08:22,275 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:08:22,790 RestClient INFO  End writeStream to request
-2015-04-17 08:08:22,790 RestClient INFO  Start GetResponse
-2015-04-17 08:08:22,868 RestClient INFO  End GetResponse
-2015-04-17 08:08:22,868 RestClient INFO  Start parsing response
-2015-04-17 08:08:22,868 RestClient INFO  End parsing response
-2015-04-17 08:08:22,868 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:08:22,868 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:08:22,868 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:11:19,321 PaymentOnline INFO  Page_load
-2015-04-17 08:11:29,681 PaymentOnline INFO  Page_load
-2015-04-17 08:11:29,681 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:11:29,681 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:11:29,681 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:11:29,681 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:11:29,681 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:11:29,681 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:11:29,681 RestClient INFO  Start writeStream to request
-2015-04-17 08:11:29,681 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:11:29,681 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:11:30,118 RestClient INFO  End writeStream to request
-2015-04-17 08:11:30,118 RestClient INFO  Start GetResponse
-2015-04-17 08:11:30,212 RestClient INFO  End GetResponse
-2015-04-17 08:11:30,212 RestClient INFO  Start parsing response
-2015-04-17 08:11:30,212 RestClient INFO  End parsing response
-2015-04-17 08:11:30,212 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:11:30,212 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:11:30,212 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:11:37,025 PaymentOnline INFO  Page_load
-2015-04-17 08:11:37,040 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:11:37,040 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:11:37,040 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:11:37,040 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:11:37,040 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:11:37,040 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:11:37,040 RestClient INFO  Start writeStream to request
-2015-04-17 08:11:37,040 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:11:37,040 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:11:37,056 RestClient INFO  End writeStream to request
-2015-04-17 08:11:37,056 RestClient INFO  Start GetResponse
-2015-04-17 08:11:37,134 RestClient INFO  End GetResponse
-2015-04-17 08:11:37,134 RestClient INFO  Start parsing response
-2015-04-17 08:11:37,134 RestClient INFO  End parsing response
-2015-04-17 08:11:37,134 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:11:37,134 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:11:37,134 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:12:06,071 PaymentOnline INFO  Page_load
-2015-04-17 08:12:10,603 PaymentOnline INFO  Page_load
-2015-04-17 08:12:10,618 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:12:10,618 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:12:10,618 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:12:10,618 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:12:10,618 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:12:10,618 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:12:10,618 RestClient INFO  Start writeStream to request
-2015-04-17 08:12:10,618 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:12:10,618 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:12:10,634 RestClient INFO  End writeStream to request
-2015-04-17 08:12:10,634 RestClient INFO  Start GetResponse
-2015-04-17 08:12:10,743 RestClient INFO  End GetResponse
-2015-04-17 08:12:10,743 RestClient INFO  Start parsing response
-2015-04-17 08:12:10,743 RestClient INFO  End parsing response
-2015-04-17 08:12:10,743 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:12:10,743 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:12:10,743 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:12:13,853 PaymentOnline INFO  Page_load
-2015-04-17 08:12:13,853 PaymentOnline INFO  eCommCharge choosed
-2015-04-17 08:12:13,853 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-17 08:12:13,853 PaymentOnline INFO  Sql execution finished
-2015-04-17 08:12:13,853 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-17 08:12:13,853 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-17 08:12:13,853 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-17 08:12:13,853 RestClient INFO  Start writeStream to request
-2015-04-17 08:12:13,853 RestClient INFO  Start GetBytes from PostData
-2015-04-17 08:12:13,853 RestClient INFO  End GetBytes from PostData
-2015-04-17 08:12:13,884 RestClient INFO  End writeStream to request
-2015-04-17 08:12:13,884 RestClient INFO  Start GetResponse
-2015-04-17 08:12:13,978 RestClient INFO  End GetResponse
-2015-04-17 08:12:13,978 RestClient INFO  Start parsing response
-2015-04-17 08:12:13,978 RestClient INFO  End parsing response
-2015-04-17 08:12:13,978 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-17 08:12:13,978 PaymentOnline INFO  Saving token in DB
-2015-04-17 08:12:13,978 PaymentOnline INFO  Saved token in DB
-2015-04-17 08:12:35,696 PaymentOnline INFO  Page_load
-2015-04-21 17:20:51,092 PaymentOnline INFO  Page_load
-2015-04-21 17:20:51,201 PaymentOnline INFO  eCommCharge choosed
-2015-04-21 17:20:51,248 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-21 17:20:51,279 PaymentOnline INFO  Sql execution finished
-2015-04-21 17:20:51,279 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-21 17:20:52,295 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-21 17:20:52,295 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-21 17:20:52,342 RestClient INFO  Start writeStream to request
-2015-04-21 17:20:52,342 RestClient INFO  Start GetBytes from PostData
-2015-04-21 17:20:52,342 RestClient INFO  End GetBytes from PostData
-2015-04-21 17:20:52,998 RestClient INFO  End writeStream to request
-2015-04-21 17:20:52,998 RestClient INFO  Start GetResponse
-2015-04-21 17:20:53,107 RestClient INFO  End GetResponse
-2015-04-21 17:20:53,107 RestClient INFO  Start parsing response
-2015-04-21 17:20:53,123 RestClient INFO  End parsing response
-2015-04-21 17:20:53,123 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-21 17:20:53,123 PaymentOnline INFO  Saving token in DB
-2015-04-21 17:20:53,201 PaymentOnline INFO  Saved token in DB
-2015-04-21 17:52:31,639 PaymentOnline INFO  Page_load
-2015-04-21 17:52:31,654 PaymentOnline INFO  eCommCharge choosed
-2015-04-21 17:52:31,654 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-21 17:52:31,654 PaymentOnline INFO  Sql execution finished
-2015-04-21 17:52:31,654 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-21 17:52:31,654 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-21 17:52:31,654 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-21 17:52:31,654 RestClient INFO  Start writeStream to request
-2015-04-21 17:52:31,654 RestClient INFO  Start GetBytes from PostData
-2015-04-21 17:52:31,654 RestClient INFO  End GetBytes from PostData
-2015-04-21 17:52:31,826 RestClient INFO  End writeStream to request
-2015-04-21 17:52:31,826 RestClient INFO  Start GetResponse
-2015-04-21 17:52:31,889 RestClient INFO  End GetResponse
-2015-04-21 17:52:31,920 RestClient INFO  Start parsing response
-2015-04-21 17:52:31,920 RestClient INFO  End parsing response
-2015-04-21 17:52:31,920 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-21 17:52:31,920 PaymentOnline INFO  Saving token in DB
-2015-04-21 17:52:31,920 PaymentOnline INFO  Saved token in DB
-2015-04-21 18:00:51,060 PaymentOnline INFO  Page_load
-2015-04-21 18:03:20,201 PaymentOnline INFO  Page_load
-2015-04-21 18:03:48,170 PaymentOnline INFO  Page_load
-2015-04-21 18:04:14,857 PaymentOnline INFO  Page_load
-2015-04-21 18:04:30,404 PaymentOnline INFO  Page_load
-2015-04-21 18:04:30,420 PaymentOnline INFO  eCommCharge choosed
-2015-04-21 18:04:30,420 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-21 18:04:30,420 PaymentOnline INFO  Sql execution finished
-2015-04-21 18:04:30,420 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-21 18:04:30,420 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-21 18:04:30,420 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-21 18:04:30,420 RestClient INFO  Start writeStream to request
-2015-04-21 18:04:30,420 RestClient INFO  Start GetBytes from PostData
-2015-04-21 18:04:30,420 RestClient INFO  End GetBytes from PostData
-2015-04-21 18:04:30,623 RestClient INFO  End writeStream to request
-2015-04-21 18:04:30,623 RestClient INFO  Start GetResponse
-2015-04-21 18:04:30,685 RestClient INFO  End GetResponse
-2015-04-21 18:04:30,685 RestClient INFO  Start parsing response
-2015-04-21 18:04:30,685 RestClient INFO  End parsing response
-2015-04-21 18:04:30,685 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-21 18:04:30,685 PaymentOnline INFO  Saving token in DB
-2015-04-21 18:04:30,685 PaymentOnline INFO  Saved token in DB
-2015-04-21 18:09:16,373 RestClient INFO  Start writeStream to request
-2015-04-21 18:09:16,373 RestClient INFO  End writeStream to request
-2015-04-21 18:09:16,373 RestClient INFO  Start GetResponse
-2015-04-21 18:09:16,920 RestClient INFO  End GetResponse
-2015-04-21 18:09:16,920 RestClient INFO  Start parsing response
-2015-04-21 18:09:16,920 RestClient INFO  End parsing response
-2015-04-21 18:09:39,810 PaymentOnline INFO  Page_load
-2015-04-21 20:20:49,560 PaymentOnline INFO  Page_load
-2015-04-21 20:20:49,560 PaymentOnline INFO  eCommCharge choosed
-2015-04-21 20:20:49,560 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-21 20:20:49,560 PaymentOnline INFO  Sql execution finished
-2015-04-21 20:20:49,560 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-21 20:20:49,560 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-21 20:20:49,560 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-21 20:20:49,560 RestClient INFO  Start writeStream to request
-2015-04-21 20:20:49,560 RestClient INFO  Start GetBytes from PostData
-2015-04-21 20:20:49,560 RestClient INFO  End GetBytes from PostData
-2015-04-21 20:20:49,857 RestClient INFO  End writeStream to request
-2015-04-21 20:20:49,857 RestClient INFO  Start GetResponse
-2015-04-21 20:20:49,935 RestClient INFO  End GetResponse
-2015-04-21 20:20:49,935 RestClient INFO  Start parsing response
-2015-04-21 20:20:49,935 RestClient INFO  End parsing response
-2015-04-21 20:20:49,935 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-21 20:20:49,935 PaymentOnline INFO  Saving token in DB
-2015-04-21 20:20:49,935 PaymentOnline INFO  Saved token in DB
-2015-04-21 20:24:14,248 PaymentOnline INFO  Page_load
-2015-04-21 20:24:14,248 PaymentOnline INFO  eCommCharge choosed
-2015-04-21 20:24:14,248 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-21 20:24:14,248 PaymentOnline INFO  Sql execution finished
-2015-04-21 20:24:14,248 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-21 20:24:14,248 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-21 20:24:14,248 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-21 20:24:14,248 RestClient INFO  Start writeStream to request
-2015-04-21 20:24:14,248 RestClient INFO  Start GetBytes from PostData
-2015-04-21 20:24:14,248 RestClient INFO  End GetBytes from PostData
-2015-04-21 20:24:14,764 RestClient INFO  End writeStream to request
-2015-04-21 20:24:14,764 RestClient INFO  Start GetResponse
-2015-04-21 20:24:14,826 RestClient INFO  End GetResponse
-2015-04-21 20:24:14,826 RestClient INFO  Start parsing response
-2015-04-21 20:24:14,826 RestClient INFO  End parsing response
-2015-04-21 20:24:14,826 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-21 20:24:14,826 PaymentOnline INFO  Saving token in DB
-2015-04-21 20:24:14,826 PaymentOnline INFO  Saved token in DB
-2015-04-24 07:46:03,935 PaymentOnline INFO  Page_load
-2015-04-24 07:46:04,498 PaymentOnline INFO  eCommCharge choosed
-2015-04-24 07:46:04,514 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-24 07:46:04,560 PaymentOnline INFO  Sql execution finished
-2015-04-24 07:46:04,560 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-24 07:46:05,107 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-24 07:46:05,107 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-24 07:46:05,123 RestClient INFO  Start writeStream to request
-2015-04-24 07:46:05,123 RestClient INFO  Start GetBytes from PostData
-2015-04-24 07:46:05,123 RestClient INFO  End GetBytes from PostData
-2015-04-24 07:46:06,232 RestClient INFO  End writeStream to request
-2015-04-24 07:46:06,232 RestClient INFO  Start GetResponse
-2015-04-24 07:46:06,326 RestClient INFO  End GetResponse
-2015-04-24 07:46:06,326 RestClient INFO  Start parsing response
-2015-04-24 07:46:06,326 RestClient INFO  End parsing response
-2015-04-24 07:46:06,326 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-24 07:46:06,326 PaymentOnline INFO  Saving token in DB
-2015-04-24 07:46:06,404 PaymentOnline INFO  Saved token in DB
-2015-04-24 07:48:40,217 PaymentOnline INFO  Page_load
-2015-04-24 07:49:28,139 PaymentOnline INFO  Page_load
-2015-04-24 07:49:28,154 PaymentOnline INFO  eCommCharge choosed
-2015-04-24 07:49:28,154 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-24 07:49:28,154 PaymentOnline INFO  Sql execution finished
-2015-04-24 07:49:28,154 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-24 07:49:28,154 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-24 07:49:28,154 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-24 07:49:28,154 RestClient INFO  Start writeStream to request
-2015-04-24 07:49:28,154 RestClient INFO  Start GetBytes from PostData
-2015-04-24 07:49:28,154 RestClient INFO  End GetBytes from PostData
-2015-04-24 07:49:29,014 RestClient INFO  End writeStream to request
-2015-04-24 07:49:29,014 RestClient INFO  Start GetResponse
-2015-04-24 07:49:29,092 RestClient INFO  End GetResponse
-2015-04-24 07:49:29,092 RestClient INFO  Start parsing response
-2015-04-24 07:49:29,092 RestClient INFO  End parsing response
-2015-04-24 07:49:29,092 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-24 07:49:29,092 PaymentOnline INFO  Saving token in DB
-2015-04-24 07:49:29,092 PaymentOnline INFO  Saved token in DB
-2015-04-24 07:51:27,357 PaymentOnline INFO  Page_load
-2015-04-24 07:51:35,435 PaymentOnline INFO  Page_load
-2015-04-24 07:51:35,451 PaymentOnline INFO  eCommCharge choosed
-2015-04-24 07:51:35,451 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-24 07:51:35,451 PaymentOnline INFO  Sql execution finished
-2015-04-24 07:51:35,451 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-24 07:51:35,451 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-24 07:51:35,451 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-24 07:51:35,451 RestClient INFO  Start writeStream to request
-2015-04-24 07:51:35,451 RestClient INFO  Start GetBytes from PostData
-2015-04-24 07:51:35,451 RestClient INFO  End GetBytes from PostData
-2015-04-24 07:51:35,685 RestClient INFO  End writeStream to request
-2015-04-24 07:51:35,685 RestClient INFO  Start GetResponse
-2015-04-24 07:51:35,795 RestClient INFO  End GetResponse
-2015-04-24 07:51:35,795 RestClient INFO  Start parsing response
-2015-04-24 07:51:35,795 RestClient INFO  End parsing response
-2015-04-24 07:51:35,795 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-24 07:51:35,795 PaymentOnline INFO  Saving token in DB
-2015-04-24 07:51:35,795 PaymentOnline INFO  Saved token in DB
-2015-04-24 08:03:14,295 PaymentOnline INFO  Page_load
-2015-04-24 08:03:22,451 PaymentOnline INFO  Page_load
-2015-04-24 08:03:22,451 PaymentOnline INFO  eCommCharge choosed
-2015-04-24 08:03:22,451 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-24 08:03:22,451 PaymentOnline INFO  Sql execution finished
-2015-04-24 08:03:22,451 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-24 08:03:22,467 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-24 08:03:22,467 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-24 08:03:22,467 RestClient INFO  Start writeStream to request
-2015-04-24 08:03:22,467 RestClient INFO  Start GetBytes from PostData
-2015-04-24 08:03:22,467 RestClient INFO  End GetBytes from PostData
-2015-04-24 08:03:22,654 RestClient INFO  End writeStream to request
-2015-04-24 08:03:22,654 RestClient INFO  Start GetResponse
-2015-04-24 08:03:22,732 RestClient INFO  End GetResponse
-2015-04-24 08:03:22,732 RestClient INFO  Start parsing response
-2015-04-24 08:03:22,732 RestClient INFO  End parsing response
-2015-04-24 08:03:22,732 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-24 08:03:22,732 PaymentOnline INFO  Saving token in DB
-2015-04-24 08:03:22,732 PaymentOnline INFO  Saved token in DB
-2015-04-24 08:03:45,389 PaymentOnline INFO  Page_load
-2015-04-24 08:03:54,560 PaymentOnline INFO  Page_load
-2015-04-24 08:03:54,576 PaymentOnline INFO  eCommCharge choosed
-2015-04-24 08:03:54,576 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-24 08:03:54,576 PaymentOnline INFO  Sql execution finished
-2015-04-24 08:03:54,576 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-24 08:03:54,576 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-24 08:03:54,576 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-24 08:03:54,576 RestClient INFO  Start writeStream to request
-2015-04-24 08:03:54,576 RestClient INFO  Start GetBytes from PostData
-2015-04-24 08:03:54,576 RestClient INFO  End GetBytes from PostData
-2015-04-24 08:03:54,592 RestClient INFO  End writeStream to request
-2015-04-24 08:03:54,592 RestClient INFO  Start GetResponse
-2015-04-24 08:03:54,670 RestClient INFO  End GetResponse
-2015-04-24 08:03:54,670 RestClient INFO  Start parsing response
-2015-04-24 08:03:54,670 RestClient INFO  End parsing response
-2015-04-24 08:03:54,670 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-24 08:03:54,670 PaymentOnline INFO  Saving token in DB
-2015-04-24 08:03:54,670 PaymentOnline INFO  Saved token in DB
-2015-04-24 08:04:45,092 PaymentOnline INFO  Page_load
-2015-04-24 08:06:42,701 RestClient INFO  Start writeStream to request
-2015-04-24 08:06:42,701 RestClient INFO  End writeStream to request
-2015-04-24 08:06:42,701 RestClient INFO  Start GetResponse
-2015-04-24 08:06:43,107 RestClient INFO  End GetResponse
-2015-04-24 08:06:43,107 RestClient INFO  Start parsing response
-2015-04-24 08:06:43,107 RestClient INFO  End parsing response
-2015-04-24 08:39:59,826 PaymentOnline INFO  Page_load
-2015-04-24 08:40:32,904 PaymentOnline INFO  Page_load
-2015-04-24 08:40:32,904 PaymentOnline INFO  eCommCharge choosed
-2015-04-24 08:40:32,904 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-24 08:40:32,904 PaymentOnline INFO  Sql execution finished
-2015-04-24 08:40:32,904 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-24 08:40:32,904 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-24 08:40:32,904 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-24 08:40:32,904 RestClient INFO  Start writeStream to request
-2015-04-24 08:40:32,904 RestClient INFO  Start GetBytes from PostData
-2015-04-24 08:40:32,904 RestClient INFO  End GetBytes from PostData
-2015-04-24 08:40:33,467 RestClient INFO  End writeStream to request
-2015-04-24 08:40:33,467 RestClient INFO  Start GetResponse
-2015-04-24 08:40:33,545 RestClient INFO  End GetResponse
-2015-04-24 08:40:33,545 RestClient INFO  Start parsing response
-2015-04-24 08:40:33,545 RestClient INFO  End parsing response
-2015-04-24 08:40:33,545 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-24 08:40:33,545 PaymentOnline INFO  Saving token in DB
-2015-04-24 08:40:33,545 PaymentOnline INFO  Saved token in DB
-2015-04-24 08:40:59,076 PaymentOnline INFO  Page_load
-2015-04-24 08:44:34,592 RestClient INFO  Start writeStream to request
-2015-04-24 08:44:34,592 RestClient INFO  End writeStream to request
-2015-04-24 08:44:34,592 RestClient INFO  Start GetResponse
-2015-04-24 08:44:35,029 RestClient INFO  End GetResponse
-2015-04-24 08:44:35,029 RestClient INFO  Start parsing response
-2015-04-24 08:44:35,029 RestClient INFO  End parsing response
-2015-04-26 11:37:56,514 PaymentOnline INFO  Page_load
-2015-04-26 11:37:56,967 PaymentOnline INFO  eCommCharge choosed
-2015-04-26 11:37:56,967 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-26 11:37:56,982 PaymentOnline INFO  Sql execution finished
-2015-04-26 11:37:56,982 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-26 11:37:57,670 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-26 11:37:57,670 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-26 11:37:57,826 RestClient INFO  Start writeStream to request
-2015-04-26 11:37:57,826 RestClient INFO  Start GetBytes from PostData
-2015-04-26 11:37:57,826 RestClient INFO  End GetBytes from PostData
-2015-04-26 11:37:58,482 RestClient INFO  End writeStream to request
-2015-04-26 11:37:58,482 RestClient INFO  Start GetResponse
-2015-04-26 11:37:58,576 RestClient INFO  End GetResponse
-2015-04-26 11:37:58,576 RestClient INFO  Start parsing response
-2015-04-26 11:37:58,576 RestClient INFO  End parsing response
-2015-04-26 11:37:58,576 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-26 11:37:58,576 PaymentOnline INFO  Saving token in DB
-2015-04-26 11:37:58,654 PaymentOnline INFO  Saved token in DB
-2015-04-26 11:44:46,201 RestClient INFO  Start writeStream to request
-2015-04-26 11:44:46,201 RestClient INFO  End writeStream to request
-2015-04-26 11:44:46,201 RestClient INFO  Start GetResponse
-2015-04-26 11:44:46,545 RestClient INFO  End GetResponse
-2015-04-26 11:44:46,545 RestClient INFO  Start parsing response
-2015-04-26 11:44:46,545 RestClient INFO  End parsing response
-2015-04-29 07:24:47,469 PaymentOnline INFO  Page_load
-2015-04-29 07:24:47,735 PaymentOnline INFO  eCommCharge choosed
-2015-04-29 07:24:47,766 PaymentOnline INFO  Preparing sql for eCommCharge
-2015-04-29 07:24:47,782 PaymentOnline INFO  Sql execution finished
-2015-04-29 07:24:47,782 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
-2015-04-29 07:24:48,141 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
-2015-04-29 07:24:48,141 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
-2015-04-29 07:24:48,172 RestClient INFO  Start writeStream to request
-2015-04-29 07:24:48,172 RestClient INFO  Start GetBytes from PostData
-2015-04-29 07:24:48,172 RestClient INFO  End GetBytes from PostData
-2015-04-29 07:24:48,469 RestClient INFO  End writeStream to request
-2015-04-29 07:24:48,469 RestClient INFO  Start GetResponse
-2015-04-29 07:24:48,532 RestClient INFO  End GetResponse
-2015-04-29 07:24:48,532 RestClient INFO  Start parsing response
-2015-04-29 07:24:48,532 RestClient INFO  End parsing response
-2015-04-29 07:24:48,532 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
-2015-04-29 07:24:48,532 PaymentOnline INFO  Saving token in DB
-2015-04-29 07:24:48,610 PaymentOnline INFO  Saved token in DB
+2015-05-27 21:13:07,978 RestClient INFO  Start writeStream to request
+2015-05-27 21:13:07,978 RestClient INFO  End writeStream to request
+2015-05-27 21:13:07,978 RestClient INFO  Start GetResponse
+2015-05-27 21:13:08,572 RestClient INFO  End GetResponse
+2015-05-27 21:13:08,572 RestClient INFO  Start parsing response
+2015-05-27 21:13:08,572 RestClient INFO  End parsing response
+2015-05-28 20:05:45,056 PaymentOnline INFO  Page_load
+2015-05-28 20:05:45,103 PaymentOnline INFO  eCommCharge choosed
+2015-05-28 20:05:45,103 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-05-28 20:05:45,166 PaymentOnline INFO  Sql execution finished
+2015-05-28 20:05:45,166 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-05-28 20:05:45,384 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-05-28 20:05:45,384 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-05-28 20:05:45,384 RestClient INFO  Start writeStream to request
+2015-05-28 20:05:45,400 RestClient INFO  Start GetBytes from PostData
+2015-05-28 20:05:45,400 RestClient INFO  End GetBytes from PostData
+2015-05-28 20:05:46,525 RestClient INFO  End writeStream to request
+2015-05-28 20:05:46,525 RestClient INFO  Start GetResponse
+2015-05-28 20:05:46,619 RestClient INFO  End GetResponse
+2015-05-28 20:05:46,619 RestClient INFO  Start parsing response
+2015-05-28 20:05:46,619 RestClient INFO  End parsing response
+2015-05-28 20:05:46,619 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-05-28 20:05:46,619 PaymentOnline INFO  Saving token in DB
+2015-05-28 20:05:46,681 PaymentOnline INFO  Saved token in DB
+2015-05-28 20:11:21,916 RestClient INFO  Start writeStream to request
+2015-05-28 20:11:21,916 RestClient INFO  End writeStream to request
+2015-05-28 20:11:21,916 RestClient INFO  Start GetResponse
+2015-05-28 20:11:22,759 RestClient INFO  End GetResponse
+2015-05-28 20:11:22,759 RestClient INFO  Start parsing response
+2015-05-28 20:11:22,759 RestClient INFO  End parsing response
+2015-05-31 21:05:32,228 PaymentOnline INFO  Page_load
+2015-05-31 21:05:32,275 PaymentOnline INFO  eCommCharge choosed
+2015-05-31 21:05:32,275 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-05-31 21:05:32,338 PaymentOnline INFO  Sql execution finished
+2015-05-31 21:05:32,338 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-05-31 21:05:32,588 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-05-31 21:05:32,588 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-05-31 21:05:32,588 RestClient INFO  Start writeStream to request
+2015-05-31 21:05:32,588 RestClient INFO  Start GetBytes from PostData
+2015-05-31 21:05:32,588 RestClient INFO  End GetBytes from PostData
+2015-05-31 21:05:33,494 RestClient INFO  End writeStream to request
+2015-05-31 21:05:33,494 RestClient INFO  Start GetResponse
+2015-05-31 21:05:33,588 RestClient INFO  End GetResponse
+2015-05-31 21:05:33,588 RestClient INFO  Start parsing response
+2015-05-31 21:05:33,588 RestClient INFO  End parsing response
+2015-05-31 21:05:33,588 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-05-31 21:05:33,588 PaymentOnline INFO  Saving token in DB
+2015-05-31 21:05:33,681 PaymentOnline INFO  Saved token in DB
+2015-05-31 21:13:27,619 PaymentOnline INFO  Page_load
+2015-05-31 21:14:52,947 PaymentOnline INFO  Page_load
+2015-05-31 21:15:14,916 PaymentOnline INFO  Page_load
+2015-05-31 21:15:14,931 PaymentOnline INFO  eCommCharge choosed
+2015-05-31 21:15:14,931 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-05-31 21:15:14,931 PaymentOnline INFO  Sql execution finished
+2015-05-31 21:15:14,931 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-05-31 21:15:14,931 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-05-31 21:15:14,931 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-05-31 21:15:14,931 RestClient INFO  Start writeStream to request
+2015-05-31 21:15:14,931 RestClient INFO  Start GetBytes from PostData
+2015-05-31 21:15:14,931 RestClient INFO  End GetBytes from PostData
+2015-05-31 21:15:16,181 RestClient INFO  End writeStream to request
+2015-05-31 21:15:16,181 RestClient INFO  Start GetResponse
+2015-05-31 21:15:16,244 RestClient INFO  End GetResponse
+2015-05-31 21:15:16,244 RestClient INFO  Start parsing response
+2015-05-31 21:15:16,244 RestClient INFO  End parsing response
+2015-05-31 21:15:16,244 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-05-31 21:15:16,244 PaymentOnline INFO  Saving token in DB
+2015-05-31 21:15:16,244 PaymentOnline INFO  Saved token in DB
+2015-05-31 21:18:06,650 PaymentOnline INFO  Page_load
+2015-05-31 21:18:06,650 PaymentOnline INFO  eCommCharge choosed
+2015-05-31 21:18:06,650 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-05-31 21:18:06,650 PaymentOnline INFO  Sql execution finished
+2015-05-31 21:18:06,650 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-05-31 21:18:06,650 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-05-31 21:18:06,650 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-05-31 21:18:06,650 RestClient INFO  Start writeStream to request
+2015-05-31 21:18:06,650 RestClient INFO  Start GetBytes from PostData
+2015-05-31 21:18:06,650 RestClient INFO  End GetBytes from PostData
+2015-05-31 21:18:07,103 RestClient INFO  End writeStream to request
+2015-05-31 21:18:07,103 RestClient INFO  Start GetResponse
+2015-05-31 21:18:07,166 RestClient INFO  End GetResponse
+2015-05-31 21:18:07,166 RestClient INFO  Start parsing response
+2015-05-31 21:18:07,166 RestClient INFO  End parsing response
+2015-05-31 21:18:07,166 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-05-31 21:18:07,166 PaymentOnline INFO  Saving token in DB
+2015-05-31 21:18:07,166 PaymentOnline INFO  Saved token in DB
+2015-05-31 21:19:04,291 PaymentOnline INFO  Page_load
+2015-05-31 21:19:18,884 PaymentOnline INFO  Page_load
+2015-05-31 21:19:18,884 PaymentOnline INFO  eCommCharge choosed
+2015-05-31 21:19:18,884 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-05-31 21:19:18,884 PaymentOnline INFO  Sql execution finished
+2015-05-31 21:19:18,884 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-05-31 21:19:18,884 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-05-31 21:19:18,884 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-05-31 21:19:18,884 RestClient INFO  Start writeStream to request
+2015-05-31 21:19:18,884 RestClient INFO  Start GetBytes from PostData
+2015-05-31 21:19:18,884 RestClient INFO  End GetBytes from PostData
+2015-05-31 21:19:18,978 RestClient INFO  End writeStream to request
+2015-05-31 21:19:18,978 RestClient INFO  Start GetResponse
+2015-05-31 21:19:19,056 RestClient INFO  End GetResponse
+2015-05-31 21:19:19,056 RestClient INFO  Start parsing response
+2015-05-31 21:19:19,056 RestClient INFO  End parsing response
+2015-05-31 21:19:19,056 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-05-31 21:19:19,056 PaymentOnline INFO  Saving token in DB
+2015-05-31 21:19:19,056 PaymentOnline INFO  Saved token in DB
+2015-05-31 23:05:37,588 PaymentOnline INFO  Page_load
+2015-05-31 23:05:58,884 PaymentOnline INFO  Page_load
+2015-05-31 23:06:36,541 PaymentOnline INFO  Page_load
+2015-05-31 23:06:36,556 PaymentOnline INFO  eCommCharge choosed
+2015-05-31 23:06:36,556 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-05-31 23:06:36,588 PaymentOnline INFO  Sql execution finished
+2015-05-31 23:06:36,588 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-05-31 23:06:36,806 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-05-31 23:06:36,806 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-05-31 23:06:36,806 RestClient INFO  Start writeStream to request
+2015-05-31 23:06:36,806 RestClient INFO  Start GetBytes from PostData
+2015-05-31 23:06:36,806 RestClient INFO  End GetBytes from PostData
+2015-05-31 23:06:37,416 RestClient INFO  End writeStream to request
+2015-05-31 23:06:37,416 RestClient INFO  Start GetResponse
+2015-05-31 23:06:37,494 RestClient INFO  End GetResponse
+2015-05-31 23:06:37,494 RestClient INFO  Start parsing response
+2015-05-31 23:06:37,494 RestClient INFO  End parsing response
+2015-05-31 23:06:37,494 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-05-31 23:06:37,494 PaymentOnline INFO  Saving token in DB
+2015-05-31 23:06:37,556 PaymentOnline INFO  Saved token in DB
+2015-05-31 23:24:05,728 PaymentOnline INFO  Page_load
+2015-05-31 23:24:15,728 PaymentOnline INFO  Page_load
+2015-05-31 23:24:15,728 PaymentOnline INFO  eCommCharge choosed
+2015-05-31 23:24:15,728 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-05-31 23:24:15,728 PaymentOnline INFO  Sql execution finished
+2015-05-31 23:24:15,728 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-05-31 23:24:15,728 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-05-31 23:24:15,728 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-05-31 23:24:15,728 RestClient INFO  Start writeStream to request
+2015-05-31 23:24:15,728 RestClient INFO  Start GetBytes from PostData
+2015-05-31 23:24:15,728 RestClient INFO  End GetBytes from PostData
+2015-05-31 23:24:16,275 RestClient INFO  End writeStream to request
+2015-05-31 23:24:16,275 RestClient INFO  Start GetResponse
+2015-05-31 23:24:16,338 RestClient INFO  End GetResponse
+2015-05-31 23:24:16,338 RestClient INFO  Start parsing response
+2015-05-31 23:24:16,338 RestClient INFO  End parsing response
+2015-05-31 23:24:16,338 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-05-31 23:24:16,338 PaymentOnline INFO  Saving token in DB
+2015-05-31 23:24:16,338 PaymentOnline INFO  Saved token in DB
+2015-05-31 23:29:16,181 PaymentOnline INFO  Page_load
+2015-06-01 19:38:09,381 PaymentOnline INFO  Page_load
+2015-06-01 19:38:09,412 PaymentOnline INFO  eCommCharge choosed
+2015-06-01 19:38:09,412 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-01 19:38:09,412 PaymentOnline INFO  Sql execution finished
+2015-06-01 19:38:09,412 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-01 19:38:09,412 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-01 19:38:09,412 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-01 19:38:09,412 RestClient INFO  Start writeStream to request
+2015-06-01 19:38:09,412 RestClient INFO  Start GetBytes from PostData
+2015-06-01 19:38:09,412 RestClient INFO  End GetBytes from PostData
+2015-06-01 19:38:10,662 RestClient INFO  End writeStream to request
+2015-06-01 19:38:10,662 RestClient INFO  Start GetResponse
+2015-06-01 19:38:10,756 RestClient INFO  End GetResponse
+2015-06-01 19:38:10,756 RestClient INFO  Start parsing response
+2015-06-01 19:38:10,756 RestClient INFO  End parsing response
+2015-06-01 19:38:10,756 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-01 19:38:10,756 PaymentOnline INFO  Saving token in DB
+2015-06-01 19:38:10,771 PaymentOnline INFO  Saved token in DB
+2015-06-01 19:44:06,193 RestClient INFO  Start writeStream to request
+2015-06-01 19:44:06,193 RestClient INFO  End writeStream to request
+2015-06-01 19:44:06,193 RestClient INFO  Start GetResponse
+2015-06-01 19:44:07,147 RestClient INFO  End GetResponse
+2015-06-01 19:44:07,147 RestClient INFO  Start parsing response
+2015-06-01 19:44:07,147 RestClient INFO  End parsing response
+2015-06-02 10:33:21,459 PaymentOnline INFO  Page_load
+2015-06-02 10:34:53,572 PaymentOnline INFO  Page_load
+2015-06-02 10:34:53,588 PaymentOnline INFO  eCommCharge choosed
+2015-06-02 10:34:53,588 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-02 10:34:53,635 PaymentOnline INFO  Sql execution finished
+2015-06-02 10:34:53,635 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-02 10:34:53,869 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-02 10:34:53,869 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-02 10:34:53,869 RestClient INFO  Start writeStream to request
+2015-06-02 10:34:53,869 RestClient INFO  Start GetBytes from PostData
+2015-06-02 10:34:53,869 RestClient INFO  End GetBytes from PostData
+2015-06-02 10:34:54,197 RestClient INFO  End writeStream to request
+2015-06-02 10:34:54,197 RestClient INFO  Start GetResponse
+2015-06-02 10:34:54,338 RestClient INFO  End GetResponse
+2015-06-02 10:34:54,338 RestClient INFO  Start parsing response
+2015-06-02 10:34:54,338 RestClient INFO  End parsing response
+2015-06-02 10:34:54,338 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-02 10:34:54,338 PaymentOnline INFO  Saving token in DB
+2015-06-02 10:34:54,416 PaymentOnline INFO  Saved token in DB
+2015-06-02 10:42:06,138 PaymentOnline INFO  Page_load
+2015-06-02 10:42:24,092 PaymentOnline INFO  Page_load
+2015-06-02 10:42:24,092 PaymentOnline INFO  eCommCharge choosed
+2015-06-02 10:42:24,092 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-02 10:42:24,092 PaymentOnline INFO  Sql execution finished
+2015-06-02 10:42:24,092 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-02 10:42:24,092 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-02 10:42:24,092 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-02 10:42:24,092 RestClient INFO  Start writeStream to request
+2015-06-02 10:42:24,092 RestClient INFO  Start GetBytes from PostData
+2015-06-02 10:42:24,092 RestClient INFO  End GetBytes from PostData
+2015-06-02 10:42:24,327 RestClient INFO  End writeStream to request
+2015-06-02 10:42:24,327 RestClient INFO  Start GetResponse
+2015-06-02 10:42:24,420 RestClient INFO  End GetResponse
+2015-06-02 10:42:24,420 RestClient INFO  Start parsing response
+2015-06-02 10:42:24,420 RestClient INFO  End parsing response
+2015-06-02 10:42:24,420 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-02 10:42:24,420 PaymentOnline INFO  Saving token in DB
+2015-06-02 10:42:24,420 PaymentOnline INFO  Saved token in DB
+2015-06-02 10:43:11,016 PaymentOnline INFO  Page_load
+2015-06-02 10:43:11,016 PaymentOnline INFO  eCommCharge choosed
+2015-06-02 10:43:11,016 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-02 10:43:11,032 PaymentOnline INFO  Sql execution finished
+2015-06-02 10:43:11,032 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-02 10:43:11,032 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-02 10:43:11,032 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-02 10:43:11,032 RestClient INFO  Start writeStream to request
+2015-06-02 10:43:11,032 RestClient INFO  Start GetBytes from PostData
+2015-06-02 10:43:11,032 RestClient INFO  End GetBytes from PostData
+2015-06-02 10:43:11,048 RestClient INFO  End writeStream to request
+2015-06-02 10:43:11,048 RestClient INFO  Start GetResponse
+2015-06-02 10:43:11,141 RestClient INFO  End GetResponse
+2015-06-02 10:43:11,141 RestClient INFO  Start parsing response
+2015-06-02 10:43:11,141 RestClient INFO  End parsing response
+2015-06-02 10:43:11,141 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-02 10:43:11,141 PaymentOnline INFO  Saving token in DB
+2015-06-02 10:43:11,141 PaymentOnline INFO  Saved token in DB
+2015-06-02 10:46:44,495 RestClient INFO  Start writeStream to request
+2015-06-02 10:46:44,495 RestClient INFO  End writeStream to request
+2015-06-02 10:46:44,495 RestClient INFO  Start GetResponse
+2015-06-02 10:46:44,979 RestClient INFO  End GetResponse
+2015-06-02 10:46:44,979 RestClient INFO  Start parsing response
+2015-06-02 10:46:44,979 RestClient INFO  End parsing response
+2015-06-02 12:51:24,127 PaymentOnline INFO  Page_load
+2015-06-03 13:52:41,289 PaymentOnline INFO  Page_load
+2015-06-03 13:58:32,242 PaymentOnline INFO  Page_load
+2015-06-03 13:58:49,242 PaymentOnline INFO  Page_load
+2015-06-03 13:58:49,258 PaymentOnline INFO  eCommCharge choosed
+2015-06-03 13:58:49,258 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-03 13:58:49,320 PaymentOnline INFO  Sql execution finished
+2015-06-03 13:58:49,320 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-03 13:58:49,555 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-03 13:58:49,555 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-03 13:58:49,555 RestClient INFO  Start writeStream to request
+2015-06-03 13:58:49,555 RestClient INFO  Start GetBytes from PostData
+2015-06-03 13:58:49,555 RestClient INFO  End GetBytes from PostData
+2015-06-03 13:58:49,836 RestClient INFO  End writeStream to request
+2015-06-03 13:58:49,836 RestClient INFO  Start GetResponse
+2015-06-03 13:58:49,914 RestClient INFO  End GetResponse
+2015-06-03 13:58:49,914 RestClient INFO  Start parsing response
+2015-06-03 13:58:49,914 RestClient INFO  End parsing response
+2015-06-03 13:58:49,914 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-03 13:58:49,914 PaymentOnline INFO  Saving token in DB
+2015-06-03 13:58:49,992 PaymentOnline INFO  Saved token in DB
+2015-06-03 14:08:25,195 RestClient INFO  Start writeStream to request
+2015-06-03 14:08:25,195 RestClient INFO  End writeStream to request
+2015-06-03 14:08:25,195 RestClient INFO  Start GetResponse
+2015-06-03 14:08:25,586 RestClient INFO  End GetResponse
+2015-06-03 14:08:25,586 RestClient INFO  Start parsing response
+2015-06-03 14:08:25,586 RestClient INFO  End parsing response
+2015-06-07 06:45:18,398 PaymentOnline INFO  Page_load
+2015-06-07 06:46:35,680 PaymentOnline INFO  Page_load
+2015-06-07 06:48:56,023 PaymentOnline INFO  Page_load
+2015-06-07 06:49:55,102 PaymentOnline INFO  Page_load
+2015-06-07 06:49:55,211 PaymentOnline INFO  eCommCharge choosed
+2015-06-07 06:49:55,242 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-07 06:49:55,242 PaymentOnline INFO  Sql execution finished
+2015-06-07 06:49:55,242 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-07 06:49:55,945 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-07 06:49:55,945 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-07 06:49:55,961 RestClient INFO  Start writeStream to request
+2015-06-07 06:49:55,961 RestClient INFO  Start GetBytes from PostData
+2015-06-07 06:49:55,961 RestClient INFO  End GetBytes from PostData
+2015-06-07 06:49:56,992 RestClient INFO  End writeStream to request
+2015-06-07 06:49:56,992 RestClient INFO  Start GetResponse
+2015-06-07 06:49:57,164 RestClient INFO  End GetResponse
+2015-06-07 06:49:57,164 RestClient INFO  Start parsing response
+2015-06-07 06:49:57,164 RestClient INFO  End parsing response
+2015-06-07 06:49:57,164 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-07 06:49:57,164 PaymentOnline INFO  Saving token in DB
+2015-06-07 06:49:57,242 PaymentOnline INFO  Saved token in DB
+2015-06-09 17:01:40,575 PaymentOnline INFO  Page_load
+2015-06-09 17:03:44,544 PaymentOnline INFO  Page_load
+2015-06-09 17:03:44,559 PaymentOnline INFO  eCommCharge choosed
+2015-06-09 17:03:44,575 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-09 17:03:44,622 PaymentOnline INFO  Sql execution finished
+2015-06-09 17:03:44,622 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-09 17:03:45,247 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-09 17:03:45,247 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-09 17:03:45,294 RestClient INFO  Start writeStream to request
+2015-06-09 17:03:45,294 RestClient INFO  Start GetBytes from PostData
+2015-06-09 17:03:45,294 RestClient INFO  End GetBytes from PostData
+2015-06-09 17:03:46,075 RestClient INFO  End writeStream to request
+2015-06-09 17:03:46,075 RestClient INFO  Start GetResponse
+2015-06-09 17:03:46,184 RestClient INFO  End GetResponse
+2015-06-09 17:03:46,184 RestClient INFO  Start parsing response
+2015-06-09 17:03:46,200 RestClient INFO  End parsing response
+2015-06-09 17:03:46,200 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-09 17:03:46,200 PaymentOnline INFO  Saving token in DB
+2015-06-09 17:03:46,294 PaymentOnline INFO  Saved token in DB
+2015-06-09 17:08:46,606 RestClient INFO  Start writeStream to request
+2015-06-09 17:08:46,606 RestClient INFO  End writeStream to request
+2015-06-09 17:08:46,606 RestClient INFO  Start GetResponse
+2015-06-09 17:08:47,090 RestClient INFO  End GetResponse
+2015-06-09 17:08:47,090 RestClient INFO  Start parsing response
+2015-06-09 17:08:47,090 RestClient INFO  End parsing response
+2015-06-09 17:08:51,965 RestClient INFO  Start writeStream to request
+2015-06-09 17:08:51,965 RestClient INFO  End writeStream to request
+2015-06-09 17:08:51,965 RestClient INFO  Start GetResponse
+2015-06-09 17:08:52,075 RestClient INFO  End GetResponse
+2015-06-09 17:08:52,075 RestClient INFO  Start parsing response
+2015-06-09 17:08:52,075 RestClient INFO  End parsing response
+2015-06-10 11:02:54,919 PaymentOnline INFO  Page_load
+2015-06-10 11:03:59,419 PaymentOnline INFO  Page_load
+2015-06-10 11:03:59,419 PaymentOnline INFO  eCommCharge choosed
+2015-06-10 11:03:59,419 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-10 11:03:59,419 PaymentOnline INFO  Sql execution finished
+2015-06-10 11:03:59,419 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-10 11:03:59,419 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-10 11:03:59,419 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-10 11:03:59,419 RestClient INFO  Start writeStream to request
+2015-06-10 11:03:59,419 RestClient INFO  Start GetBytes from PostData
+2015-06-10 11:03:59,419 RestClient INFO  End GetBytes from PostData
+2015-06-10 11:03:59,637 RestClient INFO  End writeStream to request
+2015-06-10 11:03:59,637 RestClient INFO  Start GetResponse
+2015-06-10 11:03:59,731 RestClient INFO  End GetResponse
+2015-06-10 11:03:59,731 RestClient INFO  Start parsing response
+2015-06-10 11:03:59,731 RestClient INFO  End parsing response
+2015-06-10 11:03:59,731 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-10 11:03:59,731 PaymentOnline INFO  Saving token in DB
+2015-06-10 11:03:59,731 PaymentOnline INFO  Saved token in DB
+2015-06-10 11:09:58,512 RestClient INFO  Start writeStream to request
+2015-06-10 11:09:58,512 RestClient INFO  End writeStream to request
+2015-06-10 11:09:58,512 RestClient INFO  Start GetResponse
+2015-06-10 11:09:58,934 RestClient INFO  End GetResponse
+2015-06-10 11:09:58,934 RestClient INFO  Start parsing response
+2015-06-10 11:09:58,934 RestClient INFO  End parsing response
+2015-06-10 12:52:49,434 PaymentOnline INFO  Page_load
+2015-06-10 12:52:49,465 PaymentOnline INFO  eCommCharge choosed
+2015-06-10 12:52:49,465 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-10 12:52:49,465 PaymentOnline INFO  Sql execution finished
+2015-06-10 12:52:49,465 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-10 12:52:49,465 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-10 12:52:49,465 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-10 12:52:49,465 RestClient INFO  Start writeStream to request
+2015-06-10 12:52:49,465 RestClient INFO  Start GetBytes from PostData
+2015-06-10 12:52:49,465 RestClient INFO  End GetBytes from PostData
+2015-06-10 12:52:49,825 RestClient INFO  End writeStream to request
+2015-06-10 12:52:49,825 RestClient INFO  Start GetResponse
+2015-06-10 12:52:49,919 RestClient INFO  End GetResponse
+2015-06-10 12:52:49,919 RestClient INFO  Start parsing response
+2015-06-10 12:52:49,919 RestClient INFO  End parsing response
+2015-06-10 12:52:49,919 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-10 12:52:49,919 PaymentOnline INFO  Saving token in DB
+2015-06-10 12:52:49,919 PaymentOnline INFO  Saved token in DB
+2015-06-10 13:05:48,340 PaymentOnline INFO  Page_load
+2015-06-10 13:05:48,340 PaymentOnline INFO  eCommCharge choosed
+2015-06-10 13:05:48,340 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-10 13:05:48,340 PaymentOnline INFO  Sql execution finished
+2015-06-10 13:05:48,340 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-10 13:05:48,340 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-10 13:05:48,340 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-10 13:05:48,340 RestClient INFO  Start writeStream to request
+2015-06-10 13:05:48,340 RestClient INFO  Start GetBytes from PostData
+2015-06-10 13:05:48,340 RestClient INFO  End GetBytes from PostData
+2015-06-10 13:05:48,544 RestClient INFO  End writeStream to request
+2015-06-10 13:05:48,544 RestClient INFO  Start GetResponse
+2015-06-10 13:05:48,637 RestClient INFO  End GetResponse
+2015-06-10 13:05:48,637 RestClient INFO  Start parsing response
+2015-06-10 13:05:48,637 RestClient INFO  End parsing response
+2015-06-10 13:05:48,637 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-10 13:05:48,637 PaymentOnline INFO  Saving token in DB
+2015-06-10 13:05:48,637 PaymentOnline INFO  Saved token in DB
+2015-06-10 13:09:19,575 RestClient INFO  Start writeStream to request
+2015-06-10 13:09:19,575 RestClient INFO  End writeStream to request
+2015-06-10 13:09:19,575 RestClient INFO  Start GetResponse
+2015-06-10 13:09:19,919 RestClient INFO  End GetResponse
+2015-06-10 13:09:19,919 RestClient INFO  Start parsing response
+2015-06-10 13:09:19,919 RestClient INFO  End parsing response
+2015-06-11 09:43:54,419 PaymentOnline INFO  Page_load
+2015-06-11 09:48:12,528 PaymentOnline INFO  Page_load
+2015-06-11 09:48:25,075 PaymentOnline INFO  Page_load
+2015-06-11 09:48:25,090 PaymentOnline INFO  eCommCharge choosed
+2015-06-11 09:48:25,090 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-11 09:48:25,090 PaymentOnline INFO  Sql execution finished
+2015-06-11 09:48:25,090 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-11 09:48:25,309 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-11 09:48:25,309 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-11 09:48:25,325 RestClient INFO  Start writeStream to request
+2015-06-11 09:48:25,325 RestClient INFO  Start GetBytes from PostData
+2015-06-11 09:48:25,325 RestClient INFO  End GetBytes from PostData
+2015-06-11 09:48:25,840 RestClient INFO  End writeStream to request
+2015-06-11 09:48:25,840 RestClient INFO  Start GetResponse
+2015-06-11 09:48:25,950 RestClient INFO  End GetResponse
+2015-06-11 09:48:25,950 RestClient INFO  Start parsing response
+2015-06-11 09:48:25,950 RestClient INFO  End parsing response
+2015-06-11 09:48:25,950 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-11 09:48:25,950 PaymentOnline INFO  Saving token in DB
+2015-06-11 09:48:26,059 PaymentOnline INFO  Saved token in DB
+2015-06-12 06:01:46,528 PaymentOnline INFO  Page_load
+2015-06-12 06:14:41,715 PaymentOnline INFO  Page_load
+2015-06-12 06:14:41,715 PaymentOnline INFO  eCommCharge choosed
+2015-06-12 06:14:41,715 PaymentOnline INFO  Preparing sql for eCommCharge
+2015-06-12 06:14:41,778 PaymentOnline INFO  Sql execution finished
+2015-06-12 06:14:41,778 PaymentOnline INFO  Preparing CheckoutRequest eCommCharge
+2015-06-12 06:14:41,965 PaymentOnline INFO  Finished CheckoutRequest eCommCharge
+2015-06-12 06:14:41,965 PaymentOnline INFO  Starting executing CheckoutRequest eCommCharge
+2015-06-12 06:14:41,965 RestClient INFO  Start writeStream to request
+2015-06-12 06:14:41,965 RestClient INFO  Start GetBytes from PostData
+2015-06-12 06:14:41,965 RestClient INFO  End GetBytes from PostData
+2015-06-12 06:14:42,325 RestClient INFO  End writeStream to request
+2015-06-12 06:14:42,325 RestClient INFO  Start GetResponse
+2015-06-12 06:14:42,403 RestClient INFO  End GetResponse
+2015-06-12 06:14:42,403 RestClient INFO  Start parsing response
+2015-06-12 06:14:42,403 RestClient INFO  End parsing response
+2015-06-12 06:14:42,403 PaymentOnline INFO  Finished executing CheckoutRequest eCommCharge
+2015-06-12 06:14:42,403 PaymentOnline INFO  Saving token in DB
+2015-06-12 06:14:42,450 PaymentOnline INFO  Saved token in DB
+2015-06-12 06:17:15,512 RestClient INFO  Start writeStream to request
+2015-06-12 06:17:15,512 RestClient INFO  End writeStream to request
+2015-06-12 06:17:15,512 RestClient INFO  Start GetResponse
+2015-06-12 06:17:17,184 RestClient INFO  End GetResponse
+2015-06-12 06:17:17,184 RestClient INFO  Start parsing response
+2015-06-12 06:17:17,184 RestClient INFO  End parsing response

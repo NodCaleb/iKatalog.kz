@@ -141,8 +141,9 @@ namespace iKGlobal
 
 	    try
 	    {
-		RegisterUser.ExecuteNonQuery();
-		return true;
+			RegisterUser.ExecuteNonQuery();
+			
+			return true;
 	    }
 	    catch
 	    {
@@ -200,16 +201,19 @@ namespace iKGlobal
 	    NotifySeller.Body += "</trable>";
     
 	    //Сообщение для покупателя
-	    
+
 	    GetStandartMail.Parameters.Clear();
+
 	    GetStandartMail.Parameters.AddWithValue("id", 7);
-		    
+
 	    SqlDataReader MailReader = GetStandartMail.ExecuteReader();
+
 	    MailReader.Read();
-    
+
 	    string NotifyCustomerSubject = MailReader["Subject"].ToString();
+
 	    string NotifyCustomerBody = MailReader["Body"].ToString();
-		    
+
 	    MailReader.Close();    
 	    
 	    
@@ -223,7 +227,9 @@ namespace iKGlobal
 	    NotifyCustomer.SubjectEncoding = System.Text.Encoding.UTF8;
 	    NotifyCustomer.Subject = NotifyCustomerSubject;
 	    NotifyCustomer.Body = NotifyCustomerBody.Replace("%USER_NAME%", FirstName).Replace("%USER_MAIL%", Email).Replace("%USER_PASS%", Password);
-    
+
+	    
+	    
 	    //И еще одно для покупателя
 	    
 	    GetStandartMail.Parameters.Clear();
